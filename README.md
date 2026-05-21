@@ -1,5 +1,7 @@
 # SingleStore notifications UI (prototype)
 
+> **Vercel:** deploy from commit `1b515b6` or later (includes pnpm 10 + Font Awesome env fixes).
+
 Standalone preview of the organization **Notifications** experience (bell popover + full page), built with [Fusion](https://github.com/singlestore/helios/tree/main/fusion-design-system).
 
 ## What you need
