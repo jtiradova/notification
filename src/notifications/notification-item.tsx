@@ -1,4 +1,4 @@
-import { faArrowUpArrowDown } from "@fortawesome/sharp-regular-svg-icons";
+import { faArrowsUpDown } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "@singlestore/fusion/components/button";
 import { Box, Flex } from "@singlestore/fusion/components/layout";
 import { Span } from "@singlestore/fusion/components/typography";
@@ -144,7 +144,7 @@ function NotificationAction({
                 variant="ghost-brand"
                 size="small"
                 leftIcon={
-                    action.icon === "resize" ? faArrowUpArrowDown : undefined
+                    action.icon === "resize" ? faArrowsUpDown : undefined
                 }
                 className="notifications-page__action-link"
                 onClick={onClick}

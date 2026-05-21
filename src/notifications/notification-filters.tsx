@@ -2,7 +2,7 @@ import {
     faChevronDown,
     faGear,
     faMagnifyingGlass,
-} from "@fortawesome/sharp-regular-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 import { Button, IconButton } from "@singlestore/fusion/components/button";
 import {
     DropdownMenu,

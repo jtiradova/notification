@@ -1,9 +1,9 @@
-import { faCheckCircle } from "@fortawesome/sharp-regular-svg-icons";
+import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import {
     faChevronDown,
     faChevronLeft,
     faChevronRight,
-} from "@fortawesome/sharp-regular-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 import { Badge } from "@singlestore/fusion/components/badge";
 import { Button, IconButton } from "@singlestore/fusion/components/button";
 import { FaIcon } from "@singlestore/fusion/components/icon";

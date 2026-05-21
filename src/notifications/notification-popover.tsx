@@ -1,4 +1,4 @@
-import { faBell } from "@fortawesome/sharp-regular-svg-icons";
+import { faBell } from "@fortawesome/free-regular-svg-icons";
 import { Badge } from "@singlestore/fusion/components/badge";
 import { Button } from "@singlestore/fusion/components/button";
 import { FaIcon } from "@singlestore/fusion/components/icon";

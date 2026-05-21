@@ -2,9 +2,9 @@ import {
     faBell,
     faCircleQuestion,
     faMagnifyingGlass,
-    faSparkles,
+    faWandMagicSparkles,
     faUserPlus,
-} from "@fortawesome/sharp-regular-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 import { Header } from "@single-js/common/components/header/header";
 import { Button, IconButton } from "@singlestore/fusion/components/button";
 import { FaIcon } from "@singlestore/fusion/components/icon";
@@ -65,7 +65,7 @@ export function PreviewTopNav({ onViewAllNotifications }: PreviewTopNavProps) {
                             className="notifications-preview-top-nav__separator"
                         />
                         <Button
-                            leftIcon={faSparkles}
+                            leftIcon={faWandMagicSparkles}
                             variant="ghost-neutral"
                         >
                             Ask SQrL

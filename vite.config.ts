@@ -35,6 +35,19 @@ export default defineConfig({
             "@radix-ui/react-popover",
         ],
         alias: {
+            // Free npm icons — no Font Awesome Pro token (Vercel-friendly)
+            "@fortawesome/sharp-solid-svg-icons": path.resolve(
+                rootDir,
+                "src/vendor/icon-shims/sharp-solid.ts"
+            ),
+            "@fortawesome/sharp-regular-svg-icons": path.resolve(
+                rootDir,
+                "src/vendor/icon-shims/sharp-regular.ts"
+            ),
+            "@fortawesome/sharp-light-svg-icons": path.resolve(
+                rootDir,
+                "src/vendor/icon-shims/sharp-light.ts"
+            ),
             "@": path.resolve(rootDir, "src"),
             "@single-js/common": path.resolve(rootDir, "src/vendor/common"),
             "~@single-js/common": path.resolve(rootDir, "src/vendor/common"),

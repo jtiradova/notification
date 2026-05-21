@@ -1,4 +1,4 @@
-import { faCheck } from "@fortawesome/sharp-solid-svg-icons";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import {
     ToggleRoot,
     ToggleThumb,

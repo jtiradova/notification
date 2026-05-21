@@ -2,7 +2,7 @@ import {
     faCheckCircle,
     faCircleExclamation,
     faTriangleExclamation,
-} from "@fortawesome/sharp-regular-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 import { Badge } from "@singlestore/fusion/components/badge";
 import { FaIcon } from "@singlestore/fusion/components/icon";
 import { Spinner } from "@singlestore/fusion/components/spinner";
