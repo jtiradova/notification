@@ -88,7 +88,7 @@ export function NotificationPopoverPanel({
                         size="medium"
                         onClick={onViewAll}
                     >
-                        View All
+                        View All Notifications
                     </Button>
                 </Flex>
                 {unreadAlerts.length > 0 ? (
@@ -101,7 +101,7 @@ export function NotificationPopoverPanel({
                             variant="body-2"
                             className="notification-popover__subtitle-label"
                         >
-                            Unread alert
+                            Alert
                         </Span>
                         <Badge
                             variant="primary"

@@ -33,10 +33,13 @@ export function PreviewTopNav({ onViewAllNotifications }: PreviewTopNavProps) {
         MOCK_ALERT_NOTIFICATIONS.map((item) => ({ ...item }))
     );
 
-    const hasUnreadAlerts = React.useMemo(
-        () => alerts.some((item) => item.unread),
+    const unreadAlertCount = React.useMemo(
+        () => alerts.filter((item) => item.unread).length,
         [alerts]
     );
+
+    const bellBadgeLabel =
+        unreadAlertCount > 9 ? "9+" : String(unreadAlertCount);
 
     return (
         <Flex width="full" className="notifications-preview-top-nav">
@@ -86,11 +89,13 @@ export function PreviewTopNav({ onViewAllNotifications }: PreviewTopNavProps) {
                                     />
                                 }
                             />
-                            {hasUnreadAlerts ? (
+                            {unreadAlertCount > 0 ? (
                                 <span
                                     className="notifications-preview-top-nav__bell-badge"
-                                    aria-hidden
-                                />
+                                    aria-label={`${unreadAlertCount} unread notifications`}
+                                >
+                                    {bellBadgeLabel}
+                                </span>
                             ) : null}
                         </span>
                         <IconButton

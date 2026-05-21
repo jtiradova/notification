@@ -70,10 +70,11 @@
     &__list {
         display: flex;
         flex-direction: column;
+        gap: var(--sui-space-2x);
     }
 
     &__list .notifications-page__list-item {
-        padding: var(--sui-space-1x) 0;
+        padding: var(--sui-space-1x);
         border-radius: 0;
     }
 

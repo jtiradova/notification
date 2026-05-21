@@ -31,21 +31,15 @@ function filterNotifications({
     search,
     typeFilter,
     resourceFilter,
-    onlyUnread,
 }: {
     items: Array<NotificationItem>;
     search: string;
     typeFilter: NotificationTypeFilter;
     resourceFilter: NotificationResourceFilter;
-    onlyUnread: boolean;
 }) {
     const normalizedSearch = search.trim().toLowerCase();
 
     return items.filter((item) => {
-        if (onlyUnread && !item.unread) {
-            return false;
-        }
-
         if (typeFilter !== "all" && item.type !== typeFilter) {
             return false;
         }
@@ -121,13 +115,7 @@ export function NotificationsPageView() {
     const [resourceFilter, setResourceFilter] =
         React.useState<NotificationResourceFilter>("all");
     const [dateRange, setDateRange] = React.useState<DateRangeFilter>("30");
-    const [onlyUnread, setOnlyUnread] = React.useState(true);
     const alertNotifications = MOCK_ALERT_NOTIFICATIONS;
-
-    const unreadCount = React.useMemo(
-        () => alertNotifications.filter((item) => item.unread).length,
-        [alertNotifications]
-    );
 
     const filteredNotifications = React.useMemo(
         () =>
@@ -136,9 +124,8 @@ export function NotificationsPageView() {
                 search,
                 typeFilter,
                 resourceFilter,
-                onlyUnread,
             }),
-        [alertNotifications, search, typeFilter, resourceFilter, onlyUnread]
+        [alertNotifications, search, typeFilter, resourceFilter]
     );
 
     const filteredActivityRows = React.useMemo(
@@ -208,10 +195,6 @@ export function NotificationsPageView() {
                     onTypeFilterChange={setTypeFilter}
                     resourceFilter={resourceFilter}
                     onResourceFilterChange={setResourceFilter}
-                    onlyUnread={onlyUnread}
-                    onOnlyUnreadChange={setOnlyUnread}
-                    unreadCount={unreadCount}
-                    showUnreadToggle={activeTab === "alert"}
                     showTypeFilter={activeTab === "alert"}
                 />
 
