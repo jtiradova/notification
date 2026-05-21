@@ -1,0 +1,307 @@
+/**
+ * This file was generated
+ * Do not edit directly
+ * See 'fusion-design-system/build-style-dictionary.js' for more info
+ */
+
+.sui-u-background-unset {
+    background-color: unset !important;
+}
+.sui-u-background-app {
+    background-color: var(--sui-color-background-app, #ffffff) !important;
+}
+
+.sui-u-background-app-hover {
+    background-color: var(--sui-color-background-app-hover, #f5f5f5) !important;
+}
+
+.sui-u-background-surface {
+    background-color: var(--sui-color-background-surface, #ffffff) !important;
+}
+
+.sui-u-background-surface-hover {
+    background-color: var(
+        --sui-color-background-surface-hover,
+        #f5f5f5
+    ) !important;
+}
+
+.sui-u-background-surface-focus {
+    background-color: var(
+        --sui-color-background-surface-focus,
+        #f5f5f5
+    ) !important;
+}
+
+.sui-u-background-surface-selected {
+    background-color: var(
+        --sui-color-background-surface-selected,
+        #f7edff
+    ) !important;
+}
+
+.sui-u-background-surface-pressed {
+    background-color: var(
+        --sui-color-background-surface-pressed,
+        #ededed
+    ) !important;
+}
+
+.sui-u-background-surface-raised-1 {
+    background-color: var(
+        --sui-color-background-surface-raised-1,
+        #fafafa
+    ) !important;
+}
+
+.sui-u-background-surface-raised-2 {
+    background-color: var(
+        --sui-color-background-surface-raised-2,
+        #f5f5f5
+    ) !important;
+}
+
+.sui-u-background-tab-inactive {
+    background-color: var(
+        --sui-color-background-tab-inactive,
+        #fafafa
+    ) !important;
+}
+
+.sui-u-background-sidebar {
+    background-color: var(--sui-color-background-sidebar, #fafafa) !important;
+}
+
+.sui-u-background-solid {
+    background-color: var(--sui-color-background-solid, #858585) !important;
+}
+
+.sui-u-background-code {
+    background-color: var(--sui-color-background-code, #fafafa) !important;
+}
+
+.sui-u-background-inverse {
+    background-color: var(--sui-color-background-inverse, #191919) !important;
+}
+
+.sui-u-background-meter {
+    background-color: var(--sui-color-background-meter, #f5f5f5) !important;
+}
+
+.sui-u-background-meter-neutral {
+    background-color: var(
+        --sui-color-background-meter-neutral,
+        #a3a3a3
+    ) !important;
+}
+
+.sui-u-background-meter-critical {
+    background-color: var(
+        --sui-color-background-meter-critical,
+        #f6645f
+    ) !important;
+}
+
+.sui-u-background-meter-warning {
+    background-color: var(
+        --sui-color-background-meter-warning,
+        #e0a206
+    ) !important;
+}
+
+.sui-u-background-meter-positive {
+    background-color: var(
+        --sui-color-background-meter-positive,
+        #168004
+    ) !important;
+}
+
+.sui-u-background-meter-info {
+    background-color: var(
+        --sui-color-background-meter-info,
+        #5f85f7
+    ) !important;
+}
+
+.sui-u-background-meter-primary {
+    background-color: var(
+        --sui-color-background-meter-primary,
+        #a33ef4
+    ) !important;
+}
+
+.sui-u-background-meter-red {
+    background-color: var(--sui-color-background-meter-red, #f6645f) !important;
+}
+
+.sui-u-background-meter-yellow {
+    background-color: var(
+        --sui-color-background-meter-yellow,
+        #e0a206
+    ) !important;
+}
+
+.sui-u-background-meter-green {
+    background-color: var(
+        --sui-color-background-meter-green,
+        #3cc406
+    ) !important;
+}
+
+.sui-u-background-meter-blue {
+    background-color: var(
+        --sui-color-background-meter-blue,
+        #5f85f7
+    ) !important;
+}
+
+.sui-u-background-meter-purple {
+    background-color: var(
+        --sui-color-background-meter-purple,
+        #a33ef4
+    ) !important;
+}
+
+.sui-u-background-meter-orange {
+    background-color: var(
+        --sui-color-background-meter-orange,
+        #ff6c02
+    ) !important;
+}
+
+.sui-u-background-meter-cool-gray {
+    background-color: var(
+        --sui-color-background-meter-cool-gray,
+        #687a74
+    ) !important;
+}
+
+.sui-u-background-table-header {
+    background-color: var(
+        --sui-color-background-table-header,
+        #ffffff
+    ) !important;
+}
+
+.sui-u-background-table-footer {
+    background-color: var(
+        --sui-color-background-table-footer,
+        #f5f5f5
+    ) !important;
+}
+
+.sui-u-background-table-row {
+    background-color: var(--sui-color-background-table-row, #ffffff) !important;
+}
+
+.sui-u-background-table-row-hover {
+    background-color: var(
+        --sui-color-background-table-row-hover,
+        #f7edff
+    ) !important;
+}
+
+.sui-u-background-table-row-striped {
+    background-color: var(
+        --sui-color-background-table-row-striped,
+        #fafafa
+    ) !important;
+}
+
+.sui-u-background-table-row-nested {
+    background-color: var(
+        --sui-color-background-table-row-nested,
+        #f5f5f5
+    ) !important;
+}
+
+.sui-u-background-input {
+    background-color: var(--sui-color-background-input, #f5f5f5) !important;
+}
+
+.sui-u-background-input-hover {
+    background-color: var(
+        --sui-color-background-input-hover,
+        #ededed
+    ) !important;
+}
+
+.sui-u-background-input-focus {
+    background-color: var(
+        --sui-color-background-input-focus,
+        #ffffff
+    ) !important;
+}
+
+.sui-u-background-primary {
+    background-color: var(--sui-color-background-primary, #faf4ff) !important;
+}
+
+.sui-u-background-primary-solid {
+    background-color: var(
+        --sui-color-background-primary-solid,
+        #820ddf
+    ) !important;
+}
+
+.sui-u-background-neutral {
+    background-color: var(--sui-color-background-neutral, #ededed) !important;
+}
+
+.sui-u-background-info {
+    background-color: var(--sui-color-background-info, #edf7fc) !important;
+}
+
+.sui-u-background-critical {
+    background-color: var(--sui-color-background-critical, #ffeceb) !important;
+}
+
+.sui-u-background-critical-hover {
+    background-color: var(
+        --sui-color-background-critical-hover,
+        #fff4f3
+    ) !important;
+}
+
+.sui-u-background-critical-focus {
+    background-color: var(
+        --sui-color-background-critical-focus,
+        #ffeceb
+    ) !important;
+}
+
+.sui-u-background-critical-pressed {
+    background-color: var(
+        --sui-color-background-critical-pressed,
+        #ffe4e2
+    ) !important;
+}
+
+.sui-u-background-critical-solid {
+    background-color: var(
+        --sui-color-background-critical-solid,
+        #b72023
+    ) !important;
+}
+
+.sui-u-background-warning {
+    background-color: var(--sui-color-background-warning, #fff3d0) !important;
+}
+
+.sui-u-background-warning-solid {
+    background-color: var(
+        --sui-color-background-warning-solid,
+        #ac7d06
+    ) !important;
+}
+
+.sui-u-background-positive {
+    background-color: var(--sui-color-background-positive, #f3ffe3) !important;
+}
+
+.sui-u-background-positive-solid {
+    background-color: var(
+        --sui-color-background-positive-solid,
+        #168004
+    ) !important;
+}

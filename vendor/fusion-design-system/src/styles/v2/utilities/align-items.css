@@ -1,0 +1,21 @@
+@breakpoints {
+    .sui-r-ai-start {
+        align-items: flex-start;
+    }
+
+    .sui-r-ai-center {
+        align-items: center;
+    }
+
+    .sui-r-ai-end {
+        align-items: flex-end;
+    }
+
+    .sui-r-ai-baseline {
+        align-items: baseline;
+    }
+
+    .sui-r-ai-stretch {
+        align-items: stretch;
+    }
+}

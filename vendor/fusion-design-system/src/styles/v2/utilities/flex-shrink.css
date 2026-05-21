@@ -1,0 +1,40 @@
+@breakpoints {
+    .sui-r-fs {
+        /* Keep this selector here to maintain the source order */
+    }
+    .sui-r-fs-0 {
+        flex-shrink: 0;
+    }
+    .sui-r-fs-1 {
+        flex-shrink: 1;
+    }
+}
+
+.sui-r-fs {
+    flex-shrink: var(--flex-shrink);
+}
+@media (--xs) {
+    .xs\:sui-r-fs {
+        flex-shrink: var(--flex-shrink-xs);
+    }
+}
+@media (--sm) {
+    .sm\:sui-r-fs {
+        flex-shrink: var(--flex-shrink-sm);
+    }
+}
+@media (--md) {
+    .md\:sui-r-fs {
+        flex-shrink: var(--flex-shrink-md);
+    }
+}
+@media (--lg) {
+    .lg\:sui-r-fs {
+        flex-shrink: var(--flex-shrink-lg);
+    }
+}
+@media (--xl) {
+    .xl\:sui-r-fs {
+        flex-shrink: var(--flex-shrink-xl);
+    }
+}

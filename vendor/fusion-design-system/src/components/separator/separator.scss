@@ -1,0 +1,86 @@
+.sui-Separator {
+    display: block;
+    background-color: var(--sui-separator-color);
+}
+
+/***************************************************************************************************
+ *                                                                                                 *
+ * COLORS                                                                                           *
+ *                                                                                                 *
+ ***************************************************************************************************/
+
+.sui-Separator {
+    &:where(.sui-color-primary) {
+        --sui-separator-color: var(--sui-color-border-primary);
+    }
+
+    &:where(.sui-color-secondary) {
+        --sui-separator-color: var(--sui-color-border-secondary);
+    }
+
+    &:where(.sui-color-brand) {
+        --sui-separator-color: var(--sui-color-border-brand);
+    }
+
+    &:where(.sui-color-info) {
+        --sui-separator-color: var(--sui-color-border-info);
+    }
+
+    &:where(.sui-color-positive) {
+        --sui-separator-color: var(--sui-color-border-positive);
+    }
+
+    &:where(.sui-color-warning) {
+        --sui-separator-color: var(--sui-color-border-warning);
+    }
+
+    &:where(.sui-color-critical) {
+        --sui-separator-color: var(--sui-color-border-critical);
+    }
+}
+
+/***************************************************************************************************
+ *                                                                                                 *
+ * ORIENTATION                                                                                     *
+ *                                                                                                 *
+ ***************************************************************************************************/
+
+@breakpoints {
+    .sui-Separator {
+        &:where(.sui-r-orientation-horizontal) {
+            width: var(--sui-separator-size);
+            height: 1px;
+        }
+
+        &:where(.sui-r-orientation-vertical) {
+            width: 1px;
+            height: var(--sui-separator-size);
+        }
+    }
+}
+
+/***************************************************************************************************
+ *                                                                                                 *
+ * SIZES                                                                                           *
+ *                                                                                                 *
+ ***************************************************************************************************/
+
+@breakpoints {
+    .sui-Separator {
+        &:where(.sui-r-size-1) {
+            --sui-separator-size: var(--sui-size-4x);
+        }
+
+        &:where(.sui-r-size-2) {
+            --sui-separator-size: var(--sui-size-6x);
+        }
+
+        &:where(.sui-r-size-3) {
+            --sui-separator-size: var(--sui-size-9x);
+        }
+
+        &:where(.sui-r-size-4) {
+            --sui-separator-size: 100%;
+        }
+    }
+}

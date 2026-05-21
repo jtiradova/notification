@@ -1,0 +1,61 @@
+@breakpoints {
+    .sui-r-gre {
+        /* Keep this selector here to maintain the source order */
+    }
+    .sui-r-gre-1 {
+        grid-row-end: 1;
+    }
+    .sui-r-gre-2 {
+        grid-row-end: 2;
+    }
+    .sui-r-gre-3 {
+        grid-row-end: 3;
+    }
+    .sui-r-gre-4 {
+        grid-row-end: 4;
+    }
+    .sui-r-gre-5 {
+        grid-row-end: 5;
+    }
+    .sui-r-gre-6 {
+        grid-row-end: 6;
+    }
+    .sui-r-gre-7 {
+        grid-row-end: 7;
+    }
+    .sui-r-gre-8 {
+        grid-row-end: 8;
+    }
+    .sui-r-gre-9 {
+        grid-row-end: 9;
+    }
+}
+
+.sui-r-gre {
+    grid-row-end: var(--grid-row-end);
+}
+@media (--xs) {
+    .xs\:sui-r-gre {
+        grid-row-end: var(--grid-row-end-xs);
+    }
+}
+@media (--sm) {
+    .sm\:sui-r-gre {
+        grid-row-end: var(--grid-row-end-sm);
+    }
+}
+@media (--md) {
+    .md\:sui-r-gre {
+        grid-row-end: var(--grid-row-end-md);
+    }
+}
+@media (--lg) {
+    .lg\:sui-r-gre {
+        grid-row-end: var(--grid-row-end-lg);
+    }
+}
+@media (--xl) {
+    .xl\:sui-r-gre {
+        grid-row-end: var(--grid-row-end-xl);
+    }
+}

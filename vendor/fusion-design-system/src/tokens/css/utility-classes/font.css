@@ -1,0 +1,439 @@
+/**
+ * This file was generated
+ * Do not edit directly
+ * See 'fusion-design-system/build-style-dictionary.js' for more info
+ */
+
+.sui-u-font-family-sans {
+    font-family: var(
+        --sui-font-family-sans,
+        "Roboto, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+    ) !important;
+}
+
+.sui-u-font-family-mono {
+    font-family: var(
+        --sui-font-family-mono,
+        "Roboto Mono, Inconsolata, Söhne Mono, menlo, monospace"
+    ) !important;
+}
+
+.sui-u-font-weight-book {
+    font-weight: var(--sui-font-weight-book, 300) !important;
+}
+
+.sui-u-font-weight-regular {
+    font-weight: var(--sui-font-weight-regular, 400) !important;
+}
+
+.sui-u-font-weight-medium {
+    font-weight: var(--sui-font-weight-medium, 500) !important;
+}
+
+.sui-u-font-weight-bold {
+    font-weight: var(--sui-font-weight-bold, 700) !important;
+}
+
+.sui-u-font-weight-code-1 {
+    font-weight: var(--sui-font-weight-code-1, 400) !important;
+}
+
+.sui-u-font-weight-code-2 {
+    font-weight: var(--sui-font-weight-code-2, 400) !important;
+}
+
+.sui-u-font-weight-label-1 {
+    font-weight: var(--sui-font-weight-label-1, 500) !important;
+}
+
+.sui-u-font-weight-label-2 {
+    font-weight: var(--sui-font-weight-label-2, 500) !important;
+}
+
+.sui-u-font-weight-tag-1 {
+    font-weight: var(--sui-font-weight-tag-1, 500) !important;
+}
+
+.sui-u-font-weight-annotation-1 {
+    font-weight: var(--sui-font-weight-annotation-1, 400) !important;
+}
+
+.sui-u-font-weight-annotation-2 {
+    font-weight: var(--sui-font-weight-annotation-2, 400) !important;
+}
+
+.sui-u-font-weight-body-1 {
+    font-weight: var(--sui-font-weight-body-1, 400) !important;
+}
+
+.sui-u-font-weight-body-2 {
+    font-weight: var(--sui-font-weight-body-2, 400) !important;
+}
+
+.sui-u-font-weight-body-3 {
+    font-weight: var(--sui-font-weight-body-3, 400) !important;
+}
+
+.sui-u-font-weight-body-4 {
+    font-weight: var(--sui-font-weight-body-4, 400) !important;
+}
+
+.sui-u-font-weight-heading-1 {
+    font-weight: var(--sui-font-weight-heading-1, 500) !important;
+}
+
+.sui-u-font-weight-heading-2 {
+    font-weight: var(--sui-font-weight-heading-2, 500) !important;
+}
+
+.sui-u-font-weight-heading-3 {
+    font-weight: var(--sui-font-weight-heading-3, 500) !important;
+}
+
+.sui-u-font-weight-heading-4 {
+    font-weight: var(--sui-font-weight-heading-4, 500) !important;
+}
+
+.sui-u-font-weight-heading-5 {
+    font-weight: var(--sui-font-weight-heading-5, 500) !important;
+}
+
+.sui-u-font-weight-heading-6 {
+    font-weight: var(--sui-font-weight-heading-6, 500) !important;
+}
+
+.sui-u-font-weight-heading-7 {
+    font-weight: var(--sui-font-weight-heading-7, 300) !important;
+}
+
+.sui-u-font-weight-heading-8 {
+    font-weight: var(--sui-font-weight-heading-8, 500) !important;
+}
+
+.sui-u-font-size-code-1 {
+    font-size: var(--sui-font-size-code-1, 0.875rem) !important;
+}
+
+.sui-u-font-size-code-1-mobile {
+    font-size: var(--sui-font-size-code-1-mobile, 0.75rem) !important;
+}
+
+.sui-u-font-size-code-2 {
+    font-size: var(--sui-font-size-code-2, 1rem) !important;
+}
+
+.sui-u-font-size-code-2-mobile {
+    font-size: var(--sui-font-size-code-2-mobile, 0.875rem) !important;
+}
+
+.sui-u-font-size-label-1 {
+    font-size: var(--sui-font-size-label-1, 0.75rem) !important;
+}
+
+.sui-u-font-size-label-1-mobile {
+    font-size: var(--sui-font-size-label-1-mobile, 0.75rem) !important;
+}
+
+.sui-u-font-size-label-2 {
+    font-size: var(--sui-font-size-label-2, 0.75rem) !important;
+}
+
+.sui-u-font-size-label-2-mobile {
+    font-size: var(--sui-font-size-label-2-mobile, 0.75rem) !important;
+}
+
+.sui-u-font-size-tag-1 {
+    font-size: var(--sui-font-size-tag-1, 0.75rem) !important;
+}
+
+.sui-u-font-size-tag-1-mobile {
+    font-size: var(--sui-font-size-tag-1-mobile, 0.6875rem) !important;
+}
+
+.sui-u-font-size-annotation-1 {
+    font-size: var(--sui-font-size-annotation-1, 0.75rem) !important;
+}
+
+.sui-u-font-size-annotation-2 {
+    font-size: var(--sui-font-size-annotation-2, 0.8125rem) !important;
+}
+
+.sui-u-font-size-body-1 {
+    font-size: var(--sui-font-size-body-1, 0.75rem) !important;
+}
+
+.sui-u-font-size-body-1-mobile {
+    font-size: var(--sui-font-size-body-1-mobile, 0.75rem) !important;
+}
+
+.sui-u-font-size-body-2 {
+    font-size: var(--sui-font-size-body-2, 0.875rem) !important;
+}
+
+.sui-u-font-size-body-2-mobile {
+    font-size: var(--sui-font-size-body-2-mobile, 0.875rem) !important;
+}
+
+.sui-u-font-size-body-3 {
+    font-size: var(--sui-font-size-body-3, 1rem) !important;
+}
+
+.sui-u-font-size-body-3-mobile {
+    font-size: var(--sui-font-size-body-3-mobile, 1rem) !important;
+}
+
+.sui-u-font-size-body-4 {
+    font-size: var(--sui-font-size-body-4, 1.125rem) !important;
+}
+
+.sui-u-font-size-body-4-mobile {
+    font-size: var(--sui-font-size-body-4-mobile, 1.125rem) !important;
+}
+
+.sui-u-font-size-heading-1 {
+    font-size: var(--sui-font-size-heading-1, 0.875rem) !important;
+}
+
+.sui-u-font-size-heading-1-mobile {
+    font-size: var(--sui-font-size-heading-1-mobile, 0.75rem) !important;
+}
+
+.sui-u-font-size-heading-2 {
+    font-size: var(--sui-font-size-heading-2, 1rem) !important;
+}
+
+.sui-u-font-size-heading-2-mobile {
+    font-size: var(--sui-font-size-heading-2-mobile, 0.875rem) !important;
+}
+
+.sui-u-font-size-heading-3 {
+    font-size: var(--sui-font-size-heading-3, 1.125rem) !important;
+}
+
+.sui-u-font-size-heading-3-mobile {
+    font-size: var(--sui-font-size-heading-3-mobile, 1rem) !important;
+}
+
+.sui-u-font-size-heading-4 {
+    font-size: var(--sui-font-size-heading-4, 1.25rem) !important;
+}
+
+.sui-u-font-size-heading-4-mobile {
+    font-size: var(--sui-font-size-heading-4-mobile, 1.125rem) !important;
+}
+
+.sui-u-font-size-heading-5 {
+    font-size: var(--sui-font-size-heading-5, 1.5rem) !important;
+}
+
+.sui-u-font-size-heading-5-mobile {
+    font-size: var(--sui-font-size-heading-5-mobile, 1.25rem) !important;
+}
+
+.sui-u-font-size-heading-6 {
+    font-size: var(--sui-font-size-heading-6, 2rem) !important;
+}
+
+.sui-u-font-size-heading-6-mobile {
+    font-size: var(--sui-font-size-heading-6-mobile, 1.5rem) !important;
+}
+
+.sui-u-font-size-heading-7 {
+    font-size: var(--sui-font-size-heading-7, 2.5rem) !important;
+}
+
+.sui-u-font-size-heading-7-mobile {
+    font-size: var(--sui-font-size-heading-7-mobile, 1.75rem) !important;
+}
+
+.sui-u-font-size-heading-8 {
+    font-size: var(--sui-font-size-heading-8, 3.75rem) !important;
+}
+
+.sui-u-font-size-heading-8-mobile {
+    font-size: var(--sui-font-size-heading-8-mobile, 2rem) !important;
+}
+
+.sui-u-line-height-1 {
+    line-height: var(--sui-line-height-1, 110%) !important;
+}
+
+.sui-u-line-height-2 {
+    line-height: var(--sui-line-height-2, 120%) !important;
+}
+
+.sui-u-line-height-3 {
+    line-height: var(--sui-line-height-3, 135%) !important;
+}
+
+.sui-u-line-height-4 {
+    line-height: var(--sui-line-height-4, 150%) !important;
+}
+
+.sui-u-line-height-fit {
+    line-height: var(--sui-line-height-fit, 1) !important;
+}
+
+.sui-u-line-height-code-1 {
+    line-height: var(--sui-line-height-code-1, 150%) !important;
+}
+
+.sui-u-line-height-code-2 {
+    line-height: var(--sui-line-height-code-2, 150%) !important;
+}
+
+.sui-u-line-height-label-1 {
+    line-height: var(--sui-line-height-label-1, 150%) !important;
+}
+
+.sui-u-line-height-label-2 {
+    line-height: var(--sui-line-height-label-2, 150%) !important;
+}
+
+.sui-u-line-height-tag-1 {
+    line-height: var(--sui-line-height-tag-1, 150%) !important;
+}
+
+.sui-u-line-height-annotation-1 {
+    line-height: var(--sui-line-height-annotation-1, 150%) !important;
+}
+
+.sui-u-line-height-annotation-2 {
+    line-height: var(--sui-line-height-annotation-2, 150%) !important;
+}
+
+.sui-u-line-height-body-1 {
+    line-height: var(--sui-line-height-body-1, 150%) !important;
+}
+
+.sui-u-line-height-body-2 {
+    line-height: var(--sui-line-height-body-2, 150%) !important;
+}
+
+.sui-u-line-height-body-3 {
+    line-height: var(--sui-line-height-body-3, 150%) !important;
+}
+
+.sui-u-line-height-body-4 {
+    line-height: var(--sui-line-height-body-4, 150%) !important;
+}
+
+.sui-u-line-height-heading-1 {
+    line-height: var(--sui-line-height-heading-1, 135%) !important;
+}
+
+.sui-u-line-height-heading-2 {
+    line-height: var(--sui-line-height-heading-2, 135%) !important;
+}
+
+.sui-u-line-height-heading-3 {
+    line-height: var(--sui-line-height-heading-3, 120%) !important;
+}
+
+.sui-u-line-height-heading-4 {
+    line-height: var(--sui-line-height-heading-4, 120%) !important;
+}
+
+.sui-u-line-height-heading-5 {
+    line-height: var(--sui-line-height-heading-5, 120%) !important;
+}
+
+.sui-u-line-height-heading-6 {
+    line-height: var(--sui-line-height-heading-6, 120%) !important;
+}
+
+.sui-u-line-height-heading-7 {
+    line-height: var(--sui-line-height-heading-7, 110%) !important;
+}
+
+.sui-u-line-height-heading-8 {
+    line-height: var(--sui-line-height-heading-8, 110%) !important;
+}
+
+.sui-u-letter-spacing-1 {
+    letter-spacing: var(--sui-letter-spacing-1, 0.01em) !important;
+}
+
+.sui-u-letter-spacing-2 {
+    letter-spacing: var(--sui-letter-spacing-2, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-negative-1 {
+    letter-spacing: var(--sui-letter-spacing-negative-1, -0.01em) !important;
+}
+
+.sui-u-letter-spacing-code-1 {
+    letter-spacing: var(--sui-letter-spacing-code-1, 0) !important;
+}
+
+.sui-u-letter-spacing-code-2 {
+    letter-spacing: var(--sui-letter-spacing-code-2, 0) !important;
+}
+
+.sui-u-letter-spacing-label-1 {
+    letter-spacing: var(--sui-letter-spacing-label-1, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-label-2 {
+    letter-spacing: var(--sui-letter-spacing-label-2, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-tag-1 {
+    letter-spacing: var(--sui-letter-spacing-tag-1, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-annotation-1 {
+    letter-spacing: var(--sui-letter-spacing-annotation-1, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-annotation-2 {
+    letter-spacing: var(--sui-letter-spacing-annotation-2, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-body-1 {
+    letter-spacing: var(--sui-letter-spacing-body-1, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-body-2 {
+    letter-spacing: var(--sui-letter-spacing-body-2, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-body-3 {
+    letter-spacing: var(--sui-letter-spacing-body-3, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-body-4 {
+    letter-spacing: var(--sui-letter-spacing-body-4, 0.01em) !important;
+}
+
+.sui-u-letter-spacing-heading-1 {
+    letter-spacing: var(--sui-letter-spacing-heading-1, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-heading-2 {
+    letter-spacing: var(--sui-letter-spacing-heading-2, 0.02em) !important;
+}
+
+.sui-u-letter-spacing-heading-3 {
+    letter-spacing: var(--sui-letter-spacing-heading-3, 0.01em) !important;
+}
+
+.sui-u-letter-spacing-heading-4 {
+    letter-spacing: var(--sui-letter-spacing-heading-4, 0.01em) !important;
+}
+
+.sui-u-letter-spacing-heading-5 {
+    letter-spacing: var(--sui-letter-spacing-heading-5, 0.01em) !important;
+}
+
+.sui-u-letter-spacing-heading-6 {
+    letter-spacing: var(--sui-letter-spacing-heading-6, 0) !important;
+}
+
+.sui-u-letter-spacing-heading-7 {
+    letter-spacing: var(--sui-letter-spacing-heading-7, 0) !important;
+}
+
+.sui-u-letter-spacing-heading-8 {
+    letter-spacing: var(--sui-letter-spacing-heading-8, -0.01em) !important;
+}

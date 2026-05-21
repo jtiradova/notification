@@ -1,0 +1,61 @@
+@breakpoints {
+    .sui-r-grs {
+        /* Keep this selector here to maintain the source order */
+    }
+    .sui-r-grs-1 {
+        grid-row-start: 1;
+    }
+    .sui-r-grs-2 {
+        grid-row-start: 2;
+    }
+    .sui-r-grs-3 {
+        grid-row-start: 3;
+    }
+    .sui-r-grs-4 {
+        grid-row-start: 4;
+    }
+    .sui-r-grs-5 {
+        grid-row-start: 5;
+    }
+    .sui-r-grs-6 {
+        grid-row-start: 6;
+    }
+    .sui-r-grs-7 {
+        grid-row-start: 7;
+    }
+    .sui-r-grs-8 {
+        grid-row-start: 8;
+    }
+    .sui-r-grs-9 {
+        grid-row-start: 9;
+    }
+}
+
+.sui-r-grs {
+    grid-row-start: var(--grid-row-start);
+}
+@media (--xs) {
+    .xs\:sui-r-grs {
+        grid-row-start: var(--grid-row-start-xs);
+    }
+}
+@media (--sm) {
+    .sm\:sui-r-grs {
+        grid-row-start: var(--grid-row-start-sm);
+    }
+}
+@media (--md) {
+    .md\:sui-r-grs {
+        grid-row-start: var(--grid-row-start-md);
+    }
+}
+@media (--lg) {
+    .lg\:sui-r-grs {
+        grid-row-start: var(--grid-row-start-lg);
+    }
+}
+@media (--xl) {
+    .xl\:sui-r-grs {
+        grid-row-start: var(--grid-row-start-xl);
+    }
+}

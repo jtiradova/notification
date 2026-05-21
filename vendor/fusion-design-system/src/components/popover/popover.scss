@@ -1,0 +1,39 @@
+.sui-c-popover__content {
+    position: relative;
+    z-index: var(--sui-z-index-popover);
+    min-width: var(--sui-size-35x);
+    padding: var(--sui-space-2x);
+    border: 1px solid var(--sui-color-border-subtle);
+    border-radius: var(--sui-radius-md);
+    background-color: var(--sui-color-background-surface);
+    box-shadow: 0 2px 4px 0 hsl(220deg 13% 18% / 25%);
+}
+
+.sui-c-popover__close {
+    all: unset;
+    position: absolute;
+    top: var(--sui-space-1x);
+    right: var(--sui-space-1x);
+    display: inline-flex;
+    width: var(--sui-space-3x);
+    height: var(--sui-space-3x);
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--sui-radius-md);
+    color: var(--sui-color-text-low-contrast);
+    cursor: pointer;
+    font-size: 10px;
+
+    &:focus-visible {
+        background-color: var(--sui-color-background-surface-focus);
+        outline: 2px solid var(--sui-color-border-focus);
+    }
+
+    &:hover {
+        background-color: var(--sui-color-background-surface-hover);
+    }
+
+    &:active {
+        background-color: unset;
+    }
+}

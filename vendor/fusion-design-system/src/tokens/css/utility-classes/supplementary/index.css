@@ -1,0 +1,361 @@
+@import "deprecated";
+
+/* ✅ This file is not generated and CAN be modified  */
+.sui-u-visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.sui-u-position-relative {
+    position: relative !important;
+}
+
+.sui-u-position-absolute {
+    position: absolute !important;
+}
+
+.sui-u-position-fixed {
+    position: fixed !important;
+}
+
+.sui-u-position-sticky {
+    position: sticky !important;
+}
+
+.sui-u-top-0 {
+    top: 0 !important;
+}
+
+.sui-u-right-0 {
+    right: 0 !important;
+}
+
+.sui-u-bottom-0 {
+    bottom: 0 !important;
+}
+
+.sui-u-left-0 {
+    left: 0 !important;
+}
+
+.sui-u-white-space-nowrap {
+    white-space: nowrap !important;
+}
+
+.sui-u-white-space-pre-wrap {
+    white-space: pre-wrap !important;
+}
+
+.sui-u-block {
+    display: block !important;
+}
+
+.sui-u-inline {
+    display: inline !important;
+}
+
+.sui-u-inline-block {
+    display: inline-block !important;
+}
+
+.sui-u-overflow-hidden {
+    overflow: hidden !important;
+}
+
+.sui-u-overflow-visible {
+    overflow: visible !important;
+}
+
+.sui-u-overflow-auto {
+    overflow: auto !important;
+}
+
+.sui-u-overflow-x-hidden {
+    overflow-x: hidden !important;
+}
+
+.sui-u-overflow-x-visible {
+    overflow-x: visible !important;
+}
+
+.sui-u-overflow-x-auto {
+    overflow-x: auto !important;
+}
+
+.sui-u-overflow-y-hidden {
+    overflow-y: hidden !important;
+}
+
+.sui-u-overflow-y-visible {
+    overflow-y: visible !important;
+}
+
+.sui-u-overflow-y-auto {
+    overflow-y: auto !important;
+}
+
+.sui-u-flex {
+    display: flex !important;
+}
+
+.sui-u-inline-flex {
+    display: inline-flex !important;
+}
+
+.sui-u-flex-row {
+    flex-direction: row !important;
+}
+
+.sui-u-flex-column {
+    flex-direction: column !important;
+}
+
+.sui-u-flex-row-reverse {
+    flex-direction: row-reverse !important;
+}
+
+.sui-u-align-items-start {
+    align-items: flex-start !important;
+}
+
+.sui-u-align-items-end {
+    align-items: flex-end !important;
+}
+
+.sui-u-align-items-center {
+    align-items: center !important;
+}
+
+.sui-u-align-items-stretch {
+    align-items: stretch !important;
+}
+
+.sui-u-align-items-baseline {
+    align-items: baseline !important;
+}
+
+.sui-u-justify-content-start {
+    justify-content: start !important;
+}
+
+.sui-u-justify-content-end {
+    justify-content: end !important;
+}
+
+.sui-u-justify-content-center {
+    justify-content: center !important;
+}
+
+.sui-u-justify-content-space-between {
+    justify-content: space-between !important;
+}
+
+.sui-u-justify-content-space-around {
+    justify-content: space-around !important;
+}
+
+.sui-u-justify-content-space-evenly {
+    justify-content: space-evenly !important;
+}
+
+.sui-u-align-content-start {
+    align-content: flex-start !important;
+}
+
+.sui-u-align-content-end {
+    align-content: flex-end !important;
+}
+
+.sui-u-align-content-center {
+    align-content: center !important;
+}
+
+.sui-u-align-content-space-between {
+    align-content: space-between !important;
+}
+
+.sui-u-align-content-space-around {
+    align-content: space-around !important;
+}
+
+.sui-u-align-content-space-evenly {
+    align-content: space-evenly !important;
+}
+
+.sui-u-align-self-auto {
+    align-self: flex-start !important;
+}
+
+.sui-u-align-self-start {
+    align-self: flex-start !important;
+}
+
+.sui-u-align-self-end {
+    align-self: flex-end !important;
+}
+
+.sui-u-align-self-center {
+    align-self: center !important;
+}
+
+.sui-u-align-self-stretch {
+    align-self: stretch !important;
+}
+
+.sui-u-align-self-baseline {
+    align-self: baseline !important;
+}
+
+.sui-u-justify-self-auto {
+    justify-self: auto !important;
+}
+
+.sui-u-justify-self-start {
+    justify-self: flex-start !important;
+}
+
+.sui-u-justify-self-end {
+    justify-self: flex-end !important;
+}
+
+.sui-u-justify-self-center {
+    justify-self: center !important;
+}
+
+.sui-u-justify-self-stretch {
+    justify-self: stretch !important;
+}
+
+.sui-u-flex-1 {
+    flex: 1 !important;
+}
+
+.sui-u-flex-auto {
+    flex: auto !important;
+}
+
+.sui-u-flex-grow-0 {
+    flex-grow: 0 !important;
+}
+
+.sui-u-flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.sui-u-flex-grow-2 {
+    flex-grow: 2 !important;
+}
+
+.sui-u-flex-grow-3 {
+    flex-grow: 3 !important;
+}
+
+.sui-u-flex-grow-4 {
+    flex-grow: 4 !important;
+}
+
+.sui-u-flex-grow-5 {
+    flex-grow: 5 !important;
+}
+
+.sui-u-flex-grow-999 {
+    flex-grow: 999 !important;
+}
+
+.sui-u-flex-shrink-0 {
+    flex-shrink: 0 !important;
+}
+
+.sui-u-flex-shrink-1 {
+    flex-shrink: 1 !important;
+}
+
+.sui-u-flex-nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.sui-u-flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.sui-u-flex-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+}
+
+.sui-u-color-currentColor {
+    color: currentColor !important;
+}
+
+.sui-u-color-white {
+    color: white !important;
+}
+
+.sui-u-center-align {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sui-u-ellipsis {
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+
+.sui-u-overflow-wrap-anywhere {
+    overflow-wrap: anywhere !important;
+}
+
+.sui-u-overflow-wrap-break-word {
+    overflow-wrap: break-word !important;
+}
+
+.sui-u-display-none {
+    display: none !important;
+}
+
+.sui-u-text-transform-uppercase {
+    text-transform: uppercase !important;
+}
+
+.sui-u-text-transform-lowercase {
+    text-transform: lowercase !important;
+}
+
+.sui-u-text-transform-capitalize {
+    text-transform: capitalize !important;
+}
+
+.sui-u-text-transform-unset {
+    text-transform: unset !important;
+}
+
+.sui-u-text-style-normal {
+    text-style: normal !important;
+}
+
+.sui-u-text-style-italic {
+    text-style: italic !important;
+}
+
+.sui-u-text-align-left {
+    text-align: left !important;
+}
+
+.sui-u-text-align-center {
+    text-align: center !important;
+}
+
+.sui-u-text-align-right {
+    text-align: right !important;
+}
+
+.sui-u-cursor-unset {
+    cursor: unset !important;
+}

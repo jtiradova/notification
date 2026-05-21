@@ -1,0 +1,28 @@
+/* ✅ This file is not generated and CAN be modified  */
+
+/* 
+	Must stay in sync with 
+	fusion-design-system/src/tokens/css/variables/supplementary/breakpoints.css
+*/
+
+/* DS-23: TODO - Remove this */
+
+@custom-media --sm-only (360px <= width <= 480px);
+@custom-media --sm-n-above (width >= 480px);
+@custom-media --sm-n-below (width < 480px);
+
+@custom-media --md-only (480px <= width <= 768px);
+@custom-media --md-n-above (width >= 768px);
+@custom-media --md-n-below (width < 768px);
+
+@custom-media --lg-only (768px <= width <= 1024px);
+@custom-media --lg-n-above (width >= 1024px);
+@custom-media --lg-n-below (width < 1024px);
+
+@custom-media --xl-only (1024px <= width <= 1440px);
+@custom-media --xl-n-above (width >= 1440px);
+@custom-media --xl-n-below (width < 1440px);
+
+@custom-media --xxl-only (1440px <= width <= 1920px);
+@custom-media --xxl-n-above (width >= 1920px);
+@custom-media --xxl-n-below (width < 1920px);

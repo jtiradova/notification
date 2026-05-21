@@ -1,0 +1,15 @@
+/**
+ * This file was generated
+ * Do not edit directly
+ * See 'fusion-design-system/build-style-dictionary.js' for more info
+ */
+
+:root {
+    --sui-z-index-tooltip: 10500;
+    --sui-z-index-popover: 10000;
+    --sui-z-index-toast: 6000;
+    --sui-z-index-overlay: 3500;
+    --sui-z-index-dropdown: 3000;
+    --sui-z-index-dialog: 3000;
+    --sui-z-index-hide: -1;
+}

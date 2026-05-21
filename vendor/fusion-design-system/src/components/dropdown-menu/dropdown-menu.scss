@@ -1,0 +1,280 @@
+.sui-c-dropdown-menu__content,
+.sui-c-dropdown-menu__sub-content {
+    --dropdown-menu-item-background-color-hover: var(
+        --sui-color-background-surface-hover
+    );
+    --dropdown-menu-item-background-color-focus: var(
+        --sui-color-background-surface-focus
+    );
+    --dropdown-menu-content-min-width: var(--sui-size-20x);
+    --dropdown-menu-item-font-size: var(--sui-font-size-base-6);
+    --dropdown-menu-item-padding-x: var(--sui-size-2x);
+    --dropdown-menu-item-padding-y: var(--sui-size-1x);
+    --dropdown-menu-item-min-height: var(--sui-size-4x);
+    --dropdown-menu-item-gap: var(--sui-size-1-5x);
+    --dropdown-menu-item-unchecked-padding-left: calc(
+        var(--dropdown-menu-item-padding-x) +
+            var(--dropdown-menu-item-indicator-size) +
+            var(--dropdown-menu-item-gap)
+    );
+    --dropdown-menu-item-indicator-size: var(--sui-size-2x);
+    --dropdown-menu-item-indicator-font-size: var(--sui-size-1-5x);
+
+    z-index: var(--sui-z-index-dropdown);
+    display: flex;
+    min-width: var(--dropdown-menu-content-min-width);
+    max-width: min(90vw, var(--sui-size-60x));
+    max-height: var(--radix-dropdown-menu-content-available-height);
+    flex-direction: column;
+    padding: var(--sui-space-1x) 0 var(--sui-space-2x);
+    border-radius: var(--sui-radius-md);
+    background-color: var(--sui-color-background-surface-raised-1);
+    box-shadow:
+        0 0 0 1px var(--sui-color-border-subtle),
+        0 10px 38px -10px rgb(22 23 24 / 35%),
+        0 10px 20px -15px rgb(22 23 24 / 20%);
+    overflow-y: auto;
+
+    // If there are no icons/indicators, remove left-hand spacing
+    &:not(:has(.sui-c-dropdown-menu__item__prefix--with-content)) {
+        --dropdown-menu-item-indicator-size: 0px;
+    }
+}
+
+.sui-c-dropdown-menu__item,
+.sui-c-dropdown-menu__sub__trigger,
+.sui-c-dropdown-menu__radio-item,
+.sui-c-dropdown-menu__checkbox-item {
+    position: relative;
+    display: flex;
+    min-height: var(--dropdown-menu-item-min-height);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    align-items: flex-start;
+    padding: var(--dropdown-menu-item-padding-y)
+        var(--dropdown-menu-item-padding-x);
+    color: var(--sui-color-text-high-contrast);
+    cursor: pointer;
+    font-family: var(--sui-font-family-sans);
+    font-size: var(--dropdown-menu-item-font-size);
+    gap: var(--dropdown-menu-item-gap);
+    line-height: 1;
+    user-select: none;
+
+    &:hover {
+        background-color: var(--dropdown-menu-item-background-color-hover);
+    }
+
+    &[data-highlighted] {
+        background-color: var(--dropdown-menu-item-background-color-focus);
+        outline: none;
+    }
+
+    &[data-disabled] {
+        opacity: 0.4;
+        pointer-events: none;
+    }
+}
+
+.sui-c-keyboard-shortcut.sui-c-dropdown-menu__item__keyboard-shortcut {
+    height: var(--sui-size-2x);
+}
+
+.sui-c-dropdown-menu__item__spinner {
+    --sui-component-spinner-thumb-color: inherit;
+}
+
+.sui-c-dropdown-menu__arrow {
+    fill: var(--sui-color-background-surface-raised-1);
+}
+
+.sui-c-dropdown-menu__item-icon {
+    width: var(--sui-size-2x);
+    height: var(--sui-size-2x);
+    fill: currentcolor;
+}
+
+.sui-c-dropdown-menu__item-tip {
+    display: block;
+}
+
+.sui-c-dropdown-menu__item__content {
+    align-self: center;
+    margin-top: var(--sui-size-0-25x);
+}
+
+.sui-c-dropdown-menu__item__description {
+    margin-top: var(--sui-size-0-5x);
+}
+
+.sui-c-dropdown-menu__item--variant-danger {
+    color: var(--sui-color-text-critical);
+
+    &:hover {
+        background-color: var(--sui-color-background-critical);
+    }
+
+    &[data-highlighted] {
+        background-color: var(--sui-color-background-critical);
+    }
+}
+
+.sui-c-dropdown-menu__item--variant-brand {
+    color: var(--sui-color-text-primary);
+    font-weight: var(--sui-font-weight-bold);
+
+    &:hover {
+        background-color: var(--sui-color-base-purple-2);
+    }
+
+    &[data-highlighted] {
+        background-color: var(--sui-color-base-purple-3);
+    }
+}
+
+.sui-c-dropdown-menu__item__suffix {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    padding-left: var(--sui-space-1-25x);
+    margin-left: auto;
+}
+
+.sui-c-dropdown-menu__item-switch-indicator {
+    --toggle-indicator-color: var(--sui-color-base-neutral-8);
+    --toggle-indicator-width: 34px;
+    --toggle-indicator-height: 18px;
+
+    position: relative;
+    width: var(--toggle-indicator-width);
+    height: var(--toggle-indicator-height);
+    border: 1px solid var(--toggle-indicator-color);
+    border-radius: var(--sui-size-1-5x);
+    background-color: var(--sui-color-background-app);
+    transition: background-color 0.1s ease-in-out;
+}
+
+.sui-c-dropdown-menu__item-switch-indicator__thumb {
+    position: absolute;
+    top: -1px;
+
+    // Ensure the thumb overlaps with the track's border
+    left: -1px;
+    display: flex;
+    height: var(--toggle-indicator-height);
+    align-items: center;
+    justify-content: center;
+    border: inherit;
+    border-radius: inherit;
+    aspect-ratio: 1;
+    background-color: var(--sui-color-background-app);
+    transition: transform 0.1s ease-in-out;
+}
+
+.sui-c-dropdown-menu__item-switch-indicator__thumb-icon {
+    color: var(--sui-color-text-mid-contrast);
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.sui-c-dropdown-menu__checkbox-item[data-state="checked"] {
+    // Styling for switch variant
+    .sui-c-dropdown-menu__item-switch-indicator {
+        background-color: var(--toggle-indicator-color);
+    }
+
+    .sui-c-dropdown-menu__item-switch-indicator__thumb {
+        transform: translateX(
+            calc(var(--toggle-indicator-width) - var(--toggle-indicator-height))
+        );
+    }
+
+    .sui-c-dropdown-menu__item-switch-indicator__thumb-icon {
+        opacity: 1;
+    }
+
+    // Styling for check variant
+    .sui-c-dropdown-menu__item-indicator__indeterminate-icon {
+        display: none;
+    }
+}
+
+.sui-c-dropdown-menu__checkbox-item[data-state="indeterminate"] {
+    .sui-c-dropdown-menu__item-indicator__checked-icon {
+        display: none;
+    }
+}
+
+.sui-c-dropdown-menu__sub__trigger__icon {
+    height: var(--sui-size-1-25x);
+    padding: var(--sui-size-0-25x) 0;
+    color: var(--sui-color-text-mid-contrast);
+}
+
+.sui-c-dropdown-menu__checkbox-item--variant-switch {
+    padding-left: var(--dropdown-menu-item-unchecked-padding-left);
+}
+
+.sui-c-dropdown-menu__item__prefix,
+.sui-c-dropdown-menu__item-indicator {
+    display: inline-flex;
+    width: var(--dropdown-menu-item-indicator-size);
+    height: var(--dropdown-menu-item-indicator-size);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--sui-size-1-5x);
+}
+
+.sui-c-dropdown-menu__item-indicator {
+    color: var(--sui-color-text-selected);
+    font-size: var(--dropdown-menu-item-indicator-font-size);
+}
+
+.sui-c-dropdown-menu__radio-item-indicator--checked {
+    // The checked icon must be slightly larger, since it does its icon
+    // does not have a border like the unchecked indicator
+    font-size: calc(
+        var(--dropdown-menu-item-indicator-font-size) + var(--sui-size-0-25x)
+    );
+}
+
+.sui-c-dropdown-menu__radio-item-indicator--unchecked {
+    color: var(--sui-color-base-neutral-9);
+}
+
+// Hide unchecked indicator if radio item is checked
+.sui-c-dropdown-menu__radio-item[data-state="checked"] {
+    .sui-c-dropdown-menu__radio-item-indicator--unchecked {
+        display: none;
+    }
+}
+
+.sui-c-dropdown-menu__item__prefix {
+    display: flex;
+    font-size: var(--sui-size-1-5x);
+}
+
+.sui-c-dropdown-menu__separator {
+    height: 1px;
+    flex-shrink: 0;
+    margin: var(--sui-size-1x);
+    background-color: var(--sui-color-border-subtle);
+}
+
+.sui-c-dropdown-menu__label {
+    display: flex;
+    min-height: var(--dropdown-menu-item-min-height);
+    box-sizing: border-box;
+    align-items: center;
+    padding: var(--sui-space-0-75x) var(--dropdown-menu-item-padding-x)
+        var(--sui-space-0-75x) var(--dropdown-menu-item-unchecked-padding-left);
+    color: var(--sui-color-base-neutral-10);
+    font-family: var(--sui-font-family-sans);
+    font-size: var(--sui-font-size-label-1);
+    font-weight: var(--sui-font-weight-medium);
+    line-height: 1;
+    text-transform: uppercase;
+    user-select: none;
+}

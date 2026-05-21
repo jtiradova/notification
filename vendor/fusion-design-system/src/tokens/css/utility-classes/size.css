@@ -1,0 +1,1433 @@
+/**
+ * This file was generated
+ * Do not edit directly
+ * See 'fusion-design-system/build-style-dictionary.js' for more info
+ */
+
+.sui-u-width-unset {
+    width: unset !important;
+}
+
+.sui-u-min-width-unset {
+    min-width: unset !important;
+}
+
+.sui-u-max-height-unset {
+    max-height: unset !important;
+}
+
+.sui-u-height-unset {
+    height: unset !important;
+}
+
+.sui-u-min-height-unset {
+    min-height: unset !important;
+}
+
+.sui-u-max-width-unset {
+    max-width: unset !important;
+}
+
+.sui-u-flex-basis-unset {
+    flex-basis: unset !important;
+}
+
+.sui-u-width-auto {
+    width: auto !important;
+}
+
+.sui-u-min-width-auto {
+    min-width: auto !important;
+}
+
+.sui-u-max-height-auto {
+    max-height: auto !important;
+}
+
+.sui-u-height-auto {
+    height: auto !important;
+}
+
+.sui-u-min-height-auto {
+    min-height: auto !important;
+}
+
+.sui-u-max-width-auto {
+    max-width: auto !important;
+}
+
+.sui-u-flex-basis-auto {
+    flex-basis: auto !important;
+}
+
+.sui-u-width-0 {
+    width: var(--sui-size-0, 0) !important;
+}
+
+.sui-u-min-width-0 {
+    min-width: var(--sui-size-0, 0) !important;
+}
+
+.sui-u-max-height-0 {
+    max-height: var(--sui-size-0, 0) !important;
+}
+
+.sui-u-height-0 {
+    height: var(--sui-size-0, 0) !important;
+}
+
+.sui-u-min-height-0 {
+    min-height: var(--sui-size-0, 0) !important;
+}
+
+.sui-u-max-width-0 {
+    max-width: var(--sui-size-0, 0) !important;
+}
+
+.sui-u-flex-basis-0 {
+    flex-basis: var(--sui-size-0, 0) !important;
+}
+
+.sui-u-width-1-4 {
+    width: var(--sui-size-1-4, 25%) !important;
+}
+
+.sui-u-min-width-1-4 {
+    min-width: var(--sui-size-1-4, 25%) !important;
+}
+
+.sui-u-max-height-1-4 {
+    max-height: var(--sui-size-1-4, 25%) !important;
+}
+
+.sui-u-height-1-4 {
+    height: var(--sui-size-1-4, 25%) !important;
+}
+
+.sui-u-min-height-1-4 {
+    min-height: var(--sui-size-1-4, 25%) !important;
+}
+
+.sui-u-max-width-1-4 {
+    max-width: var(--sui-size-1-4, 25%) !important;
+}
+
+.sui-u-flex-basis-1-4 {
+    flex-basis: var(--sui-size-1-4, 25%) !important;
+}
+
+.sui-u-width-1-3 {
+    width: var(--sui-size-1-3, 33%) !important;
+}
+
+.sui-u-min-width-1-3 {
+    min-width: var(--sui-size-1-3, 33%) !important;
+}
+
+.sui-u-max-height-1-3 {
+    max-height: var(--sui-size-1-3, 33%) !important;
+}
+
+.sui-u-height-1-3 {
+    height: var(--sui-size-1-3, 33%) !important;
+}
+
+.sui-u-min-height-1-3 {
+    min-height: var(--sui-size-1-3, 33%) !important;
+}
+
+.sui-u-max-width-1-3 {
+    max-width: var(--sui-size-1-3, 33%) !important;
+}
+
+.sui-u-flex-basis-1-3 {
+    flex-basis: var(--sui-size-1-3, 33%) !important;
+}
+
+.sui-u-width-1-2 {
+    width: var(--sui-size-1-2, 50%) !important;
+}
+
+.sui-u-min-width-1-2 {
+    min-width: var(--sui-size-1-2, 50%) !important;
+}
+
+.sui-u-max-height-1-2 {
+    max-height: var(--sui-size-1-2, 50%) !important;
+}
+
+.sui-u-height-1-2 {
+    height: var(--sui-size-1-2, 50%) !important;
+}
+
+.sui-u-min-height-1-2 {
+    min-height: var(--sui-size-1-2, 50%) !important;
+}
+
+.sui-u-max-width-1-2 {
+    max-width: var(--sui-size-1-2, 50%) !important;
+}
+
+.sui-u-flex-basis-1-2 {
+    flex-basis: var(--sui-size-1-2, 50%) !important;
+}
+
+.sui-u-width-2-3 {
+    width: var(--sui-size-2-3, 66%) !important;
+}
+
+.sui-u-min-width-2-3 {
+    min-width: var(--sui-size-2-3, 66%) !important;
+}
+
+.sui-u-max-height-2-3 {
+    max-height: var(--sui-size-2-3, 66%) !important;
+}
+
+.sui-u-height-2-3 {
+    height: var(--sui-size-2-3, 66%) !important;
+}
+
+.sui-u-min-height-2-3 {
+    min-height: var(--sui-size-2-3, 66%) !important;
+}
+
+.sui-u-max-width-2-3 {
+    max-width: var(--sui-size-2-3, 66%) !important;
+}
+
+.sui-u-flex-basis-2-3 {
+    flex-basis: var(--sui-size-2-3, 66%) !important;
+}
+
+.sui-u-width-3-4 {
+    width: var(--sui-size-3-4, 75%) !important;
+}
+
+.sui-u-min-width-3-4 {
+    min-width: var(--sui-size-3-4, 75%) !important;
+}
+
+.sui-u-max-height-3-4 {
+    max-height: var(--sui-size-3-4, 75%) !important;
+}
+
+.sui-u-height-3-4 {
+    height: var(--sui-size-3-4, 75%) !important;
+}
+
+.sui-u-min-height-3-4 {
+    min-height: var(--sui-size-3-4, 75%) !important;
+}
+
+.sui-u-max-width-3-4 {
+    max-width: var(--sui-size-3-4, 75%) !important;
+}
+
+.sui-u-flex-basis-3-4 {
+    flex-basis: var(--sui-size-3-4, 75%) !important;
+}
+
+.sui-u-width-full {
+    width: var(--sui-size-full, 100%) !important;
+}
+
+.sui-u-min-width-full {
+    min-width: var(--sui-size-full, 100%) !important;
+}
+
+.sui-u-max-height-full {
+    max-height: var(--sui-size-full, 100%) !important;
+}
+
+.sui-u-height-full {
+    height: var(--sui-size-full, 100%) !important;
+}
+
+.sui-u-min-height-full {
+    min-height: var(--sui-size-full, 100%) !important;
+}
+
+.sui-u-max-width-full {
+    max-width: var(--sui-size-full, 100%) !important;
+}
+
+.sui-u-flex-basis-full {
+    flex-basis: var(--sui-size-full, 100%) !important;
+}
+
+.sui-u-width-100vw {
+    width: var(--sui-size-100vw, 100vw) !important;
+}
+
+.sui-u-min-width-100vw {
+    min-width: var(--sui-size-100vw, 100vw) !important;
+}
+
+.sui-u-max-height-100vw {
+    max-height: var(--sui-size-100vw, 100vw) !important;
+}
+
+.sui-u-height-100vw {
+    height: var(--sui-size-100vw, 100vw) !important;
+}
+
+.sui-u-min-height-100vw {
+    min-height: var(--sui-size-100vw, 100vw) !important;
+}
+
+.sui-u-max-width-100vw {
+    max-width: var(--sui-size-100vw, 100vw) !important;
+}
+
+.sui-u-flex-basis-100vw {
+    flex-basis: var(--sui-size-100vw, 100vw) !important;
+}
+
+.sui-u-width-100vh {
+    width: var(--sui-size-100vh, 100vh) !important;
+}
+
+.sui-u-min-width-100vh {
+    min-width: var(--sui-size-100vh, 100vh) !important;
+}
+
+.sui-u-max-height-100vh {
+    max-height: var(--sui-size-100vh, 100vh) !important;
+}
+
+.sui-u-height-100vh {
+    height: var(--sui-size-100vh, 100vh) !important;
+}
+
+.sui-u-min-height-100vh {
+    min-height: var(--sui-size-100vh, 100vh) !important;
+}
+
+.sui-u-max-width-100vh {
+    max-width: var(--sui-size-100vh, 100vh) !important;
+}
+
+.sui-u-flex-basis-100vh {
+    flex-basis: var(--sui-size-100vh, 100vh) !important;
+}
+
+.sui-u-width-min-content {
+    width: var(--sui-size-min-content, min-content) !important;
+}
+
+.sui-u-min-width-min-content {
+    min-width: var(--sui-size-min-content, min-content) !important;
+}
+
+.sui-u-max-height-min-content {
+    max-height: var(--sui-size-min-content, min-content) !important;
+}
+
+.sui-u-height-min-content {
+    height: var(--sui-size-min-content, min-content) !important;
+}
+
+.sui-u-min-height-min-content {
+    min-height: var(--sui-size-min-content, min-content) !important;
+}
+
+.sui-u-max-width-min-content {
+    max-width: var(--sui-size-min-content, min-content) !important;
+}
+
+.sui-u-flex-basis-min-content {
+    flex-basis: var(--sui-size-min-content, min-content) !important;
+}
+
+.sui-u-width-max-content {
+    width: var(--sui-size-max-content, max-content) !important;
+}
+
+.sui-u-min-width-max-content {
+    min-width: var(--sui-size-max-content, max-content) !important;
+}
+
+.sui-u-max-height-max-content {
+    max-height: var(--sui-size-max-content, max-content) !important;
+}
+
+.sui-u-height-max-content {
+    height: var(--sui-size-max-content, max-content) !important;
+}
+
+.sui-u-min-height-max-content {
+    min-height: var(--sui-size-max-content, max-content) !important;
+}
+
+.sui-u-max-width-max-content {
+    max-width: var(--sui-size-max-content, max-content) !important;
+}
+
+.sui-u-flex-basis-max-content {
+    flex-basis: var(--sui-size-max-content, max-content) !important;
+}
+
+.sui-u-width-fit-content {
+    width: var(--sui-size-fit-content, fit-content) !important;
+}
+
+.sui-u-min-width-fit-content {
+    min-width: var(--sui-size-fit-content, fit-content) !important;
+}
+
+.sui-u-max-height-fit-content {
+    max-height: var(--sui-size-fit-content, fit-content) !important;
+}
+
+.sui-u-height-fit-content {
+    height: var(--sui-size-fit-content, fit-content) !important;
+}
+
+.sui-u-min-height-fit-content {
+    min-height: var(--sui-size-fit-content, fit-content) !important;
+}
+
+.sui-u-max-width-fit-content {
+    max-width: var(--sui-size-fit-content, fit-content) !important;
+}
+
+.sui-u-flex-basis-fit-content {
+    flex-basis: var(--sui-size-fit-content, fit-content) !important;
+}
+
+.sui-u-width-0-25x {
+    width: var(--sui-size-0-25x, 0.125rem) !important;
+}
+
+.sui-u-min-width-0-25x {
+    min-width: var(--sui-size-0-25x, 0.125rem) !important;
+}
+
+.sui-u-max-height-0-25x {
+    max-height: var(--sui-size-0-25x, 0.125rem) !important;
+}
+
+.sui-u-height-0-25x {
+    height: var(--sui-size-0-25x, 0.125rem) !important;
+}
+
+.sui-u-min-height-0-25x {
+    min-height: var(--sui-size-0-25x, 0.125rem) !important;
+}
+
+.sui-u-max-width-0-25x {
+    max-width: var(--sui-size-0-25x, 0.125rem) !important;
+}
+
+.sui-u-flex-basis-0-25x {
+    flex-basis: var(--sui-size-0-25x, 0.125rem) !important;
+}
+
+.sui-u-width-0-5x {
+    width: var(--sui-size-0-5x, 0.25rem) !important;
+}
+
+.sui-u-min-width-0-5x {
+    min-width: var(--sui-size-0-5x, 0.25rem) !important;
+}
+
+.sui-u-max-height-0-5x {
+    max-height: var(--sui-size-0-5x, 0.25rem) !important;
+}
+
+.sui-u-height-0-5x {
+    height: var(--sui-size-0-5x, 0.25rem) !important;
+}
+
+.sui-u-min-height-0-5x {
+    min-height: var(--sui-size-0-5x, 0.25rem) !important;
+}
+
+.sui-u-max-width-0-5x {
+    max-width: var(--sui-size-0-5x, 0.25rem) !important;
+}
+
+.sui-u-flex-basis-0-5x {
+    flex-basis: var(--sui-size-0-5x, 0.25rem) !important;
+}
+
+.sui-u-width-0-75x {
+    width: var(--sui-size-0-75x, 0.375rem) !important;
+}
+
+.sui-u-min-width-0-75x {
+    min-width: var(--sui-size-0-75x, 0.375rem) !important;
+}
+
+.sui-u-max-height-0-75x {
+    max-height: var(--sui-size-0-75x, 0.375rem) !important;
+}
+
+.sui-u-height-0-75x {
+    height: var(--sui-size-0-75x, 0.375rem) !important;
+}
+
+.sui-u-min-height-0-75x {
+    min-height: var(--sui-size-0-75x, 0.375rem) !important;
+}
+
+.sui-u-max-width-0-75x {
+    max-width: var(--sui-size-0-75x, 0.375rem) !important;
+}
+
+.sui-u-flex-basis-0-75x {
+    flex-basis: var(--sui-size-0-75x, 0.375rem) !important;
+}
+
+.sui-u-width-1x {
+    width: var(--sui-size-1x, 0.5rem) !important;
+}
+
+.sui-u-min-width-1x {
+    min-width: var(--sui-size-1x, 0.5rem) !important;
+}
+
+.sui-u-max-height-1x {
+    max-height: var(--sui-size-1x, 0.5rem) !important;
+}
+
+.sui-u-height-1x {
+    height: var(--sui-size-1x, 0.5rem) !important;
+}
+
+.sui-u-min-height-1x {
+    min-height: var(--sui-size-1x, 0.5rem) !important;
+}
+
+.sui-u-max-width-1x {
+    max-width: var(--sui-size-1x, 0.5rem) !important;
+}
+
+.sui-u-flex-basis-1x {
+    flex-basis: var(--sui-size-1x, 0.5rem) !important;
+}
+
+.sui-u-width-1-25x {
+    width: var(--sui-size-1-25x, 0.625rem) !important;
+}
+
+.sui-u-min-width-1-25x {
+    min-width: var(--sui-size-1-25x, 0.625rem) !important;
+}
+
+.sui-u-max-height-1-25x {
+    max-height: var(--sui-size-1-25x, 0.625rem) !important;
+}
+
+.sui-u-height-1-25x {
+    height: var(--sui-size-1-25x, 0.625rem) !important;
+}
+
+.sui-u-min-height-1-25x {
+    min-height: var(--sui-size-1-25x, 0.625rem) !important;
+}
+
+.sui-u-max-width-1-25x {
+    max-width: var(--sui-size-1-25x, 0.625rem) !important;
+}
+
+.sui-u-flex-basis-1-25x {
+    flex-basis: var(--sui-size-1-25x, 0.625rem) !important;
+}
+
+.sui-u-width-1-5x {
+    width: var(--sui-size-1-5x, 0.75rem) !important;
+}
+
+.sui-u-min-width-1-5x {
+    min-width: var(--sui-size-1-5x, 0.75rem) !important;
+}
+
+.sui-u-max-height-1-5x {
+    max-height: var(--sui-size-1-5x, 0.75rem) !important;
+}
+
+.sui-u-height-1-5x {
+    height: var(--sui-size-1-5x, 0.75rem) !important;
+}
+
+.sui-u-min-height-1-5x {
+    min-height: var(--sui-size-1-5x, 0.75rem) !important;
+}
+
+.sui-u-max-width-1-5x {
+    max-width: var(--sui-size-1-5x, 0.75rem) !important;
+}
+
+.sui-u-flex-basis-1-5x {
+    flex-basis: var(--sui-size-1-5x, 0.75rem) !important;
+}
+
+.sui-u-width-2x {
+    width: var(--sui-size-2x, 1rem) !important;
+}
+
+.sui-u-min-width-2x {
+    min-width: var(--sui-size-2x, 1rem) !important;
+}
+
+.sui-u-max-height-2x {
+    max-height: var(--sui-size-2x, 1rem) !important;
+}
+
+.sui-u-height-2x {
+    height: var(--sui-size-2x, 1rem) !important;
+}
+
+.sui-u-min-height-2x {
+    min-height: var(--sui-size-2x, 1rem) !important;
+}
+
+.sui-u-max-width-2x {
+    max-width: var(--sui-size-2x, 1rem) !important;
+}
+
+.sui-u-flex-basis-2x {
+    flex-basis: var(--sui-size-2x, 1rem) !important;
+}
+
+.sui-u-width-2-5x {
+    width: var(--sui-size-2-5x, 1.25rem) !important;
+}
+
+.sui-u-min-width-2-5x {
+    min-width: var(--sui-size-2-5x, 1.25rem) !important;
+}
+
+.sui-u-max-height-2-5x {
+    max-height: var(--sui-size-2-5x, 1.25rem) !important;
+}
+
+.sui-u-height-2-5x {
+    height: var(--sui-size-2-5x, 1.25rem) !important;
+}
+
+.sui-u-min-height-2-5x {
+    min-height: var(--sui-size-2-5x, 1.25rem) !important;
+}
+
+.sui-u-max-width-2-5x {
+    max-width: var(--sui-size-2-5x, 1.25rem) !important;
+}
+
+.sui-u-flex-basis-2-5x {
+    flex-basis: var(--sui-size-2-5x, 1.25rem) !important;
+}
+
+.sui-u-width-3x {
+    width: var(--sui-size-3x, 1.5rem) !important;
+}
+
+.sui-u-min-width-3x {
+    min-width: var(--sui-size-3x, 1.5rem) !important;
+}
+
+.sui-u-max-height-3x {
+    max-height: var(--sui-size-3x, 1.5rem) !important;
+}
+
+.sui-u-height-3x {
+    height: var(--sui-size-3x, 1.5rem) !important;
+}
+
+.sui-u-min-height-3x {
+    min-height: var(--sui-size-3x, 1.5rem) !important;
+}
+
+.sui-u-max-width-3x {
+    max-width: var(--sui-size-3x, 1.5rem) !important;
+}
+
+.sui-u-flex-basis-3x {
+    flex-basis: var(--sui-size-3x, 1.5rem) !important;
+}
+
+.sui-u-width-4x {
+    width: var(--sui-size-4x, 2rem) !important;
+}
+
+.sui-u-min-width-4x {
+    min-width: var(--sui-size-4x, 2rem) !important;
+}
+
+.sui-u-max-height-4x {
+    max-height: var(--sui-size-4x, 2rem) !important;
+}
+
+.sui-u-height-4x {
+    height: var(--sui-size-4x, 2rem) !important;
+}
+
+.sui-u-min-height-4x {
+    min-height: var(--sui-size-4x, 2rem) !important;
+}
+
+.sui-u-max-width-4x {
+    max-width: var(--sui-size-4x, 2rem) !important;
+}
+
+.sui-u-flex-basis-4x {
+    flex-basis: var(--sui-size-4x, 2rem) !important;
+}
+
+.sui-u-width-5x {
+    width: var(--sui-size-5x, 2.5rem) !important;
+}
+
+.sui-u-min-width-5x {
+    min-width: var(--sui-size-5x, 2.5rem) !important;
+}
+
+.sui-u-max-height-5x {
+    max-height: var(--sui-size-5x, 2.5rem) !important;
+}
+
+.sui-u-height-5x {
+    height: var(--sui-size-5x, 2.5rem) !important;
+}
+
+.sui-u-min-height-5x {
+    min-height: var(--sui-size-5x, 2.5rem) !important;
+}
+
+.sui-u-max-width-5x {
+    max-width: var(--sui-size-5x, 2.5rem) !important;
+}
+
+.sui-u-flex-basis-5x {
+    flex-basis: var(--sui-size-5x, 2.5rem) !important;
+}
+
+.sui-u-width-6x {
+    width: var(--sui-size-6x, 3rem) !important;
+}
+
+.sui-u-min-width-6x {
+    min-width: var(--sui-size-6x, 3rem) !important;
+}
+
+.sui-u-max-height-6x {
+    max-height: var(--sui-size-6x, 3rem) !important;
+}
+
+.sui-u-height-6x {
+    height: var(--sui-size-6x, 3rem) !important;
+}
+
+.sui-u-min-height-6x {
+    min-height: var(--sui-size-6x, 3rem) !important;
+}
+
+.sui-u-max-width-6x {
+    max-width: var(--sui-size-6x, 3rem) !important;
+}
+
+.sui-u-flex-basis-6x {
+    flex-basis: var(--sui-size-6x, 3rem) !important;
+}
+
+.sui-u-width-7x {
+    width: var(--sui-size-7x, 3.5rem) !important;
+}
+
+.sui-u-min-width-7x {
+    min-width: var(--sui-size-7x, 3.5rem) !important;
+}
+
+.sui-u-max-height-7x {
+    max-height: var(--sui-size-7x, 3.5rem) !important;
+}
+
+.sui-u-height-7x {
+    height: var(--sui-size-7x, 3.5rem) !important;
+}
+
+.sui-u-min-height-7x {
+    min-height: var(--sui-size-7x, 3.5rem) !important;
+}
+
+.sui-u-max-width-7x {
+    max-width: var(--sui-size-7x, 3.5rem) !important;
+}
+
+.sui-u-flex-basis-7x {
+    flex-basis: var(--sui-size-7x, 3.5rem) !important;
+}
+
+.sui-u-width-8x {
+    width: var(--sui-size-8x, 4rem) !important;
+}
+
+.sui-u-min-width-8x {
+    min-width: var(--sui-size-8x, 4rem) !important;
+}
+
+.sui-u-max-height-8x {
+    max-height: var(--sui-size-8x, 4rem) !important;
+}
+
+.sui-u-height-8x {
+    height: var(--sui-size-8x, 4rem) !important;
+}
+
+.sui-u-min-height-8x {
+    min-height: var(--sui-size-8x, 4rem) !important;
+}
+
+.sui-u-max-width-8x {
+    max-width: var(--sui-size-8x, 4rem) !important;
+}
+
+.sui-u-flex-basis-8x {
+    flex-basis: var(--sui-size-8x, 4rem) !important;
+}
+
+.sui-u-width-9x {
+    width: var(--sui-size-9x, 4.5rem) !important;
+}
+
+.sui-u-min-width-9x {
+    min-width: var(--sui-size-9x, 4.5rem) !important;
+}
+
+.sui-u-max-height-9x {
+    max-height: var(--sui-size-9x, 4.5rem) !important;
+}
+
+.sui-u-height-9x {
+    height: var(--sui-size-9x, 4.5rem) !important;
+}
+
+.sui-u-min-height-9x {
+    min-height: var(--sui-size-9x, 4.5rem) !important;
+}
+
+.sui-u-max-width-9x {
+    max-width: var(--sui-size-9x, 4.5rem) !important;
+}
+
+.sui-u-flex-basis-9x {
+    flex-basis: var(--sui-size-9x, 4.5rem) !important;
+}
+
+.sui-u-width-10x {
+    width: var(--sui-size-10x, 5rem) !important;
+}
+
+.sui-u-min-width-10x {
+    min-width: var(--sui-size-10x, 5rem) !important;
+}
+
+.sui-u-max-height-10x {
+    max-height: var(--sui-size-10x, 5rem) !important;
+}
+
+.sui-u-height-10x {
+    height: var(--sui-size-10x, 5rem) !important;
+}
+
+.sui-u-min-height-10x {
+    min-height: var(--sui-size-10x, 5rem) !important;
+}
+
+.sui-u-max-width-10x {
+    max-width: var(--sui-size-10x, 5rem) !important;
+}
+
+.sui-u-flex-basis-10x {
+    flex-basis: var(--sui-size-10x, 5rem) !important;
+}
+
+.sui-u-width-11x {
+    width: var(--sui-size-11x, 5.5rem) !important;
+}
+
+.sui-u-min-width-11x {
+    min-width: var(--sui-size-11x, 5.5rem) !important;
+}
+
+.sui-u-max-height-11x {
+    max-height: var(--sui-size-11x, 5.5rem) !important;
+}
+
+.sui-u-height-11x {
+    height: var(--sui-size-11x, 5.5rem) !important;
+}
+
+.sui-u-min-height-11x {
+    min-height: var(--sui-size-11x, 5.5rem) !important;
+}
+
+.sui-u-max-width-11x {
+    max-width: var(--sui-size-11x, 5.5rem) !important;
+}
+
+.sui-u-flex-basis-11x {
+    flex-basis: var(--sui-size-11x, 5.5rem) !important;
+}
+
+.sui-u-width-12x {
+    width: var(--sui-size-12x, 6rem) !important;
+}
+
+.sui-u-min-width-12x {
+    min-width: var(--sui-size-12x, 6rem) !important;
+}
+
+.sui-u-max-height-12x {
+    max-height: var(--sui-size-12x, 6rem) !important;
+}
+
+.sui-u-height-12x {
+    height: var(--sui-size-12x, 6rem) !important;
+}
+
+.sui-u-min-height-12x {
+    min-height: var(--sui-size-12x, 6rem) !important;
+}
+
+.sui-u-max-width-12x {
+    max-width: var(--sui-size-12x, 6rem) !important;
+}
+
+.sui-u-flex-basis-12x {
+    flex-basis: var(--sui-size-12x, 6rem) !important;
+}
+
+.sui-u-width-15x {
+    width: var(--sui-size-15x, 7.5rem) !important;
+}
+
+.sui-u-min-width-15x {
+    min-width: var(--sui-size-15x, 7.5rem) !important;
+}
+
+.sui-u-max-height-15x {
+    max-height: var(--sui-size-15x, 7.5rem) !important;
+}
+
+.sui-u-height-15x {
+    height: var(--sui-size-15x, 7.5rem) !important;
+}
+
+.sui-u-min-height-15x {
+    min-height: var(--sui-size-15x, 7.5rem) !important;
+}
+
+.sui-u-max-width-15x {
+    max-width: var(--sui-size-15x, 7.5rem) !important;
+}
+
+.sui-u-flex-basis-15x {
+    flex-basis: var(--sui-size-15x, 7.5rem) !important;
+}
+
+.sui-u-width-20x {
+    width: var(--sui-size-20x, 10rem) !important;
+}
+
+.sui-u-min-width-20x {
+    min-width: var(--sui-size-20x, 10rem) !important;
+}
+
+.sui-u-max-height-20x {
+    max-height: var(--sui-size-20x, 10rem) !important;
+}
+
+.sui-u-height-20x {
+    height: var(--sui-size-20x, 10rem) !important;
+}
+
+.sui-u-min-height-20x {
+    min-height: var(--sui-size-20x, 10rem) !important;
+}
+
+.sui-u-max-width-20x {
+    max-width: var(--sui-size-20x, 10rem) !important;
+}
+
+.sui-u-flex-basis-20x {
+    flex-basis: var(--sui-size-20x, 10rem) !important;
+}
+
+.sui-u-width-25x {
+    width: var(--sui-size-25x, 12.5rem) !important;
+}
+
+.sui-u-min-width-25x {
+    min-width: var(--sui-size-25x, 12.5rem) !important;
+}
+
+.sui-u-max-height-25x {
+    max-height: var(--sui-size-25x, 12.5rem) !important;
+}
+
+.sui-u-height-25x {
+    height: var(--sui-size-25x, 12.5rem) !important;
+}
+
+.sui-u-min-height-25x {
+    min-height: var(--sui-size-25x, 12.5rem) !important;
+}
+
+.sui-u-max-width-25x {
+    max-width: var(--sui-size-25x, 12.5rem) !important;
+}
+
+.sui-u-flex-basis-25x {
+    flex-basis: var(--sui-size-25x, 12.5rem) !important;
+}
+
+.sui-u-width-30x {
+    width: var(--sui-size-30x, 15rem) !important;
+}
+
+.sui-u-min-width-30x {
+    min-width: var(--sui-size-30x, 15rem) !important;
+}
+
+.sui-u-max-height-30x {
+    max-height: var(--sui-size-30x, 15rem) !important;
+}
+
+.sui-u-height-30x {
+    height: var(--sui-size-30x, 15rem) !important;
+}
+
+.sui-u-min-height-30x {
+    min-height: var(--sui-size-30x, 15rem) !important;
+}
+
+.sui-u-max-width-30x {
+    max-width: var(--sui-size-30x, 15rem) !important;
+}
+
+.sui-u-flex-basis-30x {
+    flex-basis: var(--sui-size-30x, 15rem) !important;
+}
+
+.sui-u-width-35x {
+    width: var(--sui-size-35x, 17.5rem) !important;
+}
+
+.sui-u-min-width-35x {
+    min-width: var(--sui-size-35x, 17.5rem) !important;
+}
+
+.sui-u-max-height-35x {
+    max-height: var(--sui-size-35x, 17.5rem) !important;
+}
+
+.sui-u-height-35x {
+    height: var(--sui-size-35x, 17.5rem) !important;
+}
+
+.sui-u-min-height-35x {
+    min-height: var(--sui-size-35x, 17.5rem) !important;
+}
+
+.sui-u-max-width-35x {
+    max-width: var(--sui-size-35x, 17.5rem) !important;
+}
+
+.sui-u-flex-basis-35x {
+    flex-basis: var(--sui-size-35x, 17.5rem) !important;
+}
+
+.sui-u-width-40x {
+    width: var(--sui-size-40x, 20rem) !important;
+}
+
+.sui-u-min-width-40x {
+    min-width: var(--sui-size-40x, 20rem) !important;
+}
+
+.sui-u-max-height-40x {
+    max-height: var(--sui-size-40x, 20rem) !important;
+}
+
+.sui-u-height-40x {
+    height: var(--sui-size-40x, 20rem) !important;
+}
+
+.sui-u-min-height-40x {
+    min-height: var(--sui-size-40x, 20rem) !important;
+}
+
+.sui-u-max-width-40x {
+    max-width: var(--sui-size-40x, 20rem) !important;
+}
+
+.sui-u-flex-basis-40x {
+    flex-basis: var(--sui-size-40x, 20rem) !important;
+}
+
+.sui-u-width-45x {
+    width: var(--sui-size-45x, 22.5rem) !important;
+}
+
+.sui-u-min-width-45x {
+    min-width: var(--sui-size-45x, 22.5rem) !important;
+}
+
+.sui-u-max-height-45x {
+    max-height: var(--sui-size-45x, 22.5rem) !important;
+}
+
+.sui-u-height-45x {
+    height: var(--sui-size-45x, 22.5rem) !important;
+}
+
+.sui-u-min-height-45x {
+    min-height: var(--sui-size-45x, 22.5rem) !important;
+}
+
+.sui-u-max-width-45x {
+    max-width: var(--sui-size-45x, 22.5rem) !important;
+}
+
+.sui-u-flex-basis-45x {
+    flex-basis: var(--sui-size-45x, 22.5rem) !important;
+}
+
+.sui-u-width-50x {
+    width: var(--sui-size-50x, 25rem) !important;
+}
+
+.sui-u-min-width-50x {
+    min-width: var(--sui-size-50x, 25rem) !important;
+}
+
+.sui-u-max-height-50x {
+    max-height: var(--sui-size-50x, 25rem) !important;
+}
+
+.sui-u-height-50x {
+    height: var(--sui-size-50x, 25rem) !important;
+}
+
+.sui-u-min-height-50x {
+    min-height: var(--sui-size-50x, 25rem) !important;
+}
+
+.sui-u-max-width-50x {
+    max-width: var(--sui-size-50x, 25rem) !important;
+}
+
+.sui-u-flex-basis-50x {
+    flex-basis: var(--sui-size-50x, 25rem) !important;
+}
+
+.sui-u-width-55x {
+    width: var(--sui-size-55x, 27.5rem) !important;
+}
+
+.sui-u-min-width-55x {
+    min-width: var(--sui-size-55x, 27.5rem) !important;
+}
+
+.sui-u-max-height-55x {
+    max-height: var(--sui-size-55x, 27.5rem) !important;
+}
+
+.sui-u-height-55x {
+    height: var(--sui-size-55x, 27.5rem) !important;
+}
+
+.sui-u-min-height-55x {
+    min-height: var(--sui-size-55x, 27.5rem) !important;
+}
+
+.sui-u-max-width-55x {
+    max-width: var(--sui-size-55x, 27.5rem) !important;
+}
+
+.sui-u-flex-basis-55x {
+    flex-basis: var(--sui-size-55x, 27.5rem) !important;
+}
+
+.sui-u-width-60x {
+    width: var(--sui-size-60x, 30rem) !important;
+}
+
+.sui-u-min-width-60x {
+    min-width: var(--sui-size-60x, 30rem) !important;
+}
+
+.sui-u-max-height-60x {
+    max-height: var(--sui-size-60x, 30rem) !important;
+}
+
+.sui-u-height-60x {
+    height: var(--sui-size-60x, 30rem) !important;
+}
+
+.sui-u-min-height-60x {
+    min-height: var(--sui-size-60x, 30rem) !important;
+}
+
+.sui-u-max-width-60x {
+    max-width: var(--sui-size-60x, 30rem) !important;
+}
+
+.sui-u-flex-basis-60x {
+    flex-basis: var(--sui-size-60x, 30rem) !important;
+}
+
+.sui-u-width-65x {
+    width: var(--sui-size-65x, 32.5rem) !important;
+}
+
+.sui-u-min-width-65x {
+    min-width: var(--sui-size-65x, 32.5rem) !important;
+}
+
+.sui-u-max-height-65x {
+    max-height: var(--sui-size-65x, 32.5rem) !important;
+}
+
+.sui-u-height-65x {
+    height: var(--sui-size-65x, 32.5rem) !important;
+}
+
+.sui-u-min-height-65x {
+    min-height: var(--sui-size-65x, 32.5rem) !important;
+}
+
+.sui-u-max-width-65x {
+    max-width: var(--sui-size-65x, 32.5rem) !important;
+}
+
+.sui-u-flex-basis-65x {
+    flex-basis: var(--sui-size-65x, 32.5rem) !important;
+}
+
+.sui-u-width-70x {
+    width: var(--sui-size-70x, 35rem) !important;
+}
+
+.sui-u-min-width-70x {
+    min-width: var(--sui-size-70x, 35rem) !important;
+}
+
+.sui-u-max-height-70x {
+    max-height: var(--sui-size-70x, 35rem) !important;
+}
+
+.sui-u-height-70x {
+    height: var(--sui-size-70x, 35rem) !important;
+}
+
+.sui-u-min-height-70x {
+    min-height: var(--sui-size-70x, 35rem) !important;
+}
+
+.sui-u-max-width-70x {
+    max-width: var(--sui-size-70x, 35rem) !important;
+}
+
+.sui-u-flex-basis-70x {
+    flex-basis: var(--sui-size-70x, 35rem) !important;
+}
+
+.sui-u-width-75x {
+    width: var(--sui-size-75x, 37.5rem) !important;
+}
+
+.sui-u-min-width-75x {
+    min-width: var(--sui-size-75x, 37.5rem) !important;
+}
+
+.sui-u-max-height-75x {
+    max-height: var(--sui-size-75x, 37.5rem) !important;
+}
+
+.sui-u-height-75x {
+    height: var(--sui-size-75x, 37.5rem) !important;
+}
+
+.sui-u-min-height-75x {
+    min-height: var(--sui-size-75x, 37.5rem) !important;
+}
+
+.sui-u-max-width-75x {
+    max-width: var(--sui-size-75x, 37.5rem) !important;
+}
+
+.sui-u-flex-basis-75x {
+    flex-basis: var(--sui-size-75x, 37.5rem) !important;
+}
+
+.sui-u-width-80x {
+    width: var(--sui-size-80x, 40rem) !important;
+}
+
+.sui-u-min-width-80x {
+    min-width: var(--sui-size-80x, 40rem) !important;
+}
+
+.sui-u-max-height-80x {
+    max-height: var(--sui-size-80x, 40rem) !important;
+}
+
+.sui-u-height-80x {
+    height: var(--sui-size-80x, 40rem) !important;
+}
+
+.sui-u-min-height-80x {
+    min-height: var(--sui-size-80x, 40rem) !important;
+}
+
+.sui-u-max-width-80x {
+    max-width: var(--sui-size-80x, 40rem) !important;
+}
+
+.sui-u-flex-basis-80x {
+    flex-basis: var(--sui-size-80x, 40rem) !important;
+}
+
+.sui-u-width-90x {
+    width: var(--sui-size-90x, 45rem) !important;
+}
+
+.sui-u-min-width-90x {
+    min-width: var(--sui-size-90x, 45rem) !important;
+}
+
+.sui-u-max-height-90x {
+    max-height: var(--sui-size-90x, 45rem) !important;
+}
+
+.sui-u-height-90x {
+    height: var(--sui-size-90x, 45rem) !important;
+}
+
+.sui-u-min-height-90x {
+    min-height: var(--sui-size-90x, 45rem) !important;
+}
+
+.sui-u-max-width-90x {
+    max-width: var(--sui-size-90x, 45rem) !important;
+}
+
+.sui-u-flex-basis-90x {
+    flex-basis: var(--sui-size-90x, 45rem) !important;
+}
+
+.sui-u-width-100x {
+    width: var(--sui-size-100x, 50rem) !important;
+}
+
+.sui-u-min-width-100x {
+    min-width: var(--sui-size-100x, 50rem) !important;
+}
+
+.sui-u-max-height-100x {
+    max-height: var(--sui-size-100x, 50rem) !important;
+}
+
+.sui-u-height-100x {
+    height: var(--sui-size-100x, 50rem) !important;
+}
+
+.sui-u-min-height-100x {
+    min-height: var(--sui-size-100x, 50rem) !important;
+}
+
+.sui-u-max-width-100x {
+    max-width: var(--sui-size-100x, 50rem) !important;
+}
+
+.sui-u-flex-basis-100x {
+    flex-basis: var(--sui-size-100x, 50rem) !important;
+}
+
+.sui-u-width-110x {
+    width: var(--sui-size-110x, 55rem) !important;
+}
+
+.sui-u-min-width-110x {
+    min-width: var(--sui-size-110x, 55rem) !important;
+}
+
+.sui-u-max-height-110x {
+    max-height: var(--sui-size-110x, 55rem) !important;
+}
+
+.sui-u-height-110x {
+    height: var(--sui-size-110x, 55rem) !important;
+}
+
+.sui-u-min-height-110x {
+    min-height: var(--sui-size-110x, 55rem) !important;
+}
+
+.sui-u-max-width-110x {
+    max-width: var(--sui-size-110x, 55rem) !important;
+}
+
+.sui-u-flex-basis-110x {
+    flex-basis: var(--sui-size-110x, 55rem) !important;
+}
+
+.sui-u-width-120x {
+    width: var(--sui-size-120x, 60rem) !important;
+}
+
+.sui-u-min-width-120x {
+    min-width: var(--sui-size-120x, 60rem) !important;
+}
+
+.sui-u-max-height-120x {
+    max-height: var(--sui-size-120x, 60rem) !important;
+}
+
+.sui-u-height-120x {
+    height: var(--sui-size-120x, 60rem) !important;
+}
+
+.sui-u-min-height-120x {
+    min-height: var(--sui-size-120x, 60rem) !important;
+}
+
+.sui-u-max-width-120x {
+    max-width: var(--sui-size-120x, 60rem) !important;
+}
+
+.sui-u-flex-basis-120x {
+    flex-basis: var(--sui-size-120x, 60rem) !important;
+}
+
+.sui-u-width-200x {
+    width: var(--sui-size-200x, 100rem) !important;
+}
+
+.sui-u-min-width-200x {
+    min-width: var(--sui-size-200x, 100rem) !important;
+}
+
+.sui-u-max-height-200x {
+    max-height: var(--sui-size-200x, 100rem) !important;
+}
+
+.sui-u-height-200x {
+    height: var(--sui-size-200x, 100rem) !important;
+}
+
+.sui-u-min-height-200x {
+    min-height: var(--sui-size-200x, 100rem) !important;
+}
+
+.sui-u-max-width-200x {
+    max-width: var(--sui-size-200x, 100rem) !important;
+}
+
+.sui-u-flex-basis-200x {
+    flex-basis: var(--sui-size-200x, 100rem) !important;
+}

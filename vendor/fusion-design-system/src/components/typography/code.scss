@@ -1,0 +1,10 @@
+.sui-c-code--appearance-surface {
+    padding: var(--sui-space-xs);
+    border: var(--sui-border-width-1px) var(--sui-border-style-solid)
+        var(--sui-color-border-subtle);
+    border-radius: var(--sui-radius-md);
+    background-color: var(--sui-color-background-code);
+    color: var(--sui-color-text-mid-contrast);
+    font-family: var(--sui-font-family-mono);
+    word-break: break-word;
+}

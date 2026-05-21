@@ -1,0 +1,48 @@
+@mixin disable-card-interaction-motion {
+    &:hover,
+    &:focus {
+        transform: unset;
+    }
+}
+
+.sui-c-card {
+    padding: var(--sui-space-1x);
+    border: 1px solid var(--sui-color-border-subtle);
+    border-radius: var(--sui-radius-md);
+    background-color: var(--sui-color-background-surface);
+
+    &:is(button, a, .sui-c-card--interactive) {
+        cursor: pointer;
+        transition-duration: 0.15s;
+        transition-property: box-shadow, transform;
+        transition-timing-function: ease-in-out;
+
+        &:hover,
+        &:focus {
+            box-shadow: var(--sui-shadow-1);
+            transform: translateY(var(--sui-space-negative-0-25x));
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            transition-property: box-shadow;
+
+            @include disable-card-interaction-motion;
+        }
+
+        &.sui-c-card--disable-motion {
+            transition-property: box-shadow;
+
+            @include disable-card-interaction-motion;
+        }
+    }
+
+    &:is(button) {
+        align-items: unset;
+        text-align: unset;
+    }
+
+    &:is(a) {
+        display: inherit;
+        text-decoration: none;
+    }
+}

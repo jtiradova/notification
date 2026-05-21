@@ -1,0 +1,61 @@
+@breakpoints {
+    .sui-r-gcs {
+        /* Keep this selector here to maintain the source order */
+    }
+    .sui-r-gcs-1 {
+        grid-column-start: 1;
+    }
+    .sui-r-gcs-2 {
+        grid-column-start: 2;
+    }
+    .sui-r-gcs-3 {
+        grid-column-start: 3;
+    }
+    .sui-r-gcs-4 {
+        grid-column-start: 4;
+    }
+    .sui-r-gcs-5 {
+        grid-column-start: 5;
+    }
+    .sui-r-gcs-6 {
+        grid-column-start: 6;
+    }
+    .sui-r-gcs-7 {
+        grid-column-start: 7;
+    }
+    .sui-r-gcs-8 {
+        grid-column-start: 8;
+    }
+    .sui-r-gcs-9 {
+        grid-column-start: 9;
+    }
+}
+
+.sui-r-gcs {
+    grid-column-start: var(--grid-column-start);
+}
+@media (--xs) {
+    .xs\:sui-r-gcs {
+        grid-column-start: var(--grid-column-start-xs);
+    }
+}
+@media (--sm) {
+    .sm\:sui-r-gcs {
+        grid-column-start: var(--grid-column-start-sm);
+    }
+}
+@media (--md) {
+    .md\:sui-r-gcs {
+        grid-column-start: var(--grid-column-start-md);
+    }
+}
+@media (--lg) {
+    .lg\:sui-r-gcs {
+        grid-column-start: var(--grid-column-start-lg);
+    }
+}
+@media (--xl) {
+    .xl\:sui-r-gcs {
+        grid-column-start: var(--grid-column-start-xl);
+    }
+}

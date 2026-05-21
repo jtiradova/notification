@@ -1,0 +1,106 @@
+.sui-c-alert {
+    --sui-component-alert-text-color: var(
+        --sui-component-alert-variant-info-text-color
+    );
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: var(--sui-space-1x) var(--sui-space-2x) var(--sui-space-1x)
+        var(--sui-space-1x);
+    border-radius: var(--sui-radius-md);
+    border-left: var(--sui-border-width-4px) var(--sui-border-style-solid)
+        var(--sui-component-alert-text-color);
+    gap: var(--sui-space-1x);
+    overflow-wrap: anywhere;
+    text-align: left;
+
+    &:where(.sui-c-alert--variant-positive) {
+        --sui-component-alert-text-color: var(
+            --sui-component-alert-variant-positive-text-color
+        );
+
+        background-color: var(
+            --sui-component-alert-variant-positive-background-color
+        );
+    }
+
+    &:where(.sui-c-alert--variant-warning) {
+        --sui-component-alert-text-color: var(
+            --sui-component-alert-variant-warning-text-color
+        );
+
+        background-color: var(
+            --sui-component-alert-variant-warning-background-color
+        );
+    }
+
+    &:where(.sui-c-alert--variant-critical) {
+        --sui-component-alert-text-color: var(
+            --sui-component-alert-variant-critical-text-color
+        );
+
+        background-color: var(
+            --sui-component-alert-variant-critical-background-color
+        );
+    }
+
+    &:where(.sui-c-alert--variant-info) {
+        --sui-component-alert-text-color: var(
+            --sui-component-alert-variant-info-text-color
+        );
+
+        background-color: var(
+            --sui-component-alert-variant-info-background-color
+        );
+    }
+
+    &:where(.sui-c-alert--loading) {
+        --sui-component-alert-text-color: var(
+            --sui-component-alert-variant-info-text-color
+        );
+
+        background-color: var(
+            --sui-component-alert-variant-info-background-color
+        );
+    }
+
+    &:where(.sui-c-alert--square-corners) {
+        border-radius: 0;
+    }
+}
+
+.sui-c-alert__icon-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sui-c-alert__icon {
+    color: var(--sui-component-alert-text-color);
+}
+
+.sui-c-alert__body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sui-space-0-5x);
+}
+
+.sui-c-alert__title {
+    display: inline-block;
+
+    + .sui-c-alert__description {
+        color: var(--sui-color-text-mid-contrast);
+    }
+}
+
+// If there's no title, the description should be high contrast
+.sui-c-alert__icon-wrapper + .sui-c-alert__description,
+.sui-c-alert__description:only-child {
+    color: var(--sui-color-text-high-contrast);
+}
+
+.sui-c-alert__close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

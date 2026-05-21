@@ -1,0 +1,17 @@
+@breakpoints {
+    .sui-r-va-baseline {
+        vertical-align: baseline;
+    }
+
+    .sui-r-va-top {
+        vertical-align: top;
+    }
+
+    .sui-r-va-middle {
+        vertical-align: middle;
+    }
+
+    .sui-r-va-bottom {
+        vertical-align: bottom;
+    }
+}

@@ -1,0 +1,27 @@
+.sui-c-multi-select__trigger-button--variant-filter {
+    &.sui-c-multi-select__trigger-button--selected {
+        border-color: color-mix(
+            in srgb,
+            var(--sui-color-background-surface-selected),
+            transparent var(--sui-component-button-opacity)
+        );
+        background-color: color-mix(
+            in srgb,
+            var(--sui-color-background-surface-selected),
+            transparent var(--sui-component-button-opacity)
+        );
+
+        &:focus-visible,
+        &[data-state="open"] {
+            outline-color: var(--sui-color-border-primary-focus);
+        }
+
+        &:hover {
+            background-color: color-mix(
+                in srgb,
+                var(--sui-color-base-purple-4),
+                transparent var(--sui-component-button-opacity)
+            );
+        }
+    }
+}

@@ -1,0 +1,21 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.light,
+.light-theme {
+    --sui-color-warning-1: var(--sui-color-yellow-1);
+    --sui-color-warning-2: var(--sui-color-yellow-2);
+    --sui-color-warning-3: var(--sui-color-yellow-3);
+    --sui-color-warning-4: var(--sui-color-yellow-4);
+    --sui-color-warning-5: var(--sui-color-yellow-5);
+    --sui-color-warning-6: var(--sui-color-yellow-6);
+    --sui-color-warning-7: var(--sui-color-yellow-7);
+    --sui-color-warning-8: var(--sui-color-yellow-8);
+    --sui-color-warning-9: var(--sui-color-yellow-9);
+    --sui-color-warning-10: var(--sui-color-yellow-10);
+    --sui-color-warning-11: var(--sui-color-yellow-11);
+    --sui-color-warning-12: var(--sui-color-yellow-12);
+}

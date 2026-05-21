@@ -1,0 +1,10 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.dark,
+.dark-theme {
+    --sui-shadow-1: 0 12px 30px 0 rgba(25, 25, 25, 0.4);
+}

@@ -1,0 +1,8 @@
+@breakpoints {
+    .sui-r-tl-auto {
+        table-layout: auto;
+    }
+    .sui-r-tl-fixed {
+        table-layout: fixed;
+    }
+}

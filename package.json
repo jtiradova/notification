@@ -1,6 +1,7 @@
 {
   "name": "notification",
   "private": true,
+  "packageManager": "pnpm@9.15.9",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +10,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "7.0.0",
+    "@fortawesome/sharp-light-svg-icons": "7.0.0",
     "@fortawesome/sharp-regular-svg-icons": "7.0.0",
     "@fortawesome/sharp-solid-svg-icons": "7.0.0",
     "@radix-ui/react-dropdown-menu": "2.0.6",

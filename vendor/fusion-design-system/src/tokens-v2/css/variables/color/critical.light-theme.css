@@ -1,0 +1,21 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.light,
+.light-theme {
+    --sui-color-critical-1: var(--sui-color-red-1);
+    --sui-color-critical-2: var(--sui-color-red-2);
+    --sui-color-critical-3: var(--sui-color-red-3);
+    --sui-color-critical-4: var(--sui-color-red-4);
+    --sui-color-critical-5: var(--sui-color-red-5);
+    --sui-color-critical-6: var(--sui-color-red-6);
+    --sui-color-critical-7: var(--sui-color-red-7);
+    --sui-color-critical-8: var(--sui-color-red-8);
+    --sui-color-critical-9: var(--sui-color-red-9);
+    --sui-color-critical-10: var(--sui-color-red-10);
+    --sui-color-critical-11: var(--sui-color-red-11);
+    --sui-color-critical-12: var(--sui-color-red-12);
+}

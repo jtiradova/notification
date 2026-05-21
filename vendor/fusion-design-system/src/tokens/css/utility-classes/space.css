@@ -1,0 +1,2699 @@
+/**
+ * This file was generated
+ * Do not edit directly
+ * See 'fusion-design-system/build-style-dictionary.js' for more info
+ */
+
+.sui-u-m-auto {
+    margin: auto !important;
+}
+
+.sui-u-mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.sui-u-my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.sui-u-mt-auto {
+    margin-top: auto !important;
+}
+
+.sui-u-mr-auto {
+    margin-right: auto !important;
+}
+
+.sui-u-mb-auto {
+    margin-bottom: auto !important;
+}
+
+.sui-u-ml-auto {
+    margin-left: auto !important;
+}
+
+.sui-u-m-0 {
+    margin: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-mx-0 {
+    margin-left: var(--sui-space-0, 0) !important;
+    margin-right: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-my-0 {
+    margin-top: var(--sui-space-0, 0) !important;
+    margin-bottom: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-mt-0 {
+    margin-top: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-mr-0 {
+    margin-right: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-mb-0 {
+    margin-bottom: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-ml-0 {
+    margin-left: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-p-0 {
+    padding: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-px-0 {
+    padding-left: var(--sui-space-0, 0) !important;
+    padding-right: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-py-0 {
+    padding-top: var(--sui-space-0, 0) !important;
+    padding-bottom: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-pt-0 {
+    padding-top: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-pr-0 {
+    padding-right: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-pb-0 {
+    padding-bottom: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-pl-0 {
+    padding-left: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-gap-0 {
+    gap: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-column-gap-0 {
+    column-gap: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-row-gap-0 {
+    row-gap: var(--sui-space-0, 0) !important;
+}
+
+.sui-u-m-0-25x {
+    margin: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-mx-0-25x {
+    margin-left: var(--sui-space-0-25x, 0.125rem) !important;
+    margin-right: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-my-0-25x {
+    margin-top: var(--sui-space-0-25x, 0.125rem) !important;
+    margin-bottom: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-mt-0-25x {
+    margin-top: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-mr-0-25x {
+    margin-right: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-mb-0-25x {
+    margin-bottom: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-ml-0-25x {
+    margin-left: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-p-0-25x {
+    padding: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-px-0-25x {
+    padding-left: var(--sui-space-0-25x, 0.125rem) !important;
+    padding-right: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-py-0-25x {
+    padding-top: var(--sui-space-0-25x, 0.125rem) !important;
+    padding-bottom: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-pt-0-25x {
+    padding-top: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-pr-0-25x {
+    padding-right: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-pb-0-25x {
+    padding-bottom: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-pl-0-25x {
+    padding-left: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-gap-0-25x {
+    gap: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-column-gap-0-25x {
+    column-gap: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-row-gap-0-25x {
+    row-gap: var(--sui-space-0-25x, 0.125rem) !important;
+}
+
+.sui-u-m-0-5x {
+    margin: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-mx-0-5x {
+    margin-left: var(--sui-space-0-5x, 0.25rem) !important;
+    margin-right: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-my-0-5x {
+    margin-top: var(--sui-space-0-5x, 0.25rem) !important;
+    margin-bottom: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-mt-0-5x {
+    margin-top: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-mr-0-5x {
+    margin-right: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-mb-0-5x {
+    margin-bottom: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-ml-0-5x {
+    margin-left: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-p-0-5x {
+    padding: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-px-0-5x {
+    padding-left: var(--sui-space-0-5x, 0.25rem) !important;
+    padding-right: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-py-0-5x {
+    padding-top: var(--sui-space-0-5x, 0.25rem) !important;
+    padding-bottom: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-pt-0-5x {
+    padding-top: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-pr-0-5x {
+    padding-right: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-pb-0-5x {
+    padding-bottom: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-pl-0-5x {
+    padding-left: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-gap-0-5x {
+    gap: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-column-gap-0-5x {
+    column-gap: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-row-gap-0-5x {
+    row-gap: var(--sui-space-0-5x, 0.25rem) !important;
+}
+
+.sui-u-m-0-75x {
+    margin: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-mx-0-75x {
+    margin-left: var(--sui-space-0-75x, 0.375rem) !important;
+    margin-right: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-my-0-75x {
+    margin-top: var(--sui-space-0-75x, 0.375rem) !important;
+    margin-bottom: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-mt-0-75x {
+    margin-top: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-mr-0-75x {
+    margin-right: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-mb-0-75x {
+    margin-bottom: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-ml-0-75x {
+    margin-left: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-p-0-75x {
+    padding: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-px-0-75x {
+    padding-left: var(--sui-space-0-75x, 0.375rem) !important;
+    padding-right: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-py-0-75x {
+    padding-top: var(--sui-space-0-75x, 0.375rem) !important;
+    padding-bottom: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-pt-0-75x {
+    padding-top: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-pr-0-75x {
+    padding-right: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-pb-0-75x {
+    padding-bottom: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-pl-0-75x {
+    padding-left: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-gap-0-75x {
+    gap: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-column-gap-0-75x {
+    column-gap: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-row-gap-0-75x {
+    row-gap: var(--sui-space-0-75x, 0.375rem) !important;
+}
+
+.sui-u-m-1x {
+    margin: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-mx-1x {
+    margin-left: var(--sui-space-1x, 0.5rem) !important;
+    margin-right: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-my-1x {
+    margin-top: var(--sui-space-1x, 0.5rem) !important;
+    margin-bottom: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-mt-1x {
+    margin-top: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-mr-1x {
+    margin-right: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-mb-1x {
+    margin-bottom: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-ml-1x {
+    margin-left: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-p-1x {
+    padding: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-px-1x {
+    padding-left: var(--sui-space-1x, 0.5rem) !important;
+    padding-right: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-py-1x {
+    padding-top: var(--sui-space-1x, 0.5rem) !important;
+    padding-bottom: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-pt-1x {
+    padding-top: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-pr-1x {
+    padding-right: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-pb-1x {
+    padding-bottom: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-pl-1x {
+    padding-left: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-gap-1x {
+    gap: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-column-gap-1x {
+    column-gap: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-row-gap-1x {
+    row-gap: var(--sui-space-1x, 0.5rem) !important;
+}
+
+.sui-u-m-1-25x {
+    margin: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-mx-1-25x {
+    margin-left: var(--sui-space-1-25x, 0.625rem) !important;
+    margin-right: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-my-1-25x {
+    margin-top: var(--sui-space-1-25x, 0.625rem) !important;
+    margin-bottom: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-mt-1-25x {
+    margin-top: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-mr-1-25x {
+    margin-right: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-mb-1-25x {
+    margin-bottom: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-ml-1-25x {
+    margin-left: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-p-1-25x {
+    padding: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-px-1-25x {
+    padding-left: var(--sui-space-1-25x, 0.625rem) !important;
+    padding-right: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-py-1-25x {
+    padding-top: var(--sui-space-1-25x, 0.625rem) !important;
+    padding-bottom: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-pt-1-25x {
+    padding-top: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-pr-1-25x {
+    padding-right: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-pb-1-25x {
+    padding-bottom: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-pl-1-25x {
+    padding-left: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-gap-1-25x {
+    gap: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-column-gap-1-25x {
+    column-gap: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-row-gap-1-25x {
+    row-gap: var(--sui-space-1-25x, 0.625rem) !important;
+}
+
+.sui-u-m-1-5x {
+    margin: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-mx-1-5x {
+    margin-left: var(--sui-space-1-5x, 0.75rem) !important;
+    margin-right: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-my-1-5x {
+    margin-top: var(--sui-space-1-5x, 0.75rem) !important;
+    margin-bottom: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-mt-1-5x {
+    margin-top: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-mr-1-5x {
+    margin-right: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-mb-1-5x {
+    margin-bottom: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-ml-1-5x {
+    margin-left: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-p-1-5x {
+    padding: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-px-1-5x {
+    padding-left: var(--sui-space-1-5x, 0.75rem) !important;
+    padding-right: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-py-1-5x {
+    padding-top: var(--sui-space-1-5x, 0.75rem) !important;
+    padding-bottom: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-pt-1-5x {
+    padding-top: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-pr-1-5x {
+    padding-right: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-pb-1-5x {
+    padding-bottom: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-pl-1-5x {
+    padding-left: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-gap-1-5x {
+    gap: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-column-gap-1-5x {
+    column-gap: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-row-gap-1-5x {
+    row-gap: var(--sui-space-1-5x, 0.75rem) !important;
+}
+
+.sui-u-m-2x {
+    margin: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-mx-2x {
+    margin-left: var(--sui-space-2x, 1rem) !important;
+    margin-right: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-my-2x {
+    margin-top: var(--sui-space-2x, 1rem) !important;
+    margin-bottom: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-mt-2x {
+    margin-top: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-mr-2x {
+    margin-right: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-mb-2x {
+    margin-bottom: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-ml-2x {
+    margin-left: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-p-2x {
+    padding: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-px-2x {
+    padding-left: var(--sui-space-2x, 1rem) !important;
+    padding-right: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-py-2x {
+    padding-top: var(--sui-space-2x, 1rem) !important;
+    padding-bottom: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-pt-2x {
+    padding-top: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-pr-2x {
+    padding-right: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-pb-2x {
+    padding-bottom: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-pl-2x {
+    padding-left: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-gap-2x {
+    gap: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-column-gap-2x {
+    column-gap: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-row-gap-2x {
+    row-gap: var(--sui-space-2x, 1rem) !important;
+}
+
+.sui-u-m-2-5x {
+    margin: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-mx-2-5x {
+    margin-left: var(--sui-space-2-5x, 1.25rem) !important;
+    margin-right: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-my-2-5x {
+    margin-top: var(--sui-space-2-5x, 1.25rem) !important;
+    margin-bottom: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-mt-2-5x {
+    margin-top: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-mr-2-5x {
+    margin-right: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-mb-2-5x {
+    margin-bottom: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-ml-2-5x {
+    margin-left: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-p-2-5x {
+    padding: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-px-2-5x {
+    padding-left: var(--sui-space-2-5x, 1.25rem) !important;
+    padding-right: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-py-2-5x {
+    padding-top: var(--sui-space-2-5x, 1.25rem) !important;
+    padding-bottom: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-pt-2-5x {
+    padding-top: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-pr-2-5x {
+    padding-right: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-pb-2-5x {
+    padding-bottom: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-pl-2-5x {
+    padding-left: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-gap-2-5x {
+    gap: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-column-gap-2-5x {
+    column-gap: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-row-gap-2-5x {
+    row-gap: var(--sui-space-2-5x, 1.25rem) !important;
+}
+
+.sui-u-m-3x {
+    margin: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-mx-3x {
+    margin-left: var(--sui-space-3x, 1.5rem) !important;
+    margin-right: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-my-3x {
+    margin-top: var(--sui-space-3x, 1.5rem) !important;
+    margin-bottom: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-mt-3x {
+    margin-top: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-mr-3x {
+    margin-right: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-mb-3x {
+    margin-bottom: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-ml-3x {
+    margin-left: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-p-3x {
+    padding: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-px-3x {
+    padding-left: var(--sui-space-3x, 1.5rem) !important;
+    padding-right: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-py-3x {
+    padding-top: var(--sui-space-3x, 1.5rem) !important;
+    padding-bottom: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-pt-3x {
+    padding-top: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-pr-3x {
+    padding-right: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-pb-3x {
+    padding-bottom: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-pl-3x {
+    padding-left: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-gap-3x {
+    gap: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-column-gap-3x {
+    column-gap: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-row-gap-3x {
+    row-gap: var(--sui-space-3x, 1.5rem) !important;
+}
+
+.sui-u-m-4x {
+    margin: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-mx-4x {
+    margin-left: var(--sui-space-4x, 2rem) !important;
+    margin-right: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-my-4x {
+    margin-top: var(--sui-space-4x, 2rem) !important;
+    margin-bottom: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-mt-4x {
+    margin-top: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-mr-4x {
+    margin-right: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-mb-4x {
+    margin-bottom: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-ml-4x {
+    margin-left: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-p-4x {
+    padding: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-px-4x {
+    padding-left: var(--sui-space-4x, 2rem) !important;
+    padding-right: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-py-4x {
+    padding-top: var(--sui-space-4x, 2rem) !important;
+    padding-bottom: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-pt-4x {
+    padding-top: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-pr-4x {
+    padding-right: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-pb-4x {
+    padding-bottom: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-pl-4x {
+    padding-left: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-gap-4x {
+    gap: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-column-gap-4x {
+    column-gap: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-row-gap-4x {
+    row-gap: var(--sui-space-4x, 2rem) !important;
+}
+
+.sui-u-m-5x {
+    margin: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-mx-5x {
+    margin-left: var(--sui-space-5x, 2.5rem) !important;
+    margin-right: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-my-5x {
+    margin-top: var(--sui-space-5x, 2.5rem) !important;
+    margin-bottom: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-mt-5x {
+    margin-top: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-mr-5x {
+    margin-right: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-mb-5x {
+    margin-bottom: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-ml-5x {
+    margin-left: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-p-5x {
+    padding: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-px-5x {
+    padding-left: var(--sui-space-5x, 2.5rem) !important;
+    padding-right: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-py-5x {
+    padding-top: var(--sui-space-5x, 2.5rem) !important;
+    padding-bottom: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-pt-5x {
+    padding-top: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-pr-5x {
+    padding-right: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-pb-5x {
+    padding-bottom: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-pl-5x {
+    padding-left: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-gap-5x {
+    gap: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-column-gap-5x {
+    column-gap: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-row-gap-5x {
+    row-gap: var(--sui-space-5x, 2.5rem) !important;
+}
+
+.sui-u-m-6x {
+    margin: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-mx-6x {
+    margin-left: var(--sui-space-6x, 3rem) !important;
+    margin-right: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-my-6x {
+    margin-top: var(--sui-space-6x, 3rem) !important;
+    margin-bottom: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-mt-6x {
+    margin-top: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-mr-6x {
+    margin-right: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-mb-6x {
+    margin-bottom: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-ml-6x {
+    margin-left: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-p-6x {
+    padding: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-px-6x {
+    padding-left: var(--sui-space-6x, 3rem) !important;
+    padding-right: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-py-6x {
+    padding-top: var(--sui-space-6x, 3rem) !important;
+    padding-bottom: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-pt-6x {
+    padding-top: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-pr-6x {
+    padding-right: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-pb-6x {
+    padding-bottom: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-pl-6x {
+    padding-left: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-gap-6x {
+    gap: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-column-gap-6x {
+    column-gap: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-row-gap-6x {
+    row-gap: var(--sui-space-6x, 3rem) !important;
+}
+
+.sui-u-m-7x {
+    margin: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-mx-7x {
+    margin-left: var(--sui-space-7x, 3.5rem) !important;
+    margin-right: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-my-7x {
+    margin-top: var(--sui-space-7x, 3.5rem) !important;
+    margin-bottom: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-mt-7x {
+    margin-top: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-mr-7x {
+    margin-right: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-mb-7x {
+    margin-bottom: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-ml-7x {
+    margin-left: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-p-7x {
+    padding: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-px-7x {
+    padding-left: var(--sui-space-7x, 3.5rem) !important;
+    padding-right: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-py-7x {
+    padding-top: var(--sui-space-7x, 3.5rem) !important;
+    padding-bottom: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-pt-7x {
+    padding-top: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-pr-7x {
+    padding-right: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-pb-7x {
+    padding-bottom: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-pl-7x {
+    padding-left: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-gap-7x {
+    gap: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-column-gap-7x {
+    column-gap: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-row-gap-7x {
+    row-gap: var(--sui-space-7x, 3.5rem) !important;
+}
+
+.sui-u-m-8x {
+    margin: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-mx-8x {
+    margin-left: var(--sui-space-8x, 4rem) !important;
+    margin-right: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-my-8x {
+    margin-top: var(--sui-space-8x, 4rem) !important;
+    margin-bottom: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-mt-8x {
+    margin-top: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-mr-8x {
+    margin-right: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-mb-8x {
+    margin-bottom: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-ml-8x {
+    margin-left: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-p-8x {
+    padding: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-px-8x {
+    padding-left: var(--sui-space-8x, 4rem) !important;
+    padding-right: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-py-8x {
+    padding-top: var(--sui-space-8x, 4rem) !important;
+    padding-bottom: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-pt-8x {
+    padding-top: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-pr-8x {
+    padding-right: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-pb-8x {
+    padding-bottom: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-pl-8x {
+    padding-left: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-gap-8x {
+    gap: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-column-gap-8x {
+    column-gap: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-row-gap-8x {
+    row-gap: var(--sui-space-8x, 4rem) !important;
+}
+
+.sui-u-m-9x {
+    margin: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-mx-9x {
+    margin-left: var(--sui-space-9x, 4.5rem) !important;
+    margin-right: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-my-9x {
+    margin-top: var(--sui-space-9x, 4.5rem) !important;
+    margin-bottom: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-mt-9x {
+    margin-top: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-mr-9x {
+    margin-right: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-mb-9x {
+    margin-bottom: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-ml-9x {
+    margin-left: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-p-9x {
+    padding: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-px-9x {
+    padding-left: var(--sui-space-9x, 4.5rem) !important;
+    padding-right: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-py-9x {
+    padding-top: var(--sui-space-9x, 4.5rem) !important;
+    padding-bottom: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-pt-9x {
+    padding-top: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-pr-9x {
+    padding-right: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-pb-9x {
+    padding-bottom: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-pl-9x {
+    padding-left: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-gap-9x {
+    gap: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-column-gap-9x {
+    column-gap: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-row-gap-9x {
+    row-gap: var(--sui-space-9x, 4.5rem) !important;
+}
+
+.sui-u-m-10x {
+    margin: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-mx-10x {
+    margin-left: var(--sui-space-10x, 5rem) !important;
+    margin-right: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-my-10x {
+    margin-top: var(--sui-space-10x, 5rem) !important;
+    margin-bottom: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-mt-10x {
+    margin-top: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-mr-10x {
+    margin-right: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-mb-10x {
+    margin-bottom: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-ml-10x {
+    margin-left: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-p-10x {
+    padding: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-px-10x {
+    padding-left: var(--sui-space-10x, 5rem) !important;
+    padding-right: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-py-10x {
+    padding-top: var(--sui-space-10x, 5rem) !important;
+    padding-bottom: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-pt-10x {
+    padding-top: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-pr-10x {
+    padding-right: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-pb-10x {
+    padding-bottom: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-pl-10x {
+    padding-left: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-gap-10x {
+    gap: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-column-gap-10x {
+    column-gap: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-row-gap-10x {
+    row-gap: var(--sui-space-10x, 5rem) !important;
+}
+
+.sui-u-m-11x {
+    margin: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-mx-11x {
+    margin-left: var(--sui-space-11x, 5.5rem) !important;
+    margin-right: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-my-11x {
+    margin-top: var(--sui-space-11x, 5.5rem) !important;
+    margin-bottom: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-mt-11x {
+    margin-top: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-mr-11x {
+    margin-right: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-mb-11x {
+    margin-bottom: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-ml-11x {
+    margin-left: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-p-11x {
+    padding: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-px-11x {
+    padding-left: var(--sui-space-11x, 5.5rem) !important;
+    padding-right: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-py-11x {
+    padding-top: var(--sui-space-11x, 5.5rem) !important;
+    padding-bottom: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-pt-11x {
+    padding-top: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-pr-11x {
+    padding-right: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-pb-11x {
+    padding-bottom: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-pl-11x {
+    padding-left: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-gap-11x {
+    gap: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-column-gap-11x {
+    column-gap: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-row-gap-11x {
+    row-gap: var(--sui-space-11x, 5.5rem) !important;
+}
+
+.sui-u-m-12x {
+    margin: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-mx-12x {
+    margin-left: var(--sui-space-12x, 6rem) !important;
+    margin-right: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-my-12x {
+    margin-top: var(--sui-space-12x, 6rem) !important;
+    margin-bottom: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-mt-12x {
+    margin-top: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-mr-12x {
+    margin-right: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-mb-12x {
+    margin-bottom: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-ml-12x {
+    margin-left: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-p-12x {
+    padding: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-px-12x {
+    padding-left: var(--sui-space-12x, 6rem) !important;
+    padding-right: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-py-12x {
+    padding-top: var(--sui-space-12x, 6rem) !important;
+    padding-bottom: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-pt-12x {
+    padding-top: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-pr-12x {
+    padding-right: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-pb-12x {
+    padding-bottom: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-pl-12x {
+    padding-left: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-gap-12x {
+    gap: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-column-gap-12x {
+    column-gap: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-row-gap-12x {
+    row-gap: var(--sui-space-12x, 6rem) !important;
+}
+
+.sui-u-m-negative-0-25x {
+    margin: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-mx-negative-0-25x {
+    margin-left: var(--sui-space-negative-0-25x, -0.125rem) !important;
+    margin-right: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-my-negative-0-25x {
+    margin-top: var(--sui-space-negative-0-25x, -0.125rem) !important;
+    margin-bottom: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-mt-negative-0-25x {
+    margin-top: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-mr-negative-0-25x {
+    margin-right: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-mb-negative-0-25x {
+    margin-bottom: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-ml-negative-0-25x {
+    margin-left: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-p-negative-0-25x {
+    padding: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-px-negative-0-25x {
+    padding-left: var(--sui-space-negative-0-25x, -0.125rem) !important;
+    padding-right: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-py-negative-0-25x {
+    padding-top: var(--sui-space-negative-0-25x, -0.125rem) !important;
+    padding-bottom: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-pt-negative-0-25x {
+    padding-top: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-pr-negative-0-25x {
+    padding-right: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-pb-negative-0-25x {
+    padding-bottom: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-pl-negative-0-25x {
+    padding-left: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-gap-negative-0-25x {
+    gap: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-column-gap-negative-0-25x {
+    column-gap: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-row-gap-negative-0-25x {
+    row-gap: var(--sui-space-negative-0-25x, -0.125rem) !important;
+}
+
+.sui-u-m-negative-0-5x {
+    margin: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-mx-negative-0-5x {
+    margin-left: var(--sui-space-negative-0-5x, -0.25rem) !important;
+    margin-right: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-my-negative-0-5x {
+    margin-top: var(--sui-space-negative-0-5x, -0.25rem) !important;
+    margin-bottom: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-mt-negative-0-5x {
+    margin-top: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-mr-negative-0-5x {
+    margin-right: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-mb-negative-0-5x {
+    margin-bottom: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-ml-negative-0-5x {
+    margin-left: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-p-negative-0-5x {
+    padding: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-px-negative-0-5x {
+    padding-left: var(--sui-space-negative-0-5x, -0.25rem) !important;
+    padding-right: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-py-negative-0-5x {
+    padding-top: var(--sui-space-negative-0-5x, -0.25rem) !important;
+    padding-bottom: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-pt-negative-0-5x {
+    padding-top: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-pr-negative-0-5x {
+    padding-right: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-pb-negative-0-5x {
+    padding-bottom: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-pl-negative-0-5x {
+    padding-left: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-gap-negative-0-5x {
+    gap: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-column-gap-negative-0-5x {
+    column-gap: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-row-gap-negative-0-5x {
+    row-gap: var(--sui-space-negative-0-5x, -0.25rem) !important;
+}
+
+.sui-u-m-negative-0-75x {
+    margin: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-mx-negative-0-75x {
+    margin-left: var(--sui-space-negative-0-75x, -0.375rem) !important;
+    margin-right: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-my-negative-0-75x {
+    margin-top: var(--sui-space-negative-0-75x, -0.375rem) !important;
+    margin-bottom: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-mt-negative-0-75x {
+    margin-top: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-mr-negative-0-75x {
+    margin-right: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-mb-negative-0-75x {
+    margin-bottom: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-ml-negative-0-75x {
+    margin-left: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-p-negative-0-75x {
+    padding: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-px-negative-0-75x {
+    padding-left: var(--sui-space-negative-0-75x, -0.375rem) !important;
+    padding-right: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-py-negative-0-75x {
+    padding-top: var(--sui-space-negative-0-75x, -0.375rem) !important;
+    padding-bottom: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-pt-negative-0-75x {
+    padding-top: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-pr-negative-0-75x {
+    padding-right: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-pb-negative-0-75x {
+    padding-bottom: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-pl-negative-0-75x {
+    padding-left: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-gap-negative-0-75x {
+    gap: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-column-gap-negative-0-75x {
+    column-gap: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-row-gap-negative-0-75x {
+    row-gap: var(--sui-space-negative-0-75x, -0.375rem) !important;
+}
+
+.sui-u-m-negative-1x {
+    margin: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-mx-negative-1x {
+    margin-left: var(--sui-space-negative-1x, -0.5rem) !important;
+    margin-right: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-my-negative-1x {
+    margin-top: var(--sui-space-negative-1x, -0.5rem) !important;
+    margin-bottom: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-mt-negative-1x {
+    margin-top: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-mr-negative-1x {
+    margin-right: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-mb-negative-1x {
+    margin-bottom: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-ml-negative-1x {
+    margin-left: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-p-negative-1x {
+    padding: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-px-negative-1x {
+    padding-left: var(--sui-space-negative-1x, -0.5rem) !important;
+    padding-right: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-py-negative-1x {
+    padding-top: var(--sui-space-negative-1x, -0.5rem) !important;
+    padding-bottom: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-pt-negative-1x {
+    padding-top: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-pr-negative-1x {
+    padding-right: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-pb-negative-1x {
+    padding-bottom: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-pl-negative-1x {
+    padding-left: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-gap-negative-1x {
+    gap: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-column-gap-negative-1x {
+    column-gap: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-row-gap-negative-1x {
+    row-gap: var(--sui-space-negative-1x, -0.5rem) !important;
+}
+
+.sui-u-m-negative-1-25x {
+    margin: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-mx-negative-1-25x {
+    margin-left: var(--sui-space-negative-1-25x, -0.625rem) !important;
+    margin-right: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-my-negative-1-25x {
+    margin-top: var(--sui-space-negative-1-25x, -0.625rem) !important;
+    margin-bottom: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-mt-negative-1-25x {
+    margin-top: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-mr-negative-1-25x {
+    margin-right: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-mb-negative-1-25x {
+    margin-bottom: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-ml-negative-1-25x {
+    margin-left: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-p-negative-1-25x {
+    padding: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-px-negative-1-25x {
+    padding-left: var(--sui-space-negative-1-25x, -0.625rem) !important;
+    padding-right: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-py-negative-1-25x {
+    padding-top: var(--sui-space-negative-1-25x, -0.625rem) !important;
+    padding-bottom: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-pt-negative-1-25x {
+    padding-top: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-pr-negative-1-25x {
+    padding-right: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-pb-negative-1-25x {
+    padding-bottom: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-pl-negative-1-25x {
+    padding-left: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-gap-negative-1-25x {
+    gap: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-column-gap-negative-1-25x {
+    column-gap: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-row-gap-negative-1-25x {
+    row-gap: var(--sui-space-negative-1-25x, -0.625rem) !important;
+}
+
+.sui-u-m-negative-1-5x {
+    margin: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-mx-negative-1-5x {
+    margin-left: var(--sui-space-negative-1-5x, -0.75rem) !important;
+    margin-right: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-my-negative-1-5x {
+    margin-top: var(--sui-space-negative-1-5x, -0.75rem) !important;
+    margin-bottom: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-mt-negative-1-5x {
+    margin-top: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-mr-negative-1-5x {
+    margin-right: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-mb-negative-1-5x {
+    margin-bottom: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-ml-negative-1-5x {
+    margin-left: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-p-negative-1-5x {
+    padding: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-px-negative-1-5x {
+    padding-left: var(--sui-space-negative-1-5x, -0.75rem) !important;
+    padding-right: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-py-negative-1-5x {
+    padding-top: var(--sui-space-negative-1-5x, -0.75rem) !important;
+    padding-bottom: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-pt-negative-1-5x {
+    padding-top: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-pr-negative-1-5x {
+    padding-right: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-pb-negative-1-5x {
+    padding-bottom: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-pl-negative-1-5x {
+    padding-left: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-gap-negative-1-5x {
+    gap: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-column-gap-negative-1-5x {
+    column-gap: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-row-gap-negative-1-5x {
+    row-gap: var(--sui-space-negative-1-5x, -0.75rem) !important;
+}
+
+.sui-u-m-negative-2x {
+    margin: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-mx-negative-2x {
+    margin-left: var(--sui-space-negative-2x, -1rem) !important;
+    margin-right: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-my-negative-2x {
+    margin-top: var(--sui-space-negative-2x, -1rem) !important;
+    margin-bottom: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-mt-negative-2x {
+    margin-top: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-mr-negative-2x {
+    margin-right: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-mb-negative-2x {
+    margin-bottom: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-ml-negative-2x {
+    margin-left: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-p-negative-2x {
+    padding: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-px-negative-2x {
+    padding-left: var(--sui-space-negative-2x, -1rem) !important;
+    padding-right: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-py-negative-2x {
+    padding-top: var(--sui-space-negative-2x, -1rem) !important;
+    padding-bottom: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-pt-negative-2x {
+    padding-top: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-pr-negative-2x {
+    padding-right: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-pb-negative-2x {
+    padding-bottom: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-pl-negative-2x {
+    padding-left: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-gap-negative-2x {
+    gap: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-column-gap-negative-2x {
+    column-gap: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-row-gap-negative-2x {
+    row-gap: var(--sui-space-negative-2x, -1rem) !important;
+}
+
+.sui-u-m-negative-2-5x {
+    margin: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-mx-negative-2-5x {
+    margin-left: var(--sui-space-negative-2-5x, -1.25rem) !important;
+    margin-right: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-my-negative-2-5x {
+    margin-top: var(--sui-space-negative-2-5x, -1.25rem) !important;
+    margin-bottom: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-mt-negative-2-5x {
+    margin-top: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-mr-negative-2-5x {
+    margin-right: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-mb-negative-2-5x {
+    margin-bottom: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-ml-negative-2-5x {
+    margin-left: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-p-negative-2-5x {
+    padding: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-px-negative-2-5x {
+    padding-left: var(--sui-space-negative-2-5x, -1.25rem) !important;
+    padding-right: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-py-negative-2-5x {
+    padding-top: var(--sui-space-negative-2-5x, -1.25rem) !important;
+    padding-bottom: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-pt-negative-2-5x {
+    padding-top: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-pr-negative-2-5x {
+    padding-right: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-pb-negative-2-5x {
+    padding-bottom: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-pl-negative-2-5x {
+    padding-left: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-gap-negative-2-5x {
+    gap: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-column-gap-negative-2-5x {
+    column-gap: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-row-gap-negative-2-5x {
+    row-gap: var(--sui-space-negative-2-5x, -1.25rem) !important;
+}
+
+.sui-u-m-negative-3x {
+    margin: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-mx-negative-3x {
+    margin-left: var(--sui-space-negative-3x, -1.5rem) !important;
+    margin-right: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-my-negative-3x {
+    margin-top: var(--sui-space-negative-3x, -1.5rem) !important;
+    margin-bottom: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-mt-negative-3x {
+    margin-top: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-mr-negative-3x {
+    margin-right: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-mb-negative-3x {
+    margin-bottom: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-ml-negative-3x {
+    margin-left: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-p-negative-3x {
+    padding: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-px-negative-3x {
+    padding-left: var(--sui-space-negative-3x, -1.5rem) !important;
+    padding-right: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-py-negative-3x {
+    padding-top: var(--sui-space-negative-3x, -1.5rem) !important;
+    padding-bottom: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-pt-negative-3x {
+    padding-top: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-pr-negative-3x {
+    padding-right: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-pb-negative-3x {
+    padding-bottom: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-pl-negative-3x {
+    padding-left: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-gap-negative-3x {
+    gap: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-column-gap-negative-3x {
+    column-gap: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-row-gap-negative-3x {
+    row-gap: var(--sui-space-negative-3x, -1.5rem) !important;
+}
+
+.sui-u-m-negative-4x {
+    margin: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-mx-negative-4x {
+    margin-left: var(--sui-space-negative-4x, -2rem) !important;
+    margin-right: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-my-negative-4x {
+    margin-top: var(--sui-space-negative-4x, -2rem) !important;
+    margin-bottom: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-mt-negative-4x {
+    margin-top: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-mr-negative-4x {
+    margin-right: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-mb-negative-4x {
+    margin-bottom: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-ml-negative-4x {
+    margin-left: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-p-negative-4x {
+    padding: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-px-negative-4x {
+    padding-left: var(--sui-space-negative-4x, -2rem) !important;
+    padding-right: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-py-negative-4x {
+    padding-top: var(--sui-space-negative-4x, -2rem) !important;
+    padding-bottom: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-pt-negative-4x {
+    padding-top: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-pr-negative-4x {
+    padding-right: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-pb-negative-4x {
+    padding-bottom: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-pl-negative-4x {
+    padding-left: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-gap-negative-4x {
+    gap: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-column-gap-negative-4x {
+    column-gap: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-row-gap-negative-4x {
+    row-gap: var(--sui-space-negative-4x, -2rem) !important;
+}
+
+.sui-u-m-negative-5x {
+    margin: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-mx-negative-5x {
+    margin-left: var(--sui-space-negative-5x, -2.5rem) !important;
+    margin-right: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-my-negative-5x {
+    margin-top: var(--sui-space-negative-5x, -2.5rem) !important;
+    margin-bottom: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-mt-negative-5x {
+    margin-top: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-mr-negative-5x {
+    margin-right: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-mb-negative-5x {
+    margin-bottom: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-ml-negative-5x {
+    margin-left: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-p-negative-5x {
+    padding: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-px-negative-5x {
+    padding-left: var(--sui-space-negative-5x, -2.5rem) !important;
+    padding-right: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-py-negative-5x {
+    padding-top: var(--sui-space-negative-5x, -2.5rem) !important;
+    padding-bottom: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-pt-negative-5x {
+    padding-top: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-pr-negative-5x {
+    padding-right: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-pb-negative-5x {
+    padding-bottom: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-pl-negative-5x {
+    padding-left: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-gap-negative-5x {
+    gap: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-column-gap-negative-5x {
+    column-gap: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-row-gap-negative-5x {
+    row-gap: var(--sui-space-negative-5x, -2.5rem) !important;
+}
+
+.sui-u-m-negative-6x {
+    margin: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-mx-negative-6x {
+    margin-left: var(--sui-space-negative-6x, -3rem) !important;
+    margin-right: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-my-negative-6x {
+    margin-top: var(--sui-space-negative-6x, -3rem) !important;
+    margin-bottom: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-mt-negative-6x {
+    margin-top: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-mr-negative-6x {
+    margin-right: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-mb-negative-6x {
+    margin-bottom: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-ml-negative-6x {
+    margin-left: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-p-negative-6x {
+    padding: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-px-negative-6x {
+    padding-left: var(--sui-space-negative-6x, -3rem) !important;
+    padding-right: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-py-negative-6x {
+    padding-top: var(--sui-space-negative-6x, -3rem) !important;
+    padding-bottom: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-pt-negative-6x {
+    padding-top: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-pr-negative-6x {
+    padding-right: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-pb-negative-6x {
+    padding-bottom: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-pl-negative-6x {
+    padding-left: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-gap-negative-6x {
+    gap: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-column-gap-negative-6x {
+    column-gap: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-row-gap-negative-6x {
+    row-gap: var(--sui-space-negative-6x, -3rem) !important;
+}
+
+.sui-u-m-negative-7x {
+    margin: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-mx-negative-7x {
+    margin-left: var(--sui-space-negative-7x, -3.5rem) !important;
+    margin-right: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-my-negative-7x {
+    margin-top: var(--sui-space-negative-7x, -3.5rem) !important;
+    margin-bottom: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-mt-negative-7x {
+    margin-top: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-mr-negative-7x {
+    margin-right: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-mb-negative-7x {
+    margin-bottom: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-ml-negative-7x {
+    margin-left: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-p-negative-7x {
+    padding: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-px-negative-7x {
+    padding-left: var(--sui-space-negative-7x, -3.5rem) !important;
+    padding-right: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-py-negative-7x {
+    padding-top: var(--sui-space-negative-7x, -3.5rem) !important;
+    padding-bottom: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-pt-negative-7x {
+    padding-top: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-pr-negative-7x {
+    padding-right: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-pb-negative-7x {
+    padding-bottom: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-pl-negative-7x {
+    padding-left: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-gap-negative-7x {
+    gap: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-column-gap-negative-7x {
+    column-gap: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-row-gap-negative-7x {
+    row-gap: var(--sui-space-negative-7x, -3.5rem) !important;
+}
+
+.sui-u-m-negative-8x {
+    margin: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-mx-negative-8x {
+    margin-left: var(--sui-space-negative-8x, -4rem) !important;
+    margin-right: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-my-negative-8x {
+    margin-top: var(--sui-space-negative-8x, -4rem) !important;
+    margin-bottom: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-mt-negative-8x {
+    margin-top: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-mr-negative-8x {
+    margin-right: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-mb-negative-8x {
+    margin-bottom: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-ml-negative-8x {
+    margin-left: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-p-negative-8x {
+    padding: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-px-negative-8x {
+    padding-left: var(--sui-space-negative-8x, -4rem) !important;
+    padding-right: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-py-negative-8x {
+    padding-top: var(--sui-space-negative-8x, -4rem) !important;
+    padding-bottom: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-pt-negative-8x {
+    padding-top: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-pr-negative-8x {
+    padding-right: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-pb-negative-8x {
+    padding-bottom: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-pl-negative-8x {
+    padding-left: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-gap-negative-8x {
+    gap: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-column-gap-negative-8x {
+    column-gap: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-row-gap-negative-8x {
+    row-gap: var(--sui-space-negative-8x, -4rem) !important;
+}
+
+.sui-u-m-negative-9x {
+    margin: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-mx-negative-9x {
+    margin-left: var(--sui-space-negative-9x, -4.5rem) !important;
+    margin-right: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-my-negative-9x {
+    margin-top: var(--sui-space-negative-9x, -4.5rem) !important;
+    margin-bottom: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-mt-negative-9x {
+    margin-top: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-mr-negative-9x {
+    margin-right: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-mb-negative-9x {
+    margin-bottom: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-ml-negative-9x {
+    margin-left: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-p-negative-9x {
+    padding: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-px-negative-9x {
+    padding-left: var(--sui-space-negative-9x, -4.5rem) !important;
+    padding-right: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-py-negative-9x {
+    padding-top: var(--sui-space-negative-9x, -4.5rem) !important;
+    padding-bottom: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-pt-negative-9x {
+    padding-top: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-pr-negative-9x {
+    padding-right: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-pb-negative-9x {
+    padding-bottom: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-pl-negative-9x {
+    padding-left: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-gap-negative-9x {
+    gap: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-column-gap-negative-9x {
+    column-gap: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-row-gap-negative-9x {
+    row-gap: var(--sui-space-negative-9x, -4.5rem) !important;
+}
+
+.sui-u-m-negative-10x {
+    margin: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-mx-negative-10x {
+    margin-left: var(--sui-space-negative-10x, -5rem) !important;
+    margin-right: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-my-negative-10x {
+    margin-top: var(--sui-space-negative-10x, -5rem) !important;
+    margin-bottom: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-mt-negative-10x {
+    margin-top: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-mr-negative-10x {
+    margin-right: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-mb-negative-10x {
+    margin-bottom: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-ml-negative-10x {
+    margin-left: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-p-negative-10x {
+    padding: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-px-negative-10x {
+    padding-left: var(--sui-space-negative-10x, -5rem) !important;
+    padding-right: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-py-negative-10x {
+    padding-top: var(--sui-space-negative-10x, -5rem) !important;
+    padding-bottom: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-pt-negative-10x {
+    padding-top: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-pr-negative-10x {
+    padding-right: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-pb-negative-10x {
+    padding-bottom: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-pl-negative-10x {
+    padding-left: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-gap-negative-10x {
+    gap: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-column-gap-negative-10x {
+    column-gap: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-row-gap-negative-10x {
+    row-gap: var(--sui-space-negative-10x, -5rem) !important;
+}
+
+.sui-u-m-negative-11x {
+    margin: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-mx-negative-11x {
+    margin-left: var(--sui-space-negative-11x, -5.5rem) !important;
+    margin-right: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-my-negative-11x {
+    margin-top: var(--sui-space-negative-11x, -5.5rem) !important;
+    margin-bottom: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-mt-negative-11x {
+    margin-top: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-mr-negative-11x {
+    margin-right: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-mb-negative-11x {
+    margin-bottom: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-ml-negative-11x {
+    margin-left: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-p-negative-11x {
+    padding: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-px-negative-11x {
+    padding-left: var(--sui-space-negative-11x, -5.5rem) !important;
+    padding-right: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-py-negative-11x {
+    padding-top: var(--sui-space-negative-11x, -5.5rem) !important;
+    padding-bottom: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-pt-negative-11x {
+    padding-top: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-pr-negative-11x {
+    padding-right: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-pb-negative-11x {
+    padding-bottom: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-pl-negative-11x {
+    padding-left: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-gap-negative-11x {
+    gap: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-column-gap-negative-11x {
+    column-gap: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-row-gap-negative-11x {
+    row-gap: var(--sui-space-negative-11x, -5.5rem) !important;
+}
+
+.sui-u-m-negative-12x {
+    margin: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-mx-negative-12x {
+    margin-left: var(--sui-space-negative-12x, -6rem) !important;
+    margin-right: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-my-negative-12x {
+    margin-top: var(--sui-space-negative-12x, -6rem) !important;
+    margin-bottom: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-mt-negative-12x {
+    margin-top: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-mr-negative-12x {
+    margin-right: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-mb-negative-12x {
+    margin-bottom: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-ml-negative-12x {
+    margin-left: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-p-negative-12x {
+    padding: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-px-negative-12x {
+    padding-left: var(--sui-space-negative-12x, -6rem) !important;
+    padding-right: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-py-negative-12x {
+    padding-top: var(--sui-space-negative-12x, -6rem) !important;
+    padding-bottom: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-pt-negative-12x {
+    padding-top: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-pr-negative-12x {
+    padding-right: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-pb-negative-12x {
+    padding-bottom: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-pl-negative-12x {
+    padding-left: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-gap-negative-12x {
+    gap: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-column-gap-negative-12x {
+    column-gap: var(--sui-space-negative-12x, -6rem) !important;
+}
+
+.sui-u-row-gap-negative-12x {
+    row-gap: var(--sui-space-negative-12x, -6rem) !important;
+}

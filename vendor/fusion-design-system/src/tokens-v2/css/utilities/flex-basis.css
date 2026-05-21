@@ -1,0 +1,71 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*           flex-basis            */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-flex-basis {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-flex-basis-xs {
+        flex-basis: var(--sui-size-xs, 0.25rem);
+    }
+
+    .sui-r-flex-basis-sm {
+        flex-basis: var(--sui-size-sm, 0.5rem);
+    }
+
+    .sui-r-flex-basis-md {
+        flex-basis: var(--sui-size-md, 1rem);
+    }
+
+    .sui-r-flex-basis-lg {
+        flex-basis: var(--sui-size-lg, 1.5rem);
+    }
+
+    .sui-r-flex-basis-xl {
+        flex-basis: var(--sui-size-xl, 2rem);
+    }
+}
+
+.sui-r-flex-basis {
+    flex-basis: var(--sui-flex-basis);
+}
+
+@media (--xs) {
+    .xs\:sui-r-flex-basis {
+        flex-basis: var(--sui-flex-basis-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-flex-basis {
+        flex-basis: var(--sui-flex-basis-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-flex-basis {
+        flex-basis: var(--sui-flex-basis-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-flex-basis {
+        flex-basis: var(--sui-flex-basis-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-flex-basis {
+        flex-basis: var(--sui-flex-basis-xl);
+    }
+}

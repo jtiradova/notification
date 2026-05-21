@@ -1,0 +1,32 @@
+@breakpoints {
+    .sui-r-lt-normal::before,
+    .sui-r-lt-end::before,
+    .sui-r-lt-normal::after,
+    .sui-r-lt-start::after {
+        content: none;
+    }
+
+    .sui-r-lt-start::before,
+    .sui-r-lt-both::before,
+    .sui-r-lt-end::after,
+    .sui-r-lt-both::after {
+        content: "";
+        display: table;
+    }
+
+    .sui-r-lt-start::before,
+    .sui-r-lt-both::before {
+        margin-bottom: calc(
+            var(--leading-trim-start, var(--default-leading-trim-start)) -
+                var(--line-height, calc(1em * var(--default-line-height))) / 2
+        );
+    }
+
+    .sui-r-lt-end::after,
+    .sui-r-lt-both::after {
+        margin-top: calc(
+            var(--leading-trim-end, var(--default-leading-trim-end)) -
+                var(--line-height, calc(1em * var(--default-line-height))) / 2
+        );
+    }
+}

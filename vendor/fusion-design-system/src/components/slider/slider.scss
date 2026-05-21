@@ -1,0 +1,130 @@
+:root {
+    --sui-c-slider-track-size: var(--sui-space-1-25x);
+}
+
+.sui-c-slider--variant-solid-brand {
+    --sui-color-slider-thumb: var(--sui-color-brand-10);
+    --sui-color-slider-thumb-border: unset;
+    --sui-color-slider-focus: var(--sui-color-border-input-focus);
+    --sui-color-slider-track: var(--sui-color-border-subtle);
+    --sui-color-slider-bar: var(--sui-color-brand-8);
+}
+
+.sui-c-slider--variant-outline-brand {
+    --sui-color-slider-thumb: var(--sui-color-neutral-1);
+    --sui-color-slider-thumb-border: 2px solid var(--sui-color-brand-8);
+    --sui-color-slider-focus: var(--sui-color-border-input-focus);
+    --sui-color-slider-track: var(--sui-color-border-subtle);
+    --sui-color-slider-bar: var(--sui-color-neutral-7);
+}
+
+.sui-c-slider__root {
+    position: relative;
+    display: flex;
+    min-width: var(--sui-size-20x);
+    height: var(--sui-size-3x);
+    align-items: center;
+    margin-bottom: var(--sui-c-space-1x);
+    touch-action: none;
+    user-select: none;
+
+    --sui-component-slider-opacity: 0%;
+
+    &[data-disabled] {
+        // This is used to mix with the component colors and
+        // indicate it's disabled
+        --sui-component-slider-opacity: 60%;
+    }
+}
+
+.sui-c-slider__track {
+    position: relative;
+    height: var(--sui-c-slider-track-size);
+    flex-grow: 1;
+    border-radius: var(--sui-radius-lg);
+    background-color: color-mix(
+        in srgb,
+        var(--sui-color-slider-track),
+        var(--sui-color-background-app) var(--sui-component-slider-opacity)
+    );
+}
+
+.sui-c-slider__markers {
+    position: absolute;
+
+    // Remove 2px to leave 1 px border for any marker at the edges
+    width: calc(100% - 2px);
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sui-c-slider__marker {
+    position: absolute;
+    top: 1px;
+
+    // Remove 2px to leave 1 px border on top/bottom of the marker
+    width: calc(var(--sui-c-slider-track-size) - 2px);
+    height: calc(var(--sui-c-slider-track-size) - 2px);
+    border-radius: var(--sui-radius-round);
+    background-color: var(--sui-color-background-app);
+    pointer-events: none;
+}
+
+.sui-c-slider__range {
+    position: absolute;
+    height: 100%;
+    border-radius: var(--sui-radius-lg) 0 0 var(--sui-radius-lg);
+    background-color: color-mix(
+        in srgb,
+        var(--sui-color-slider-bar),
+        var(--sui-color-background-app) var(--sui-component-slider-opacity)
+    );
+}
+
+.sui-c-slider__thumb {
+    display: block;
+    width: var(--sui-space-2x);
+    height: var(--sui-space-2x);
+    border: var(--sui-color-slider-thumb-border);
+    border-radius: var(--sui-radius-round);
+    background-color: color-mix(
+        in srgb,
+        var(--sui-color-slider-thumb),
+        var(--sui-color-background-app) var(--sui-component-slider-opacity)
+    );
+    transform: translateX(1px);
+    transition:
+        box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+    // Add hover and focus shine effect when its not disabled
+    &:not([data-disabled]) {
+        &:hover {
+            box-shadow: 0 0 0 2px var(--sui-color-slider-focus);
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 3px var(--sui-color-slider-focus);
+            outline: none;
+        }
+    }
+}
+
+.sui-c-slider__labels {
+    position: relative;
+    width: 100%;
+    height: var(--sui-space-2x);
+}
+
+.sui-c-slider__label {
+    position: absolute;
+    display: block;
+    color: var(--sui-color-text-mid-contrast);
+    cursor: pointer;
+    touch-action: none;
+    user-select: none;
+
+    &:is([data-disabled="true"]) {
+        color: var(--sui-color-text-low-contrast);
+    }
+}

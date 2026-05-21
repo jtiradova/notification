@@ -1,0 +1,21 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.dark,
+.dark-theme {
+    --sui-color-border-primary: var(--sui-color-neutral-10);
+    --sui-color-border-primary-hover: var(--sui-color-neutral-9);
+    --sui-color-border-secondary: var(--sui-color-neutral-8);
+    --sui-color-border-disabled: var(--sui-color-neutral-5);
+    --sui-color-border-selected: var(--sui-color-brand-10);
+    --sui-color-border-selected-disabled: var(--sui-color-brand-7);
+    --sui-color-border-focus: var(--sui-color-info-10);
+    --sui-color-border-brand: var(--sui-color-brand-9);
+    --sui-color-border-info: var(--sui-color-info-9);
+    --sui-color-border-positive: var(--sui-color-positive-9);
+    --sui-color-border-warning: var(--sui-color-warning-9);
+    --sui-color-border-critical: var(--sui-color-critical-9);
+}

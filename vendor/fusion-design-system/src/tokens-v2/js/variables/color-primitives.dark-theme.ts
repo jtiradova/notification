@@ -1,0 +1,59 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+export const ColorBgSurface1DarkTheme = "#141414";
+export const ColorBgSurface2DarkTheme = "#1b1b1b";
+export const ColorBgSurface3DarkTheme = "#222222";
+export const ColorBgSurfaceHoverDarkTheme = "#2a2a2a";
+export const ColorBgSurfaceFocusDarkTheme = "#0e305d";
+export const ColorBgSurfaceSelectedDarkTheme = "#2d044d";
+export const ColorBgSurfaceSelectedHoverDarkTheme = "#320259";
+export const ColorBgSurfaceDisabledDarkTheme = "#2a2a2a";
+export const ColorBgSurfaceInfoDarkTheme = "#0e305d";
+export const ColorBgSurfacePositiveDarkTheme = "#103800";
+export const ColorBgSurfaceWarningDarkTheme = "#372902";
+export const ColorBgSurfaceCriticalDarkTheme = "#500b0d";
+export const ColorBgSurfaceBrandDarkTheme = "#2d044d";
+export const ColorBgSurfaceInverseDarkTheme = "#f2f2f2";
+export const ColorBgFillNeutralDarkTheme = "#141414";
+export const ColorBgFillUnselectedEnabledDarkTheme = "#707070";
+export const ColorBgFillUnselectedDisabledDarkTheme = "#3d3d3d";
+export const ColorBgFillSelectedEnabledDarkTheme = "#bf70ff";
+export const ColorBgFillSelectedDisabledDarkTheme = "#7b00e0";
+export const ColorBgOverlayDarkTheme = "#4c4c4c";
+export const ColorBorderPrimaryDarkTheme = "#898989";
+export const ColorBorderPrimaryHoverDarkTheme = "#707070";
+export const ColorBorderSecondaryDarkTheme = "#4b4b4b";
+export const ColorBorderDisabledDarkTheme = "#2e2e2e";
+export const ColorBorderSelectedDarkTheme = "#bf70ff";
+export const ColorBorderSelectedDisabledDarkTheme = "#7b00e0";
+export const ColorBorderFocusDarkTheme = "#33a1e0";
+export const ColorBorderBrandDarkTheme = "#b152ff";
+export const ColorBorderInfoDarkTheme = "#33a1e0";
+export const ColorBorderPositiveDarkTheme = "#65b200";
+export const ColorBorderWarningDarkTheme = "#c79500";
+export const ColorBorderCriticalDarkTheme = "#f33220";
+export const ColorIconPrimaryDarkTheme = "#f2f2f2";
+export const ColorIconSecondaryDarkTheme = "#898989";
+export const ColorIconLabelDarkTheme = "#b8b8b8";
+export const ColorIconDisabledDarkTheme = "#707070";
+export const ColorIconInfoDarkTheme = "#33a1e0";
+export const ColorIconPositiveDarkTheme = "#71c700";
+export const ColorIconWarningDarkTheme = "#d19d00";
+export const ColorIconCriticalDarkTheme = "#ff4938";
+export const ColorIconInverseDarkTheme = "#141414";
+export const ColorTextPrimaryDarkTheme = "#f2f2f2";
+export const ColorTextSecondaryDarkTheme = "#898989";
+export const ColorTextLabelDarkTheme = "#b8b8b8";
+export const ColorTextDisabledDarkTheme = "#707070";
+export const ColorTextInfoDarkTheme = "#33a1e0";
+export const ColorTextPositiveDarkTheme = "#71c700";
+export const ColorTextWarningDarkTheme = "#d19d00";
+export const ColorTextCriticalDarkTheme = "#ff4938";
+export const ColorTextInverseDarkTheme = "#141414";
+export const ColorTextLinkDarkTheme = "#bf70ff";
+export const ColorTextLinkHoverDarkTheme = "#d6a3ff";
+export const ColorTextLinkVisitedDarkTheme = "#d6a3ff";

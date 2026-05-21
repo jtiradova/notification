@@ -1,0 +1,36 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+:root {
+    --sui-color-red-1-light-theme: #fff9f8;
+    --sui-color-red-2-light-theme: #fff4f3;
+    --sui-color-red-3-light-theme: #ffeceb;
+    --sui-color-red-4-light-theme: #ffe4e2;
+    --sui-color-red-5-light-theme: #ffd9d6;
+    --sui-color-red-6-light-theme: #ffc7c2;
+    --sui-color-red-7-light-theme: #ffb6b0;
+    --sui-color-red-8-light-theme: #ff867b;
+    --sui-color-red-9-light-theme: #f6645f;
+    --sui-color-red-10-light-theme: #b72023;
+    --sui-color-red-11-light-theme: #a2191f;
+    --sui-color-red-12-light-theme: #620005;
+}
+
+.light,
+.light-theme {
+    --sui-color-red-1: #fff9f8;
+    --sui-color-red-2: #fff4f3;
+    --sui-color-red-3: #ffeceb;
+    --sui-color-red-4: #ffe4e2;
+    --sui-color-red-5: #ffd9d6;
+    --sui-color-red-6: #ffc7c2;
+    --sui-color-red-7: #ffb6b0;
+    --sui-color-red-8: #ff867b;
+    --sui-color-red-9: #f6645f;
+    --sui-color-red-10: #b72023;
+    --sui-color-red-11: #a2191f;
+    --sui-color-red-12: #620005;
+}

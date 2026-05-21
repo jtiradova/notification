@@ -4,4 +4,5 @@ dist
 *.local
 .env
 .env.*
-vendor/fusion-design-system
+# Optional full Fusion clone (src is vendored under vendor/fusion-design-system/src)
+vendor/fusion-design-system/node_modules

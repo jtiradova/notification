@@ -1,7 +1,7 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: false
+  autoInstallPeers: true
   excludeLinksFromLockfile: false
 
 importers:
@@ -9,6 +9,9 @@ importers:
   .:
     dependencies:
       '@fortawesome/fontawesome-svg-core':
+        specifier: 7.0.0
+        version: 7.0.0
+      '@fortawesome/sharp-light-svg-icons':
         specifier: 7.0.0
         version: 7.0.0
       '@fortawesome/sharp-regular-svg-icons':
@@ -306,6 +309,10 @@ packages:
 
   '@fortawesome/fontawesome-svg-core@7.0.0':
     resolution: {integrity: sha512-obBEF+zd98r/KtKVW6A+8UGWeaOoyMpl6Q9P3FzHsOnsg742aXsl8v+H/zp09qSSu/a/Hxe9LNKzbBaQq1CEbA==}
+    engines: {node: '>=6'}
+
+  '@fortawesome/sharp-light-svg-icons@7.0.0':
+    resolution: {integrity: sha512-f6evrG6+XuvpWI/vV+mJh65hcXtsrO2HOO1ANaR+1snoTThdIIQspaOHvArEcoNc8QBdGqpOo/EsfIIxqUMw2g==}
     engines: {node: '>=6'}
 
   '@fortawesome/sharp-regular-svg-icons@7.0.0':
@@ -1217,6 +1224,10 @@ snapshots:
   '@fortawesome/fontawesome-common-types@7.0.0': {}
 
   '@fortawesome/fontawesome-svg-core@7.0.0':
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 7.0.0
+
+  '@fortawesome/sharp-light-svg-icons@7.0.0':
     dependencies:
       '@fortawesome/fontawesome-common-types': 7.0.0
 

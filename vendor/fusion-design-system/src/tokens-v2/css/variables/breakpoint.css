@@ -1,0 +1,11 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+@custom-media --xs (min-width: 480px);
+@custom-media --sm (min-width: 768px);
+@custom-media --md (min-width: 1024px);
+@custom-media --lg (min-width: 1440px);
+@custom-media --xl (min-width: 1920px);

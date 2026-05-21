@@ -1,0 +1,33 @@
+@breakpoints {
+    .sui-r-display-block {
+        display: block;
+    }
+
+    .sui-r-display-inline {
+        display: inline;
+    }
+
+    .sui-r-display-inline-block {
+        display: inline-block;
+    }
+
+    .sui-r-display-flex {
+        display: flex;
+    }
+
+    .sui-r-display-inline-flex {
+        display: inline-flex;
+    }
+
+    .sui-r-display-grid {
+        display: grid;
+    }
+
+    .sui-r-display-inline-grid {
+        display: inline-grid;
+    }
+
+    .sui-r-display-none {
+        display: none;
+    }
+}

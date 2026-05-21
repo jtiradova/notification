@@ -1,0 +1,335 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*              inset              */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-inset {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-inset-xs {
+        inset: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-inset-sm {
+        inset: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-inset-md {
+        inset: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-inset-lg {
+        inset: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-inset-xl {
+        inset: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-inset {
+    inset: var(--sui-inset);
+}
+
+@media (--xs) {
+    .xs\:sui-r-inset {
+        inset: var(--sui-inset-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-inset {
+        inset: var(--sui-inset-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-inset {
+        inset: var(--sui-inset-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-inset {
+        inset: var(--sui-inset-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-inset {
+        inset: var(--sui-inset-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               top               */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-top {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-top-xs {
+        top: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-top-sm {
+        top: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-top-md {
+        top: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-top-lg {
+        top: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-top-xl {
+        top: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-top {
+    top: var(--sui-top);
+}
+
+@media (--xs) {
+    .xs\:sui-r-top {
+        top: var(--sui-top-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-top {
+        top: var(--sui-top-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-top {
+        top: var(--sui-top-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-top {
+        top: var(--sui-top-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-top {
+        top: var(--sui-top-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*              right              */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-right {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-right-xs {
+        right: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-right-sm {
+        right: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-right-md {
+        right: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-right-lg {
+        right: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-right-xl {
+        right: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-right {
+    right: var(--sui-right);
+}
+
+@media (--xs) {
+    .xs\:sui-r-right {
+        right: var(--sui-right-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-right {
+        right: var(--sui-right-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-right {
+        right: var(--sui-right-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-right {
+        right: var(--sui-right-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-right {
+        right: var(--sui-right-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*             bottom              */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-bottom {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-bottom-xs {
+        bottom: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-bottom-sm {
+        bottom: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-bottom-md {
+        bottom: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-bottom-lg {
+        bottom: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-bottom-xl {
+        bottom: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-bottom {
+    bottom: var(--sui-bottom);
+}
+
+@media (--xs) {
+    .xs\:sui-r-bottom {
+        bottom: var(--sui-bottom-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-bottom {
+        bottom: var(--sui-bottom-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-bottom {
+        bottom: var(--sui-bottom-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-bottom {
+        bottom: var(--sui-bottom-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-bottom {
+        bottom: var(--sui-bottom-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*              left               */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-left {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-left-xs {
+        left: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-left-sm {
+        left: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-left-md {
+        left: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-left-lg {
+        left: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-left-xl {
+        left: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-left {
+    left: var(--sui-left);
+}
+
+@media (--xs) {
+    .xs\:sui-r-left {
+        left: var(--sui-left-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-left {
+        left: var(--sui-left-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-left {
+        left: var(--sui-left-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-left {
+        left: var(--sui-left-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-left {
+        left: var(--sui-left-xl);
+    }
+}

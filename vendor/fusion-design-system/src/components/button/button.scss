@@ -1,0 +1,316 @@
+:root {
+    --sui-component-button-height: var(--sui-size-4x);
+    --sui-component-button-background-color: transparent;
+    --sui-component-button-border-color: transparent;
+    --sui-component-button-text-color: currentcolor;
+    --sui-component-button-opacity: 0.001%; // prevent a compiler/minimizer bug
+}
+
+.sui-c-button {
+    all: unset;
+    display: inline-flex;
+    height: var(--sui-component-button-height);
+    min-height: var(--sui-component-button-height);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: color-mix(
+        in srgb,
+        var(--sui-component-button-border-color),
+        transparent var(--sui-component-button-opacity)
+    );
+    background-color: color-mix(
+        in srgb,
+        var(--sui-component-button-background-color),
+        transparent var(--sui-component-button-opacity)
+    );
+    color: color-mix(
+        in srgb,
+        var(--sui-component-button-text-color),
+        transparent var(--sui-component-button-opacity)
+    );
+    cursor: pointer;
+    font-family: var(--sui-font-family-sans);
+    font-weight: var(--sui-font-weight-bold);
+    line-height: 1;
+    text-decoration: none !important;
+    transition: background-color 100ms ease-in-out;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    &:disabled,
+    &--disabled,
+    &[data-disabled] {
+        --sui-component-button-opacity: 60%;
+
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+
+    &.sui-c-button--loading {
+        // color: var(--sui-component-button-text-color);
+    }
+
+    .sui-c-spinner {
+        --sui-component-spinner-thumb-color: var(
+            --sui-component-button-text-color
+        );
+    }
+}
+
+.sui-c-button--variant-solid-brand {
+    --sui-component-button-background-color: var(
+        --sui-color-background-primary-solid
+    );
+    --sui-component-button-text-color: var(--sui-color-text-inverse);
+
+    &:focus-visible,
+    &[data-state="open"] {
+        outline: solid 2px var(--sui-color-base-purple-10);
+        outline-offset: 2px;
+    }
+
+    &:hover {
+        --sui-component-button-background-color: var(
+            --sui-color-base-purple-11
+        );
+        --sui-component-button-border-color: var(--sui-color-base-purple-11);
+    }
+
+    &:active {
+        --sui-component-button-background-color: var(
+            --sui-color-base-purple-10
+        );
+    }
+}
+
+.sui-c-button--variant-solid-neutral {
+    --sui-component-button-background-color: var(
+        --sui-color-background-inverse
+    );
+    --sui-component-button-text-color: var(--sui-color-text-inverse);
+
+    &:focus-visible,
+    &[data-state="open"] {
+        outline: solid 2px var(--sui-color-base-neutral-11);
+        outline-offset: 2px;
+    }
+
+    &:hover {
+        --sui-component-button-background-color: var(
+            --sui-color-base-neutral-11
+        );
+        --sui-component-button-border-color: var(--sui-color-base-neutral-11);
+    }
+
+    &:active {
+        --sui-component-button-background-color: var(
+            --sui-color-base-neutral-10
+        );
+    }
+}
+
+.sui-c-button--variant-outline-brand {
+    --sui-component-button-border-color: var(--sui-color-base-purple-6);
+    --sui-component-button-text-color: var(--sui-color-text-primary);
+    --sui-component-button-background-color: var(
+        --sui-color-background-surface
+    );
+
+    &:hover,
+    &:focus-visible,
+    &:active {
+        --sui-component-button-border-color: var(--sui-color-base-purple-7);
+    }
+
+    &:focus-visible,
+    &[data-state="open"],
+    &.sui-c-button--highlighted {
+        --sui-component-button-background-color: var(--sui-color-base-purple-2);
+    }
+
+    &:focus-visible,
+    &[data-state="open"] {
+        outline: solid 2px var(--sui-color-base-purple-8);
+        outline-offset: 2px;
+    }
+
+    &:hover {
+        --sui-component-button-background-color: var(--sui-color-base-purple-3);
+    }
+
+    &:active {
+        --sui-component-button-background-color: var(--sui-color-base-purple-4);
+    }
+}
+
+.sui-c-button--variant-outline-neutral {
+    --sui-component-button-border-color: var(--sui-color-base-neutral-6);
+    --sui-component-button-text-color: var(--sui-color-text-mid-contrast);
+    --sui-component-button-background-color: var(
+        --sui-color-background-surface
+    );
+
+    &:hover,
+    &:focus-visible,
+    &:active {
+        --sui-component-button-border-color: var(--sui-color-base-neutral-7);
+    }
+
+    &:focus-visible,
+    &[data-state="open"],
+    &.sui-c-button--highlighted {
+        --sui-component-button-background-color: var(
+            --sui-color-base-neutral-3
+        );
+    }
+
+    &:focus-visible,
+    &[data-state="open"] {
+        outline: solid 2px var(--sui-color-base-neutral-8);
+        outline-offset: 2px;
+    }
+
+    &:hover {
+        --sui-component-button-background-color: var(
+            --sui-color-base-neutral-2
+        );
+    }
+
+    &:active {
+        --sui-component-button-background-color: var(
+            --sui-color-base-neutral-4
+        );
+    }
+}
+
+.sui-c-button--variant-ghost-brand {
+    --sui-component-button-text-color: var(--sui-color-text-primary);
+
+    &:hover,
+    &:focus-visible,
+    &:active {
+        --sui-component-button-border-color: var(--sui-color-base-purple-4);
+    }
+
+    &:focus-visible,
+    &[data-state="open"],
+    &.sui-c-button--highlighted {
+        --sui-component-button-background-color: var(--sui-color-base-purple-3);
+    }
+
+    &:focus-visible,
+    &[data-state="open"] {
+        outline: solid 2px var(--sui-color-base-purple-6);
+        outline-offset: 2px;
+    }
+
+    &:hover {
+        --sui-component-button-background-color: var(--sui-color-base-purple-2);
+    }
+
+    &:active {
+        --sui-component-button-background-color: var(--sui-color-base-purple-4);
+    }
+}
+
+.sui-c-button--variant-ghost-neutral {
+    --sui-component-button-text-color: var(--sui-color-text-mid-contrast);
+
+    &:hover,
+    &:focus-visible,
+    &:active {
+        --sui-component-button-border-color: var(--sui-color-base-neutral-4);
+    }
+
+    &:focus-visible,
+    &[data-state="open"],
+    &.sui-c-button--highlighted {
+        --sui-component-button-background-color: var(
+            --sui-color-base-neutral-3
+        );
+    }
+
+    &:focus-visible,
+    &[data-state="open"] {
+        outline: solid 2px var(--sui-color-base-neutral-6);
+        outline-offset: 2px;
+    }
+
+    &:hover {
+        --sui-component-button-background-color: var(
+            --sui-color-base-neutral-2
+        );
+    }
+
+    &:active {
+        --sui-component-button-background-color: var(
+            --sui-color-base-neutral-4
+        );
+    }
+}
+
+.sui-c-button--variant-outline-danger {
+    --sui-component-button-border-color: var(--sui-color-base-red-6);
+    --sui-component-button-text-color: var(--sui-color-text-critical);
+    --sui-component-button-background-color: var(
+        --sui-color-background-surface
+    );
+
+    &:hover,
+    &:focus-visible,
+    &:active {
+        --sui-component-button-border-color: var(--sui-color-base-red-7);
+    }
+
+    &:focus-visible,
+    &[data-state="open"] {
+        --sui-component-button-background-color: var(--sui-color-base-red-3);
+
+        outline: solid 2px var(--sui-color-base-red-8);
+        outline-offset: 2px;
+    }
+
+    &:hover {
+        --sui-component-button-background-color: var(--sui-color-base-red-2);
+    }
+
+    &:active {
+        --sui-component-button-background-color: var(--sui-color-base-red-4);
+    }
+}
+
+.sui-c-button--size-large {
+    --sui-component-button-height: var(--sui-size-6x);
+
+    padding: 0 var(--sui-space-2x);
+    border-radius: var(--sui-radius-lg);
+    font-size: var(--sui-font-size-base-8);
+    gap: var(--sui-space-1-25x);
+}
+
+.sui-c-button--size-medium {
+    --sui-component-button-height: var(--sui-size-4x);
+
+    padding: 0 var(--sui-space-1-25x);
+    border-radius: var(--sui-radius-md);
+    font-size: var(--sui-font-size-base-6);
+    gap: var(--sui-space-0-75x);
+}
+
+.sui-c-button--size-small {
+    --sui-component-button-height: var(--sui-size-3x);
+
+    padding: 0 var(--sui-space-1x);
+    border-radius: var(--sui-radius-sm);
+    font-size: var(--sui-font-size-base-4);
+    gap: var(--sui-space-0-5x);
+}
+
+.sui-c-button--square {
+    width: var(--sui-component-button-height);
+    min-width: var(--sui-component-button-height);
+    padding: 0;
+}

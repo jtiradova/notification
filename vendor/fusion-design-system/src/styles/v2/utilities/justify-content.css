@@ -1,0 +1,17 @@
+@breakpoints {
+    .sui-r-jc-start {
+        justify-content: flex-start;
+    }
+
+    .sui-r-jc-center {
+        justify-content: center;
+    }
+
+    .sui-r-jc-end {
+        justify-content: flex-end;
+    }
+
+    .sui-r-jc-space-between {
+        justify-content: space-between;
+    }
+}

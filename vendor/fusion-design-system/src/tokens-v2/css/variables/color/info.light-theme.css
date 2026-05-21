@@ -1,0 +1,21 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.light,
+.light-theme {
+    --sui-color-info-1: var(--sui-color-blue-1);
+    --sui-color-info-2: var(--sui-color-blue-2);
+    --sui-color-info-3: var(--sui-color-blue-3);
+    --sui-color-info-4: var(--sui-color-blue-4);
+    --sui-color-info-5: var(--sui-color-blue-5);
+    --sui-color-info-6: var(--sui-color-blue-6);
+    --sui-color-info-7: var(--sui-color-blue-7);
+    --sui-color-info-8: var(--sui-color-blue-8);
+    --sui-color-info-9: var(--sui-color-blue-9);
+    --sui-color-info-10: var(--sui-color-blue-10);
+    --sui-color-info-11: var(--sui-color-blue-11);
+    --sui-color-info-12: var(--sui-color-blue-12);
+}

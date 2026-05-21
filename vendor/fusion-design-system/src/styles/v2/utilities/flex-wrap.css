@@ -1,0 +1,13 @@
+@breakpoints {
+    .sui-r-fw-nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .sui-r-fw-wrap {
+        flex-wrap: wrap;
+    }
+
+    .sui-r-fw-wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+}

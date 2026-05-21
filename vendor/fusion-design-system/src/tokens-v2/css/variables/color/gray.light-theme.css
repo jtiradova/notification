@@ -1,0 +1,36 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+:root {
+    --sui-color-gray-1-light-theme: #ffffff;
+    --sui-color-gray-2-light-theme: #fafafa;
+    --sui-color-gray-3-light-theme: #f5f5f5;
+    --sui-color-gray-4-light-theme: #ededed;
+    --sui-color-gray-5-light-theme: #e6e6e6;
+    --sui-color-gray-6-light-theme: #d6d6d6;
+    --sui-color-gray-7-light-theme: #bdbdbd;
+    --sui-color-gray-8-light-theme: #a3a3a3;
+    --sui-color-gray-9-light-theme: #858585;
+    --sui-color-gray-10-light-theme: #666666;
+    --sui-color-gray-11-light-theme: #4c4c4c;
+    --sui-color-gray-12-light-theme: #191919;
+}
+
+.light,
+.light-theme {
+    --sui-color-gray-1: #ffffff;
+    --sui-color-gray-2: #fafafa;
+    --sui-color-gray-3: #f5f5f5;
+    --sui-color-gray-4: #ededed;
+    --sui-color-gray-5: #e6e6e6;
+    --sui-color-gray-6: #d6d6d6;
+    --sui-color-gray-7: #bdbdbd;
+    --sui-color-gray-8: #a3a3a3;
+    --sui-color-gray-9: #858585;
+    --sui-color-gray-10: #666666;
+    --sui-color-gray-11: #4c4c4c;
+    --sui-color-gray-12: #191919;
+}

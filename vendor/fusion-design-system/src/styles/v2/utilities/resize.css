@@ -1,0 +1,14 @@
+@breakpoints {
+    .sui-r-resize-none {
+        resize: none;
+    }
+    .sui-r-resize-vertical {
+        resize: vertical;
+    }
+    .sui-r-resize-horizontal {
+        resize: horizontal;
+    }
+    .sui-r-resize-both {
+        resize: both;
+    }
+}

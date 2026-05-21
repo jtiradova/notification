@@ -1,0 +1,203 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               gap               */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-gap {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-gap-xs {
+        gap: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-gap-sm {
+        gap: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-gap-md {
+        gap: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-gap-lg {
+        gap: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-gap-xl {
+        gap: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-gap {
+    gap: var(--sui-gap);
+}
+
+@media (--xs) {
+    .xs\:sui-r-gap {
+        gap: var(--sui-gap-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-gap {
+        gap: var(--sui-gap-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-gap {
+        gap: var(--sui-gap-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-gap {
+        gap: var(--sui-gap-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-gap {
+        gap: var(--sui-gap-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*              gap-x              */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-gap-x {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-gap-x-xs {
+        column-gap: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-gap-x-sm {
+        column-gap: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-gap-x-md {
+        column-gap: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-gap-x-lg {
+        column-gap: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-gap-x-xl {
+        column-gap: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-gap-x {
+    column-gap: var(--sui-column-gap);
+}
+
+@media (--xs) {
+    .xs\:sui-r-gap-x {
+        column-gap: var(--sui-column-gap-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-gap-x {
+        column-gap: var(--sui-column-gap-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-gap-x {
+        column-gap: var(--sui-column-gap-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-gap-x {
+        column-gap: var(--sui-column-gap-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-gap-x {
+        column-gap: var(--sui-column-gap-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*              gap-y              */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-gap-y {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-gap-y-xs {
+        row-gap: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-gap-y-sm {
+        row-gap: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-gap-y-md {
+        row-gap: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-gap-y-lg {
+        row-gap: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-gap-y-xl {
+        row-gap: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-gap-y {
+    row-gap: var(--sui-row-gap);
+}
+
+@media (--xs) {
+    .xs\:sui-r-gap-y {
+        row-gap: var(--sui-row-gap-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-gap-y {
+        row-gap: var(--sui-row-gap-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-gap-y {
+        row-gap: var(--sui-row-gap-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-gap-y {
+        row-gap: var(--sui-row-gap-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-gap-y {
+        row-gap: var(--sui-row-gap-xl);
+    }
+}

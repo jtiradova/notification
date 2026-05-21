@@ -1,0 +1,771 @@
+/**
+ * This file was generated
+ * Do not edit directly
+ * See 'fusion-design-system/build-style-dictionary.js' for more info
+ */
+
+:root {
+    --sui-color-base-neutral-1-on-light: #ffffff;
+    --sui-color-base-neutral-1-on-dark: #141414;
+
+    --sui-color-base-neutral-2-on-light: #fafafa;
+    --sui-color-base-neutral-2-on-dark: #1b1b1b;
+
+    --sui-color-base-neutral-3-on-light: #f5f5f5;
+    --sui-color-base-neutral-3-on-dark: #222222;
+
+    --sui-color-base-neutral-4-on-light: #ededed;
+    --sui-color-base-neutral-4-on-dark: #2a2a2a;
+
+    --sui-color-base-neutral-5-on-light: #e6e6e6;
+    --sui-color-base-neutral-5-on-dark: #2e2e2e;
+
+    --sui-color-base-neutral-6-on-light: #d6d6d6;
+    --sui-color-base-neutral-6-on-dark: #363636;
+
+    --sui-color-base-neutral-7-on-light: #bdbdbd;
+    --sui-color-base-neutral-7-on-dark: #3d3d3d;
+
+    --sui-color-base-neutral-8-on-light: #a3a3a3;
+    --sui-color-base-neutral-8-on-dark: #4b4b4b;
+
+    --sui-color-base-neutral-9-on-light: #858585;
+    --sui-color-base-neutral-9-on-dark: #707070;
+
+    --sui-color-base-neutral-10-on-light: #666666;
+    --sui-color-base-neutral-10-on-dark: #898989;
+
+    --sui-color-base-neutral-11-on-light: #4c4c4c;
+    --sui-color-base-neutral-11-on-dark: #b8b8b8;
+
+    --sui-color-base-neutral-12-on-light: #191919;
+    --sui-color-base-neutral-12-on-dark: #f2f2f2;
+
+    --sui-color-base-cool-gray-1-on-light: #f7fdfb;
+    --sui-color-base-cool-gray-1-on-dark: #0c1d18;
+
+    --sui-color-base-cool-gray-2-on-light: #f2fcf9;
+    --sui-color-base-cool-gray-2-on-dark: #12261f;
+
+    --sui-color-base-cool-gray-3-on-light: #ebf9f5;
+    --sui-color-base-cool-gray-3-on-dark: #192f27;
+
+    --sui-color-base-cool-gray-4-on-light: #e9f6f2;
+    --sui-color-base-cool-gray-4-on-dark: #1e342c;
+
+    --sui-color-base-cool-gray-5-on-light: #e5f3ef;
+    --sui-color-base-cool-gray-5-on-dark: #233832;
+
+    --sui-color-base-cool-gray-6-on-light: #c9dfd8;
+    --sui-color-base-cool-gray-6-on-dark: #2c3f39;
+
+    --sui-color-base-cool-gray-7-on-light: #abc1bb;
+    --sui-color-base-cool-gray-7-on-dark: #354641;
+
+    --sui-color-base-cool-gray-8-on-light: #849f96;
+    --sui-color-base-cool-gray-8-on-dark: #455450;
+
+    --sui-color-base-cool-gray-9-on-light: #687a74;
+    --sui-color-base-cool-gray-9-on-dark: #677974;
+
+    --sui-color-base-cool-gray-10-on-light: #596561;
+    --sui-color-base-cool-gray-10-on-dark: #81928d;
+
+    --sui-color-base-cool-gray-11-on-light: #414946;
+    --sui-color-base-cool-gray-11-on-dark: #b4bbb9;
+
+    --sui-color-base-cool-gray-12-on-light: #1f2322;
+    --sui-color-base-cool-gray-12-on-dark: #f1f3f3;
+
+    --sui-color-base-purple-1-on-light: #fdfaff;
+    --sui-color-base-purple-1-on-dark: #170029;
+
+    --sui-color-base-purple-2-on-light: #faf4ff;
+    --sui-color-base-purple-2-on-dark: #270245;
+
+    --sui-color-base-purple-3-on-light: #f7edff;
+    --sui-color-base-purple-3-on-dark: #2d044d;
+
+    --sui-color-base-purple-4-on-light: #f3e5ff;
+    --sui-color-base-purple-4-on-dark: #320259;
+
+    --sui-color-base-purple-5-on-light: #ecd6ff;
+    --sui-color-base-purple-5-on-dark: #3b006b;
+
+    --sui-color-base-purple-6-on-light: #e6c7ff;
+    --sui-color-base-purple-6-on-dark: #540099;
+
+    --sui-color-base-purple-7-on-light: #d199ff;
+    --sui-color-base-purple-7-on-dark: #7b00e0;
+
+    --sui-color-base-purple-8-on-light: #b969fc;
+    --sui-color-base-purple-8-on-dark: #9514ff;
+
+    --sui-color-base-purple-9-on-light: #a33ef4;
+    --sui-color-base-purple-9-on-dark: #b152ff;
+
+    --sui-color-base-purple-10-on-light: #820ddf;
+    --sui-color-base-purple-10-on-dark: #bf70ff;
+
+    --sui-color-base-purple-11-on-light: #6707b6;
+    --sui-color-base-purple-11-on-dark: #d6a3ff;
+
+    --sui-color-base-purple-12-on-light: #490282;
+    --sui-color-base-purple-12-on-dark: #f3e5ff;
+
+    --sui-color-base-blue-1-on-light: #f7fbfe;
+    --sui-color-base-blue-1-on-dark: #0b1a2d;
+
+    --sui-color-base-blue-2-on-light: #f1f8fd;
+    --sui-color-base-blue-2-on-dark: #0c2545;
+
+    --sui-color-base-blue-3-on-light: #edf7fc;
+    --sui-color-base-blue-3-on-dark: #0e305d;
+
+    --sui-color-base-blue-4-on-light: #def0fa;
+    --sui-color-base-blue-4-on-dark: #10376a;
+
+    --sui-color-base-blue-5-on-light: #cee8f8;
+    --sui-color-base-blue-5-on-dark: #13407c;
+
+    --sui-color-base-blue-6-on-light: #b1dbf3;
+    --sui-color-base-blue-6-on-dark: #15498e;
+
+    --sui-color-base-blue-7-on-light: #7cc3eb;
+    --sui-color-base-blue-7-on-dark: #186fa0;
+
+    --sui-color-base-blue-8-on-light: #71a5e9;
+    --sui-color-base-blue-8-on-dark: #1d84bf;
+
+    --sui-color-base-blue-9-on-light: #5f85f7;
+    --sui-color-base-blue-9-on-dark: #33a1e0;
+
+    --sui-color-base-blue-10-on-light: #4b47ff;
+    --sui-color-base-blue-10-on-dark: #33a1e0;
+
+    --sui-color-base-blue-11-on-light: #0400cc;
+    --sui-color-base-blue-11-on-dark: #83c6ec;
+
+    --sui-color-base-blue-12-on-light: #04009d;
+    --sui-color-base-blue-12-on-dark: #e9f5fc;
+
+    --sui-color-base-green-1-on-light: #fcfff7;
+    --sui-color-base-green-1-on-dark: #051f00;
+
+    --sui-color-base-green-2-on-light: #f8ffee;
+    --sui-color-base-green-2-on-dark: #062900;
+
+    --sui-color-base-green-3-on-light: #f3ffe3;
+    --sui-color-base-green-3-on-dark: #103800;
+
+    --sui-color-base-green-4-on-light: #ebffd2;
+    --sui-color-base-green-4-on-dark: #154602;
+
+    --sui-color-base-green-5-on-light: #d2ff99;
+    --sui-color-base-green-5-on-dark: #275903;
+
+    --sui-color-base-green-6-on-light: #bfff70;
+    --sui-color-base-green-6-on-dark: #3c6b00;
+
+    --sui-color-base-green-7-on-light: #a0ff28;
+    --sui-color-base-green-7-on-dark: #437a00;
+
+    --sui-color-base-green-8-on-light: #61df07;
+    --sui-color-base-green-8-on-dark: #569900;
+
+    --sui-color-base-green-9-on-light: #3cc406;
+    --sui-color-base-green-9-on-dark: #65b200;
+
+    --sui-color-base-green-10-on-light: #168004;
+    --sui-color-base-green-10-on-dark: #71c700;
+
+    --sui-color-base-green-11-on-light: #007235;
+    --sui-color-base-green-11-on-dark: #7cd902;
+
+    --sui-color-base-green-12-on-light: #00411e;
+    --sui-color-base-green-12-on-dark: #dcf4e8;
+
+    --sui-color-base-yellow-1-on-light: #fffcf4;
+    --sui-color-base-yellow-1-on-dark: #1f1700;
+
+    --sui-color-base-yellow-2-on-light: #fff7de;
+    --sui-color-base-yellow-2-on-dark: #2b2202;
+
+    --sui-color-base-yellow-3-on-light: #fff3d0;
+    --sui-color-base-yellow-3-on-dark: #372902;
+
+    --sui-color-base-yellow-4-on-light: #ffefbe;
+    --sui-color-base-yellow-4-on-dark: #453402;
+
+    --sui-color-base-yellow-5-on-light: #ffe9a8;
+    --sui-color-base-yellow-5-on-dark: #5a4401;
+
+    --sui-color-base-yellow-6-on-light: #ffe081;
+    --sui-color-base-yellow-6-on-dark: #6b5000;
+
+    --sui-color-base-yellow-7-on-light: #ffcb2e;
+    --sui-color-base-yellow-7-on-dark: #7a5c00;
+
+    --sui-color-base-yellow-8-on-light: #fbc113;
+    --sui-color-base-yellow-8-on-dark: #997300;
+
+    --sui-color-base-yellow-9-on-light: #e0a206;
+    --sui-color-base-yellow-9-on-dark: #c79500;
+
+    --sui-color-base-yellow-10-on-light: #ac7d06;
+    --sui-color-base-yellow-10-on-dark: #d19d00;
+
+    --sui-color-base-yellow-11-on-light: #855800;
+    --sui-color-base-yellow-11-on-dark: #fabb00;
+
+    --sui-color-base-yellow-12-on-light: #423200;
+    --sui-color-base-yellow-12-on-dark: #fff9e5;
+
+    --sui-color-base-red-1-on-light: #fff9f8;
+    --sui-color-base-red-1-on-dark: #290002;
+
+    --sui-color-base-red-2-on-light: #fff4f3;
+    --sui-color-base-red-2-on-dark: #310709;
+
+    --sui-color-base-red-3-on-light: #ffeceb;
+    --sui-color-base-red-3-on-dark: #500b0d;
+
+    --sui-color-base-red-4-on-light: #ffe4e2;
+    --sui-color-base-red-4-on-dark: #610d05;
+
+    --sui-color-base-red-5-on-light: #ffd9d6;
+    --sui-color-base-red-5-on-dark: #740f06;
+
+    --sui-color-base-red-6-on-light: #ffc7c2;
+    --sui-color-base-red-6-on-dark: #831007;
+
+    --sui-color-base-red-7-on-light: #ffb6b0;
+    --sui-color-base-red-7-on-dark: #a51509;
+
+    --sui-color-base-red-8-on-light: #ff867b;
+    --sui-color-base-red-8-on-dark: #c71a0a;
+
+    --sui-color-base-red-9-on-light: #f6645f;
+    --sui-color-base-red-9-on-dark: #f33220;
+
+    --sui-color-base-red-10-on-light: #b72023;
+    --sui-color-base-red-10-on-dark: #ff4938;
+
+    --sui-color-base-red-11-on-light: #a2191f;
+    --sui-color-base-red-11-on-dark: #ff6e61;
+
+    --sui-color-base-red-12-on-light: #620005;
+    --sui-color-base-red-12-on-dark: #ffe8e5;
+
+    --sui-color-base-orange-1-on-light: #fff9f4;
+    --sui-color-base-orange-1-on-dark: #291100;
+
+    --sui-color-base-orange-2-on-light: #ffecde;
+    --sui-color-base-orange-2-on-dark: #381800;
+
+    --sui-color-base-orange-3-on-light: #ffe3d0;
+    --sui-color-base-orange-3-on-dark: #471e00;
+
+    --sui-color-base-orange-4-on-light: #ffd9be;
+    --sui-color-base-orange-4-on-dark: #522200;
+
+    --sui-color-base-orange-5-on-light: #ffcca8;
+    --sui-color-base-orange-5-on-dark: #5c2700;
+
+    --sui-color-base-orange-6-on-light: #ffc094;
+    --sui-color-base-orange-6-on-dark: #6b2d00;
+
+    --sui-color-base-orange-7-on-light: #ffa767;
+    --sui-color-base-orange-7-on-dark: #7a3300;
+
+    --sui-color-base-orange-8-on-light: #ff8933;
+    --sui-color-base-orange-8-on-dark: #994000;
+
+    --sui-color-base-orange-9-on-light: #ff6c02;
+    --sui-color-base-orange-9-on-dark: #e05d00;
+
+    --sui-color-base-orange-10-on-light: #c75300;
+    --sui-color-base-orange-10-on-dark: #ff7614;
+
+    --sui-color-base-orange-11-on-light: #933e00;
+    --sui-color-base-orange-11-on-dark: #ffac70;
+
+    --sui-color-base-orange-12-on-light: #421c00;
+    --sui-color-base-orange-12-on-dark: #fff0e5;
+}
+
+.light-mode {
+    --sui-color-background-app: #ffffff;
+    --sui-color-background-app-hover: #f5f5f5;
+
+    --sui-color-background-surface: #ffffff;
+    --sui-color-background-surface-hover: #f5f5f5;
+    --sui-color-background-surface-focus: #f5f5f5;
+    --sui-color-background-surface-selected: #f7edff;
+    --sui-color-background-surface-pressed: #ededed;
+    --sui-color-background-surface-raised-1: #fafafa;
+    --sui-color-background-surface-raised-2: #f5f5f5;
+
+    --sui-color-background-tab-inactive: #fafafa;
+
+    --sui-color-background-sidebar: #fafafa;
+
+    --sui-color-background-solid: #858585;
+
+    --sui-color-background-code: #fafafa;
+
+    --sui-color-background-inverse: #191919;
+
+    --sui-color-background-meter: #f5f5f5;
+    --sui-color-background-meter-neutral: #a3a3a3;
+    --sui-color-background-meter-critical: #f6645f;
+    --sui-color-background-meter-warning: #e0a206;
+    --sui-color-background-meter-positive: #168004;
+    --sui-color-background-meter-info: #5f85f7;
+    --sui-color-background-meter-primary: #a33ef4;
+    --sui-color-background-meter-red: #f6645f;
+    --sui-color-background-meter-yellow: #e0a206;
+    --sui-color-background-meter-green: #3cc406;
+    --sui-color-background-meter-blue: #5f85f7;
+    --sui-color-background-meter-purple: #a33ef4;
+    --sui-color-background-meter-orange: #ff6c02;
+    --sui-color-background-meter-cool-gray: #687a74;
+
+    --sui-color-background-table-header: #ffffff;
+    --sui-color-background-table-footer: #f5f5f5;
+    --sui-color-background-table-row: #ffffff;
+    --sui-color-background-table-row-hover: #f7edff;
+    --sui-color-background-table-row-striped: #fafafa;
+    --sui-color-background-table-row-nested: #f5f5f5;
+
+    --sui-color-background-input: #f5f5f5;
+    --sui-color-background-input-hover: #ededed;
+    --sui-color-background-input-focus: #ffffff;
+
+    --sui-color-background-primary: #faf4ff;
+    --sui-color-background-primary-solid: #820ddf;
+
+    --sui-color-background-neutral: #ededed;
+
+    --sui-color-background-info: #edf7fc;
+
+    --sui-color-background-critical: #ffeceb;
+    --sui-color-background-critical-hover: #fff4f3;
+    --sui-color-background-critical-focus: #ffeceb;
+    --sui-color-background-critical-pressed: #ffe4e2;
+    --sui-color-background-critical-solid: #b72023;
+
+    --sui-color-background-warning: #fff3d0;
+    --sui-color-background-warning-solid: #ac7d06;
+
+    --sui-color-background-positive: #f3ffe3;
+    --sui-color-background-positive-solid: #168004;
+
+    --sui-color-text-placeholder: #666666;
+
+    --sui-color-text-link: #6707b6;
+
+    --sui-color-text-hover: #820ddf;
+
+    --sui-color-text-selected: #6707b6;
+
+    --sui-color-text-disabled: #d6d6d6;
+
+    --sui-color-text-low-contrast: #666666;
+
+    --sui-color-text-mid-contrast: #4c4c4c;
+
+    --sui-color-text-high-contrast: #191919;
+
+    --sui-color-text-inverse: #ffffff;
+
+    --sui-color-text-primary: #a33ef4;
+    --sui-color-text-primary-hover: #820ddf;
+
+    --sui-color-text-critical: #a2191f;
+
+    --sui-color-text-warning: #855800;
+
+    --sui-color-text-positive: #007235;
+
+    --sui-color-text-info: #0400cc;
+
+    --sui-color-border-subtle: #ededed;
+
+    --sui-color-border-strong: #a3a3a3;
+
+    --sui-color-border-hover: #d6d6d6;
+
+    --sui-color-border-focus: #bdbdbd;
+
+    --sui-color-border-selected: #a33ef4;
+
+    --sui-color-border-input: #bdbdbd;
+    --sui-color-border-input-hover: #a3a3a3;
+    --sui-color-border-input-focus: #a33ef4;
+    --sui-color-border-input-valid: #61df07;
+    --sui-color-border-input-valid-hover: #3cc406;
+    --sui-color-border-input-valid-focus: #3cc406;
+    --sui-color-border-input-invalid: #ff867b;
+    --sui-color-border-input-invalid-hover: #f6645f;
+    --sui-color-border-input-invalid-focus: #f6645f;
+
+    --sui-color-border-meter: #ededed;
+
+    --sui-color-border-primary: #f3e5ff;
+    --sui-color-border-primary-focus: #d199ff;
+
+    --sui-color-border-critical: #ffb6b0;
+    --sui-color-border-critical-solid: #f6645f;
+
+    --sui-color-border-warning: #ffefbe;
+    --sui-color-border-warning-solid: #e0a206;
+
+    --sui-color-border-positive: #ebffd2;
+    --sui-color-border-positive-solid: #3cc406;
+
+    --sui-color-border-info: #def0fa;
+    --sui-color-border-info-solid: #5f85f7;
+
+    --sui-color-base-neutral-1: var(--sui-color-base-neutral-1-on-light);
+    --sui-color-base-neutral-2: var(--sui-color-base-neutral-2-on-light);
+    --sui-color-base-neutral-3: var(--sui-color-base-neutral-3-on-light);
+    --sui-color-base-neutral-4: var(--sui-color-base-neutral-4-on-light);
+    --sui-color-base-neutral-5: var(--sui-color-base-neutral-5-on-light);
+    --sui-color-base-neutral-6: var(--sui-color-base-neutral-6-on-light);
+    --sui-color-base-neutral-7: var(--sui-color-base-neutral-7-on-light);
+    --sui-color-base-neutral-8: var(--sui-color-base-neutral-8-on-light);
+    --sui-color-base-neutral-9: var(--sui-color-base-neutral-9-on-light);
+    --sui-color-base-neutral-10: var(--sui-color-base-neutral-10-on-light);
+    --sui-color-base-neutral-11: var(--sui-color-base-neutral-11-on-light);
+    --sui-color-base-neutral-12: var(--sui-color-base-neutral-12-on-light);
+
+    --sui-color-base-cool-gray-1: var(--sui-color-base-cool-gray-1-on-light);
+    --sui-color-base-cool-gray-2: var(--sui-color-base-cool-gray-2-on-light);
+    --sui-color-base-cool-gray-3: var(--sui-color-base-cool-gray-3-on-light);
+    --sui-color-base-cool-gray-4: var(--sui-color-base-cool-gray-4-on-light);
+    --sui-color-base-cool-gray-5: var(--sui-color-base-cool-gray-5-on-light);
+    --sui-color-base-cool-gray-6: var(--sui-color-base-cool-gray-6-on-light);
+    --sui-color-base-cool-gray-7: var(--sui-color-base-cool-gray-7-on-light);
+    --sui-color-base-cool-gray-8: var(--sui-color-base-cool-gray-8-on-light);
+    --sui-color-base-cool-gray-9: var(--sui-color-base-cool-gray-9-on-light);
+    --sui-color-base-cool-gray-10: var(--sui-color-base-cool-gray-10-on-light);
+    --sui-color-base-cool-gray-11: var(--sui-color-base-cool-gray-11-on-light);
+    --sui-color-base-cool-gray-12: var(--sui-color-base-cool-gray-12-on-light);
+
+    --sui-color-base-purple-1: var(--sui-color-base-purple-1-on-light);
+    --sui-color-base-purple-2: var(--sui-color-base-purple-2-on-light);
+    --sui-color-base-purple-3: var(--sui-color-base-purple-3-on-light);
+    --sui-color-base-purple-4: var(--sui-color-base-purple-4-on-light);
+    --sui-color-base-purple-5: var(--sui-color-base-purple-5-on-light);
+    --sui-color-base-purple-6: var(--sui-color-base-purple-6-on-light);
+    --sui-color-base-purple-7: var(--sui-color-base-purple-7-on-light);
+    --sui-color-base-purple-8: var(--sui-color-base-purple-8-on-light);
+    --sui-color-base-purple-9: var(--sui-color-base-purple-9-on-light);
+    --sui-color-base-purple-10: var(--sui-color-base-purple-10-on-light);
+    --sui-color-base-purple-11: var(--sui-color-base-purple-11-on-light);
+    --sui-color-base-purple-12: var(--sui-color-base-purple-12-on-light);
+
+    --sui-color-base-blue-1: var(--sui-color-base-blue-1-on-light);
+    --sui-color-base-blue-2: var(--sui-color-base-blue-2-on-light);
+    --sui-color-base-blue-3: var(--sui-color-base-blue-3-on-light);
+    --sui-color-base-blue-4: var(--sui-color-base-blue-4-on-light);
+    --sui-color-base-blue-5: var(--sui-color-base-blue-5-on-light);
+    --sui-color-base-blue-6: var(--sui-color-base-blue-6-on-light);
+    --sui-color-base-blue-7: var(--sui-color-base-blue-7-on-light);
+    --sui-color-base-blue-8: var(--sui-color-base-blue-8-on-light);
+    --sui-color-base-blue-9: var(--sui-color-base-blue-9-on-light);
+    --sui-color-base-blue-10: var(--sui-color-base-blue-10-on-light);
+    --sui-color-base-blue-11: var(--sui-color-base-blue-11-on-light);
+    --sui-color-base-blue-12: var(--sui-color-base-blue-12-on-light);
+
+    --sui-color-base-green-1: var(--sui-color-base-green-1-on-light);
+    --sui-color-base-green-2: var(--sui-color-base-green-2-on-light);
+    --sui-color-base-green-3: var(--sui-color-base-green-3-on-light);
+    --sui-color-base-green-4: var(--sui-color-base-green-4-on-light);
+    --sui-color-base-green-5: var(--sui-color-base-green-5-on-light);
+    --sui-color-base-green-6: var(--sui-color-base-green-6-on-light);
+    --sui-color-base-green-7: var(--sui-color-base-green-7-on-light);
+    --sui-color-base-green-8: var(--sui-color-base-green-8-on-light);
+    --sui-color-base-green-9: var(--sui-color-base-green-9-on-light);
+    --sui-color-base-green-10: var(--sui-color-base-green-10-on-light);
+    --sui-color-base-green-11: var(--sui-color-base-green-11-on-light);
+    --sui-color-base-green-12: var(--sui-color-base-green-12-on-light);
+
+    --sui-color-base-yellow-1: var(--sui-color-base-yellow-1-on-light);
+    --sui-color-base-yellow-2: var(--sui-color-base-yellow-2-on-light);
+    --sui-color-base-yellow-3: var(--sui-color-base-yellow-3-on-light);
+    --sui-color-base-yellow-4: var(--sui-color-base-yellow-4-on-light);
+    --sui-color-base-yellow-5: var(--sui-color-base-yellow-5-on-light);
+    --sui-color-base-yellow-6: var(--sui-color-base-yellow-6-on-light);
+    --sui-color-base-yellow-7: var(--sui-color-base-yellow-7-on-light);
+    --sui-color-base-yellow-8: var(--sui-color-base-yellow-8-on-light);
+    --sui-color-base-yellow-9: var(--sui-color-base-yellow-9-on-light);
+    --sui-color-base-yellow-10: var(--sui-color-base-yellow-10-on-light);
+    --sui-color-base-yellow-11: var(--sui-color-base-yellow-11-on-light);
+    --sui-color-base-yellow-12: var(--sui-color-base-yellow-12-on-light);
+
+    --sui-color-base-red-1: var(--sui-color-base-red-1-on-light);
+    --sui-color-base-red-2: var(--sui-color-base-red-2-on-light);
+    --sui-color-base-red-3: var(--sui-color-base-red-3-on-light);
+    --sui-color-base-red-4: var(--sui-color-base-red-4-on-light);
+    --sui-color-base-red-5: var(--sui-color-base-red-5-on-light);
+    --sui-color-base-red-6: var(--sui-color-base-red-6-on-light);
+    --sui-color-base-red-7: var(--sui-color-base-red-7-on-light);
+    --sui-color-base-red-8: var(--sui-color-base-red-8-on-light);
+    --sui-color-base-red-9: var(--sui-color-base-red-9-on-light);
+    --sui-color-base-red-10: var(--sui-color-base-red-10-on-light);
+    --sui-color-base-red-11: var(--sui-color-base-red-11-on-light);
+    --sui-color-base-red-12: var(--sui-color-base-red-12-on-light);
+
+    --sui-color-base-orange-1: var(--sui-color-base-orange-1-on-light);
+    --sui-color-base-orange-2: var(--sui-color-base-orange-2-on-light);
+    --sui-color-base-orange-3: var(--sui-color-base-orange-3-on-light);
+    --sui-color-base-orange-4: var(--sui-color-base-orange-4-on-light);
+    --sui-color-base-orange-5: var(--sui-color-base-orange-5-on-light);
+    --sui-color-base-orange-6: var(--sui-color-base-orange-6-on-light);
+    --sui-color-base-orange-7: var(--sui-color-base-orange-7-on-light);
+    --sui-color-base-orange-8: var(--sui-color-base-orange-8-on-light);
+    --sui-color-base-orange-9: var(--sui-color-base-orange-9-on-light);
+    --sui-color-base-orange-10: var(--sui-color-base-orange-10-on-light);
+    --sui-color-base-orange-11: var(--sui-color-base-orange-11-on-light);
+    --sui-color-base-orange-12: var(--sui-color-base-orange-12-on-light);
+}
+
+.dark-mode {
+    --sui-color-background-app: #141414;
+    --sui-color-background-app-hover: #222222;
+
+    --sui-color-background-surface: #141414;
+    --sui-color-background-surface-hover: #222222;
+    --sui-color-background-surface-focus: #222222;
+    --sui-color-background-surface-selected: #2d044d;
+    --sui-color-background-surface-pressed: #2a2a2a;
+    --sui-color-background-surface-raised-1: #1b1b1b;
+    --sui-color-background-surface-raised-2: #222222;
+
+    --sui-color-background-tab-inactive: #1b1b1b;
+
+    --sui-color-background-sidebar: #1b1b1b;
+
+    --sui-color-background-solid: #707070;
+
+    --sui-color-background-code: #1b1b1b;
+
+    --sui-color-background-inverse: #f2f2f2;
+
+    --sui-color-background-meter: #222222;
+    --sui-color-background-meter-neutral: #4b4b4b;
+    --sui-color-background-meter-critical: #f33220;
+    --sui-color-background-meter-warning: #c79500;
+    --sui-color-background-meter-positive: #71c700;
+    --sui-color-background-meter-info: #33a1e0;
+    --sui-color-background-meter-primary: #b152ff;
+    --sui-color-background-meter-red: #f33220;
+    --sui-color-background-meter-yellow: #c79500;
+    --sui-color-background-meter-green: #65b200;
+    --sui-color-background-meter-blue: #33a1e0;
+    --sui-color-background-meter-purple: #b152ff;
+    --sui-color-background-meter-orange: #e05d00;
+    --sui-color-background-meter-cool-gray: #677974;
+
+    --sui-color-background-table-header: #141414;
+    --sui-color-background-table-footer: #222222;
+    --sui-color-background-table-row: #141414;
+    --sui-color-background-table-row-hover: #2d044d;
+    --sui-color-background-table-row-striped: #1b1b1b;
+    --sui-color-background-table-row-nested: #222222;
+
+    --sui-color-background-input: #222222;
+    --sui-color-background-input-hover: #2a2a2a;
+    --sui-color-background-input-focus: #141414;
+
+    --sui-color-background-primary: #270245;
+    --sui-color-background-primary-solid: #bf70ff;
+
+    --sui-color-background-neutral: #2a2a2a;
+
+    --sui-color-background-info: #0e305d;
+
+    --sui-color-background-critical: #500b0d;
+    --sui-color-background-critical-hover: #310709;
+    --sui-color-background-critical-focus: #500b0d;
+    --sui-color-background-critical-pressed: #610d05;
+    --sui-color-background-critical-solid: #ff4938;
+
+    --sui-color-background-warning: #372902;
+    --sui-color-background-warning-solid: #d19d00;
+
+    --sui-color-background-positive: #103800;
+    --sui-color-background-positive-solid: #71c700;
+
+    --sui-color-text-placeholder: #898989;
+
+    --sui-color-text-link: #d6a3ff;
+
+    --sui-color-text-hover: #bf70ff;
+
+    --sui-color-text-selected: #d6a3ff;
+
+    --sui-color-text-disabled: #363636;
+
+    --sui-color-text-low-contrast: #898989;
+
+    --sui-color-text-mid-contrast: #b8b8b8;
+
+    --sui-color-text-high-contrast: #f2f2f2;
+
+    --sui-color-text-inverse: #141414;
+
+    --sui-color-text-primary: #b152ff;
+    --sui-color-text-primary-hover: #bf70ff;
+
+    --sui-color-text-critical: #ff6e61;
+
+    --sui-color-text-warning: #fabb00;
+
+    --sui-color-text-positive: #7cd902;
+
+    --sui-color-text-info: #83c6ec;
+
+    --sui-color-border-subtle: #2a2a2a;
+
+    --sui-color-border-strong: #4b4b4b;
+
+    --sui-color-border-hover: #363636;
+
+    --sui-color-border-focus: #3d3d3d;
+
+    --sui-color-border-selected: #b152ff;
+
+    --sui-color-border-input: #3d3d3d;
+    --sui-color-border-input-hover: #4b4b4b;
+    --sui-color-border-input-focus: #b152ff;
+    --sui-color-border-input-valid: #569900;
+    --sui-color-border-input-valid-hover: #65b200;
+    --sui-color-border-input-valid-focus: #65b200;
+    --sui-color-border-input-invalid: #c71a0a;
+    --sui-color-border-input-invalid-hover: #f33220;
+    --sui-color-border-input-invalid-focus: #f33220;
+
+    --sui-color-border-meter: #2a2a2a;
+
+    --sui-color-border-primary: #320259;
+    --sui-color-border-primary-focus: #7b00e0;
+
+    --sui-color-border-critical: #a51509;
+    --sui-color-border-critical-solid: #f33220;
+
+    --sui-color-border-warning: #453402;
+    --sui-color-border-warning-solid: #c79500;
+
+    --sui-color-border-positive: #154602;
+    --sui-color-border-positive-solid: #65b200;
+
+    --sui-color-border-info: #10376a;
+    --sui-color-border-info-solid: #33a1e0;
+
+    --sui-color-base-neutral-1: var(--sui-color-base-neutral-1-on-dark);
+    --sui-color-base-neutral-2: var(--sui-color-base-neutral-2-on-dark);
+    --sui-color-base-neutral-3: var(--sui-color-base-neutral-3-on-dark);
+    --sui-color-base-neutral-4: var(--sui-color-base-neutral-4-on-dark);
+    --sui-color-base-neutral-5: var(--sui-color-base-neutral-5-on-dark);
+    --sui-color-base-neutral-6: var(--sui-color-base-neutral-6-on-dark);
+    --sui-color-base-neutral-7: var(--sui-color-base-neutral-7-on-dark);
+    --sui-color-base-neutral-8: var(--sui-color-base-neutral-8-on-dark);
+    --sui-color-base-neutral-9: var(--sui-color-base-neutral-9-on-dark);
+    --sui-color-base-neutral-10: var(--sui-color-base-neutral-10-on-dark);
+    --sui-color-base-neutral-11: var(--sui-color-base-neutral-11-on-dark);
+    --sui-color-base-neutral-12: var(--sui-color-base-neutral-12-on-dark);
+
+    --sui-color-base-cool-gray-1: var(--sui-color-base-cool-gray-1-on-dark);
+    --sui-color-base-cool-gray-2: var(--sui-color-base-cool-gray-2-on-dark);
+    --sui-color-base-cool-gray-3: var(--sui-color-base-cool-gray-3-on-dark);
+    --sui-color-base-cool-gray-4: var(--sui-color-base-cool-gray-4-on-dark);
+    --sui-color-base-cool-gray-5: var(--sui-color-base-cool-gray-5-on-dark);
+    --sui-color-base-cool-gray-6: var(--sui-color-base-cool-gray-6-on-dark);
+    --sui-color-base-cool-gray-7: var(--sui-color-base-cool-gray-7-on-dark);
+    --sui-color-base-cool-gray-8: var(--sui-color-base-cool-gray-8-on-dark);
+    --sui-color-base-cool-gray-9: var(--sui-color-base-cool-gray-9-on-dark);
+    --sui-color-base-cool-gray-10: var(--sui-color-base-cool-gray-10-on-dark);
+    --sui-color-base-cool-gray-11: var(--sui-color-base-cool-gray-11-on-dark);
+    --sui-color-base-cool-gray-12: var(--sui-color-base-cool-gray-12-on-dark);
+
+    --sui-color-base-purple-1: var(--sui-color-base-purple-1-on-dark);
+    --sui-color-base-purple-2: var(--sui-color-base-purple-2-on-dark);
+    --sui-color-base-purple-3: var(--sui-color-base-purple-3-on-dark);
+    --sui-color-base-purple-4: var(--sui-color-base-purple-4-on-dark);
+    --sui-color-base-purple-5: var(--sui-color-base-purple-5-on-dark);
+    --sui-color-base-purple-6: var(--sui-color-base-purple-6-on-dark);
+    --sui-color-base-purple-7: var(--sui-color-base-purple-7-on-dark);
+    --sui-color-base-purple-8: var(--sui-color-base-purple-8-on-dark);
+    --sui-color-base-purple-9: var(--sui-color-base-purple-9-on-dark);
+    --sui-color-base-purple-10: var(--sui-color-base-purple-10-on-dark);
+    --sui-color-base-purple-11: var(--sui-color-base-purple-11-on-dark);
+    --sui-color-base-purple-12: var(--sui-color-base-purple-12-on-dark);
+
+    --sui-color-base-blue-1: var(--sui-color-base-blue-1-on-dark);
+    --sui-color-base-blue-2: var(--sui-color-base-blue-2-on-dark);
+    --sui-color-base-blue-3: var(--sui-color-base-blue-3-on-dark);
+    --sui-color-base-blue-4: var(--sui-color-base-blue-4-on-dark);
+    --sui-color-base-blue-5: var(--sui-color-base-blue-5-on-dark);
+    --sui-color-base-blue-6: var(--sui-color-base-blue-6-on-dark);
+    --sui-color-base-blue-7: var(--sui-color-base-blue-7-on-dark);
+    --sui-color-base-blue-8: var(--sui-color-base-blue-8-on-dark);
+    --sui-color-base-blue-9: var(--sui-color-base-blue-9-on-dark);
+    --sui-color-base-blue-10: var(--sui-color-base-blue-10-on-dark);
+    --sui-color-base-blue-11: var(--sui-color-base-blue-11-on-dark);
+    --sui-color-base-blue-12: var(--sui-color-base-blue-12-on-dark);
+
+    --sui-color-base-green-1: var(--sui-color-base-green-1-on-dark);
+    --sui-color-base-green-2: var(--sui-color-base-green-2-on-dark);
+    --sui-color-base-green-3: var(--sui-color-base-green-3-on-dark);
+    --sui-color-base-green-4: var(--sui-color-base-green-4-on-dark);
+    --sui-color-base-green-5: var(--sui-color-base-green-5-on-dark);
+    --sui-color-base-green-6: var(--sui-color-base-green-6-on-dark);
+    --sui-color-base-green-7: var(--sui-color-base-green-7-on-dark);
+    --sui-color-base-green-8: var(--sui-color-base-green-8-on-dark);
+    --sui-color-base-green-9: var(--sui-color-base-green-9-on-dark);
+    --sui-color-base-green-10: var(--sui-color-base-green-10-on-dark);
+    --sui-color-base-green-11: var(--sui-color-base-green-11-on-dark);
+    --sui-color-base-green-12: var(--sui-color-base-green-12-on-dark);
+
+    --sui-color-base-yellow-1: var(--sui-color-base-yellow-1-on-dark);
+    --sui-color-base-yellow-2: var(--sui-color-base-yellow-2-on-dark);
+    --sui-color-base-yellow-3: var(--sui-color-base-yellow-3-on-dark);
+    --sui-color-base-yellow-4: var(--sui-color-base-yellow-4-on-dark);
+    --sui-color-base-yellow-5: var(--sui-color-base-yellow-5-on-dark);
+    --sui-color-base-yellow-6: var(--sui-color-base-yellow-6-on-dark);
+    --sui-color-base-yellow-7: var(--sui-color-base-yellow-7-on-dark);
+    --sui-color-base-yellow-8: var(--sui-color-base-yellow-8-on-dark);
+    --sui-color-base-yellow-9: var(--sui-color-base-yellow-9-on-dark);
+    --sui-color-base-yellow-10: var(--sui-color-base-yellow-10-on-dark);
+    --sui-color-base-yellow-11: var(--sui-color-base-yellow-11-on-dark);
+    --sui-color-base-yellow-12: var(--sui-color-base-yellow-12-on-dark);
+
+    --sui-color-base-red-1: var(--sui-color-base-red-1-on-dark);
+    --sui-color-base-red-2: var(--sui-color-base-red-2-on-dark);
+    --sui-color-base-red-3: var(--sui-color-base-red-3-on-dark);
+    --sui-color-base-red-4: var(--sui-color-base-red-4-on-dark);
+    --sui-color-base-red-5: var(--sui-color-base-red-5-on-dark);
+    --sui-color-base-red-6: var(--sui-color-base-red-6-on-dark);
+    --sui-color-base-red-7: var(--sui-color-base-red-7-on-dark);
+    --sui-color-base-red-8: var(--sui-color-base-red-8-on-dark);
+    --sui-color-base-red-9: var(--sui-color-base-red-9-on-dark);
+    --sui-color-base-red-10: var(--sui-color-base-red-10-on-dark);
+    --sui-color-base-red-11: var(--sui-color-base-red-11-on-dark);
+    --sui-color-base-red-12: var(--sui-color-base-red-12-on-dark);
+
+    --sui-color-base-orange-1: var(--sui-color-base-orange-1-on-dark);
+    --sui-color-base-orange-2: var(--sui-color-base-orange-2-on-dark);
+    --sui-color-base-orange-3: var(--sui-color-base-orange-3-on-dark);
+    --sui-color-base-orange-4: var(--sui-color-base-orange-4-on-dark);
+    --sui-color-base-orange-5: var(--sui-color-base-orange-5-on-dark);
+    --sui-color-base-orange-6: var(--sui-color-base-orange-6-on-dark);
+    --sui-color-base-orange-7: var(--sui-color-base-orange-7-on-dark);
+    --sui-color-base-orange-8: var(--sui-color-base-orange-8-on-dark);
+    --sui-color-base-orange-9: var(--sui-color-base-orange-9-on-dark);
+    --sui-color-base-orange-10: var(--sui-color-base-orange-10-on-dark);
+    --sui-color-base-orange-11: var(--sui-color-base-orange-11-on-dark);
+    --sui-color-base-orange-12: var(--sui-color-base-orange-12-on-dark);
+}

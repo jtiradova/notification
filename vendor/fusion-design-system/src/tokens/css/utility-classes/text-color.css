@@ -1,0 +1,65 @@
+/**
+ * This file was generated
+ * Do not edit directly
+ * See 'fusion-design-system/build-style-dictionary.js' for more info
+ */
+
+.sui-u-color-placeholder {
+    color: var(--sui-color-text-placeholder, #666666) !important;
+}
+
+.sui-u-color-link {
+    color: var(--sui-color-text-link, #6707b6) !important;
+}
+
+.sui-u-color-hover {
+    color: var(--sui-color-text-hover, #820ddf) !important;
+}
+
+.sui-u-color-selected {
+    color: var(--sui-color-text-selected, #6707b6) !important;
+}
+
+.sui-u-color-disabled {
+    color: var(--sui-color-text-disabled, #d6d6d6) !important;
+}
+
+.sui-u-color-low-contrast {
+    color: var(--sui-color-text-low-contrast, #666666) !important;
+}
+
+.sui-u-color-mid-contrast {
+    color: var(--sui-color-text-mid-contrast, #4c4c4c) !important;
+}
+
+.sui-u-color-high-contrast {
+    color: var(--sui-color-text-high-contrast, #191919) !important;
+}
+
+.sui-u-color-inverse {
+    color: var(--sui-color-text-inverse, #ffffff) !important;
+}
+
+.sui-u-color-primary {
+    color: var(--sui-color-text-primary, #a33ef4) !important;
+}
+
+.sui-u-color-primary-hover {
+    color: var(--sui-color-text-primary-hover, #820ddf) !important;
+}
+
+.sui-u-color-critical {
+    color: var(--sui-color-text-critical, #a2191f) !important;
+}
+
+.sui-u-color-warning {
+    color: var(--sui-color-text-warning, #855800) !important;
+}
+
+.sui-u-color-positive {
+    color: var(--sui-color-text-positive, #007235) !important;
+}
+
+.sui-u-color-info {
+    color: var(--sui-color-text-info, #0400cc) !important;
+}

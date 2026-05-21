@@ -1,0 +1,75 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*             radius              */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-radius {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-radius-sm {
+        border-radius: var(--sui-radius-sm, 2px);
+    }
+
+    .sui-r-radius-md {
+        border-radius: var(--sui-radius-md, 4px);
+    }
+
+    .sui-r-radius-lg {
+        border-radius: var(--sui-radius-lg, 8px);
+    }
+
+    .sui-r-radius-xl {
+        border-radius: var(--sui-radius-xl, 10px);
+    }
+
+    .sui-r-radius-round {
+        border-radius: var(--sui-radius-round, 50%);
+    }
+
+    .sui-r-radius-pill {
+        border-radius: var(--sui-radius-pill, 9999px);
+    }
+}
+
+.sui-r-radius {
+    border-radius: var(--sui-radius);
+}
+
+@media (--xs) {
+    .xs\:sui-r-radius {
+        border-radius: var(--sui-radius-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-radius {
+        border-radius: var(--sui-radius-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-radius {
+        border-radius: var(--sui-radius-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-radius {
+        border-radius: var(--sui-radius-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-radius {
+        border-radius: var(--sui-radius-xl);
+    }
+}

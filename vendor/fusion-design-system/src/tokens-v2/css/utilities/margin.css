@@ -1,0 +1,489 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*                m                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-m {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-m-xs {
+        margin: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-m-sm {
+        margin: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-m-md {
+        margin: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-m-lg {
+        margin: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-m-xl {
+        margin: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-m {
+    margin: var(--sui-m);
+}
+
+@media (--xs) {
+    .xs\:sui-r-m {
+        margin: var(--sui-m-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-m {
+        margin: var(--sui-m-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-m {
+        margin: var(--sui-m-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-m {
+        margin: var(--sui-m-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-m {
+        margin: var(--sui-m-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               mx                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-mx {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-mx-xs {
+        margin-left: var(--sui-space-xs, 0.25rem);
+        margin-right: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-mx-sm {
+        margin-left: var(--sui-space-sm, 0.5rem);
+        margin-right: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-mx-md {
+        margin-left: var(--sui-space-md, 1rem);
+        margin-right: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-mx-lg {
+        margin-left: var(--sui-space-lg, 1.5rem);
+        margin-right: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-mx-xl {
+        margin-left: var(--sui-space-xl, 2rem);
+        margin-right: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-mx {
+    margin-left: var(--sui-ml);
+    margin-right: var(--sui-mr);
+}
+
+@media (--xs) {
+    .xs\:sui-r-mx {
+        margin-left: var(--sui-ml-xs);
+        margin-right: var(--sui-mr-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-mx {
+        margin-left: var(--sui-ml-sm);
+        margin-right: var(--sui-mr-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-mx {
+        margin-left: var(--sui-ml-md);
+        margin-right: var(--sui-mr-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-mx {
+        margin-left: var(--sui-ml-lg);
+        margin-right: var(--sui-mr-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-mx {
+        margin-left: var(--sui-ml-xl);
+        margin-right: var(--sui-mr-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               my                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-my {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-my-xs {
+        margin-top: var(--sui-space-xs, 0.25rem);
+        margin-bottom: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-my-sm {
+        margin-top: var(--sui-space-sm, 0.5rem);
+        margin-bottom: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-my-md {
+        margin-top: var(--sui-space-md, 1rem);
+        margin-bottom: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-my-lg {
+        margin-top: var(--sui-space-lg, 1.5rem);
+        margin-bottom: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-my-xl {
+        margin-top: var(--sui-space-xl, 2rem);
+        margin-bottom: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-my {
+    margin-top: var(--sui-mt);
+    margin-bottom: var(--sui-mb);
+}
+
+@media (--xs) {
+    .xs\:sui-r-my {
+        margin-top: var(--sui-mt-xs);
+        margin-bottom: var(--sui-mb-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-my {
+        margin-top: var(--sui-mt-sm);
+        margin-bottom: var(--sui-mb-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-my {
+        margin-top: var(--sui-mt-md);
+        margin-bottom: var(--sui-mb-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-my {
+        margin-top: var(--sui-mt-lg);
+        margin-bottom: var(--sui-mb-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-my {
+        margin-top: var(--sui-mt-xl);
+        margin-bottom: var(--sui-mb-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               mt                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-mt {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-mt-xs {
+        margin-top: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-mt-sm {
+        margin-top: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-mt-md {
+        margin-top: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-mt-lg {
+        margin-top: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-mt-xl {
+        margin-top: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-mt {
+    margin-top: var(--sui-mt);
+}
+
+@media (--xs) {
+    .xs\:sui-r-mt {
+        margin-top: var(--sui-mt-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-mt {
+        margin-top: var(--sui-mt-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-mt {
+        margin-top: var(--sui-mt-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-mt {
+        margin-top: var(--sui-mt-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-mt {
+        margin-top: var(--sui-mt-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               mr                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-mr {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-mr-xs {
+        margin-right: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-mr-sm {
+        margin-right: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-mr-md {
+        margin-right: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-mr-lg {
+        margin-right: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-mr-xl {
+        margin-right: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-mr {
+    margin-right: var(--sui-mr);
+}
+
+@media (--xs) {
+    .xs\:sui-r-mr {
+        margin-right: var(--sui-mr-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-mr {
+        margin-right: var(--sui-mr-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-mr {
+        margin-right: var(--sui-mr-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-mr {
+        margin-right: var(--sui-mr-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-mr {
+        margin-right: var(--sui-mr-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               mb                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-mb {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-mb-xs {
+        margin-bottom: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-mb-sm {
+        margin-bottom: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-mb-md {
+        margin-bottom: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-mb-lg {
+        margin-bottom: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-mb-xl {
+        margin-bottom: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-mb {
+    margin-bottom: var(--sui-mb);
+}
+
+@media (--xs) {
+    .xs\:sui-r-mb {
+        margin-bottom: var(--sui-mb-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-mb {
+        margin-bottom: var(--sui-mb-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-mb {
+        margin-bottom: var(--sui-mb-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-mb {
+        margin-bottom: var(--sui-mb-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-mb {
+        margin-bottom: var(--sui-mb-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               ml                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-ml {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-ml-xs {
+        margin-left: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-ml-sm {
+        margin-left: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-ml-md {
+        margin-left: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-ml-lg {
+        margin-left: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-ml-xl {
+        margin-left: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-ml {
+    margin-left: var(--sui-ml);
+}
+
+@media (--xs) {
+    .xs\:sui-r-ml {
+        margin-left: var(--sui-ml-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-ml {
+        margin-left: var(--sui-ml-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-ml {
+        margin-left: var(--sui-ml-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-ml {
+        margin-left: var(--sui-ml-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-ml {
+        margin-left: var(--sui-ml-xl);
+    }
+}

@@ -1,0 +1,14 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+:root {
+    --sui-radius-sm: 2px;
+    --sui-radius-md: 4px;
+    --sui-radius-lg: 8px;
+    --sui-radius-xl: 10px;
+    --sui-radius-round: 50%;
+    --sui-radius-pill: 9999px;
+}

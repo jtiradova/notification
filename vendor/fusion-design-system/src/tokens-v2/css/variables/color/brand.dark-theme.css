@@ -1,0 +1,21 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.dark,
+.dark-theme {
+    --sui-color-brand-1: var(--sui-color-purple-1);
+    --sui-color-brand-2: var(--sui-color-purple-2);
+    --sui-color-brand-3: var(--sui-color-purple-3);
+    --sui-color-brand-4: var(--sui-color-purple-4);
+    --sui-color-brand-5: var(--sui-color-purple-5);
+    --sui-color-brand-6: var(--sui-color-purple-6);
+    --sui-color-brand-7: var(--sui-color-purple-7);
+    --sui-color-brand-8: var(--sui-color-purple-8);
+    --sui-color-brand-9: var(--sui-color-purple-9);
+    --sui-color-brand-10: var(--sui-color-purple-10);
+    --sui-color-brand-11: var(--sui-color-purple-11);
+    --sui-color-brand-12: var(--sui-color-purple-12);
+}

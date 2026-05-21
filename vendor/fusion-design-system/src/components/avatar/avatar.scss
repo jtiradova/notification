@@ -1,0 +1,142 @@
+.sui-AvatarRoot {
+    position: relative;
+    display: inline-flex;
+    width: var(--sui-avatar-size);
+    height: var(--sui-avatar-size);
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: var(--sui-avatar-letter-spacing);
+    user-select: none;
+    vertical-align: middle;
+
+    &:where(.sui-radius-circle) {
+        border-radius: var(--sui-radius-round);
+    }
+
+    &:where(.sui-radius-rounded) {
+        border-radius: var(--sui-avatar-radius);
+    }
+}
+
+.sui-AvatarImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
+
+    // Covers the image if it's loading, or if it fails (and the JS hasn't loaded the fallback yet)
+    &::before {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: var(--sui-avatar-fallback-background-color);
+        content: "";
+    }
+}
+
+.sui-AvatarFallback {
+    z-index: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    background-color: var(--sui-avatar-fallback-background-color);
+    color: var(--sui-avatar-fallback-text-color);
+    font-family: var(--sui-font-family-sans);
+    font-style: normal;
+    font-weight: var(--sui-font-weight-medium);
+    text-transform: uppercase;
+
+    &:where(.sui-one-letter) {
+        font-size: var(--sui-avatar-fallback-one-letter-font-size);
+    }
+
+    &:where(.sui-two-letters) {
+        font-size: var(
+            --sui-avatar-fallback-two-letters-font-size,
+            var(--sui-avatar-fallback-one-letter-font-size)
+        );
+    }
+}
+
+/***************************************************************************************************
+ *                                                                                                 *
+ * SIZES                                                                                           *
+ *                                                                                                 *
+ ***************************************************************************************************/
+
+@breakpoints {
+    .sui-AvatarRoot {
+        &:where(.sui-r-size-1) {
+            --sui-avatar-size: var(--sui-size-3x);
+            --sui-avatar-fallback-one-letter-font-size: var(
+                --sui-font-size-base-6
+            );
+            --sui-avatar-fallback-two-letters-font-size: var(
+                --sui-font-size-base-4
+            );
+            --sui-avatar-radius: var(--sui-radius-md);
+            --sui-avatar-letter-spacing: var(--sui-letter-spacing-1);
+        }
+
+        &:where(.sui-r-size-2) {
+            --sui-avatar-size: var(--sui-size-4x);
+            --sui-avatar-fallback-one-letter-font-size: var(
+                --sui-font-size-base-8
+            );
+            --sui-avatar-fallback-two-letters-font-size: var(
+                --sui-font-size-base-6
+            );
+            --sui-avatar-radius: var(--sui-radius-md);
+            --sui-avatar-letter-spacing: var(--sui-letter-spacing-1);
+        }
+
+        &:where(.sui-r-size-3) {
+            --sui-avatar-size: var(--sui-size-5x);
+            --sui-avatar-fallback-one-letter-font-size: var(
+                --sui-font-size-base-10
+            );
+            --sui-avatar-fallback-two-letters-font-size: var(
+                --sui-font-size-base-8
+            );
+            --sui-avatar-radius: var(--sui-radius-md);
+            --sui-avatar-letter-spacing: var(--sui-letter-spacing-2);
+        }
+
+        &:where(.sui-r-size-4) {
+            --sui-avatar-size: var(--sui-size-6x);
+            --sui-avatar-fallback-one-letter-font-size: var(
+                --sui-font-size-base-12
+            );
+            --sui-avatar-fallback-two-letters-font-size: var(
+                --sui-font-size-base-10
+            );
+            --sui-avatar-radius: var(--sui-radius-md);
+            --sui-avatar-letter-spacing: var(--sui-letter-spacing-2);
+        }
+    }
+}
+
+/***************************************************************************************************
+ *                                                                                                 *
+ * COLORS                                                                                           *
+ *                                                                                                 *
+ ***************************************************************************************************/
+
+.sui-AvatarRoot:where(.sui-variant-soft) {
+    &:where(.sui-color-brand) {
+        --sui-avatar-fallback-background-color: var(--sui-color-brand-3);
+        --sui-avatar-fallback-text-color: var(--sui-color-brand-11);
+    }
+
+    &:where(.sui-color-neutral) {
+        --sui-avatar-fallback-background-color: var(--sui-color-neutral-3);
+        --sui-avatar-fallback-text-color: var(--sui-color-neutral-11);
+    }
+}

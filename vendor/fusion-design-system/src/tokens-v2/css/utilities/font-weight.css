@@ -1,0 +1,26 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*           font-weight           */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-weight-book {
+        font-weight: var(--sui-font-weight-book);
+    }
+    .sui-r-weight-regular {
+        font-weight: var(--sui-font-weight-regular);
+    }
+    .sui-r-weight-medium {
+        font-weight: var(--sui-font-weight-medium);
+    }
+    .sui-r-weight-bold {
+        font-weight: var(--sui-font-weight-bold);
+    }
+}

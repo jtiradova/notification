@@ -1,0 +1,36 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+:root {
+    --sui-color-purple-1-light-theme: #fdfaff;
+    --sui-color-purple-2-light-theme: #faf4ff;
+    --sui-color-purple-3-light-theme: #f7edff;
+    --sui-color-purple-4-light-theme: #f3e5ff;
+    --sui-color-purple-5-light-theme: #ecd6ff;
+    --sui-color-purple-6-light-theme: #e6c7ff;
+    --sui-color-purple-7-light-theme: #d199ff;
+    --sui-color-purple-8-light-theme: #b969fc;
+    --sui-color-purple-9-light-theme: #a33ef4;
+    --sui-color-purple-10-light-theme: #820ddf;
+    --sui-color-purple-11-light-theme: #6707b6;
+    --sui-color-purple-12-light-theme: #360061;
+}
+
+.light,
+.light-theme {
+    --sui-color-purple-1: #fdfaff;
+    --sui-color-purple-2: #faf4ff;
+    --sui-color-purple-3: #f7edff;
+    --sui-color-purple-4: #f3e5ff;
+    --sui-color-purple-5: #ecd6ff;
+    --sui-color-purple-6: #e6c7ff;
+    --sui-color-purple-7: #d199ff;
+    --sui-color-purple-8: #b969fc;
+    --sui-color-purple-9: #a33ef4;
+    --sui-color-purple-10: #820ddf;
+    --sui-color-purple-11: #6707b6;
+    --sui-color-purple-12: #360061;
+}

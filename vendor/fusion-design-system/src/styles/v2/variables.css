@@ -1,0 +1,45 @@
+@import "@singlestore/fusion/tokens-v2/css/variables/border-style.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/border-width.css";
+
+/* @import "@singlestore/fusion/tokens-v2/css/variables/color/bg.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/bg.light-theme.css"; */
+@import "@singlestore/fusion/tokens-v2/css/variables/color/blue.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/blue.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/border-color.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/border-color.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/brand.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/brand.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/critical.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/critical.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/gray.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/gray.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/green.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/green.light-theme.css";
+
+/* @import "@singlestore/fusion/tokens-v2/css/variables/color/icon-color.dark-theme.css"; */
+
+/* @import "@singlestore/fusion/tokens-v2/css/variables/color/icon-color.light-theme.css"; */
+@import "@singlestore/fusion/tokens-v2/css/variables/color/info.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/info.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/neutral.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/neutral.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/positive.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/positive.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/purple.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/purple.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/red.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/red.light-theme.css";
+
+/* @import "@singlestore/fusion/tokens-v2/css/variables/color/text-color.dark-theme.css"; */
+
+/* @import "@singlestore/fusion/tokens-v2/css/variables/color/text-color.light-theme.css"; */
+@import "@singlestore/fusion/tokens-v2/css/variables/color/warning.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/warning.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/yellow.dark-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/color/yellow.light-theme.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/font-size.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/font-weight.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/line-height.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/radius.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/size.css";
+@import "@singlestore/fusion/tokens-v2/css/variables/space.css";

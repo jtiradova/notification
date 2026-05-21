@@ -1,0 +1,36 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+:root {
+    --sui-color-blue-1-light-theme: #f7fbfe;
+    --sui-color-blue-2-light-theme: #f1f8fd;
+    --sui-color-blue-3-light-theme: #edf7fc;
+    --sui-color-blue-4-light-theme: #def0fa;
+    --sui-color-blue-5-light-theme: #cee8f8;
+    --sui-color-blue-6-light-theme: #b1dbf3;
+    --sui-color-blue-7-light-theme: #7cc3eb;
+    --sui-color-blue-8-light-theme: #71a5e9;
+    --sui-color-blue-9-light-theme: #5f85f7;
+    --sui-color-blue-10-light-theme: #4b47ff;
+    --sui-color-blue-11-light-theme: #0400cc;
+    --sui-color-blue-12-light-theme: #0b0796;
+}
+
+.light,
+.light-theme {
+    --sui-color-blue-1: #f7fbfe;
+    --sui-color-blue-2: #f1f8fd;
+    --sui-color-blue-3: #edf7fc;
+    --sui-color-blue-4: #def0fa;
+    --sui-color-blue-5: #cee8f8;
+    --sui-color-blue-6: #b1dbf3;
+    --sui-color-blue-7: #7cc3eb;
+    --sui-color-blue-8: #71a5e9;
+    --sui-color-blue-9: #5f85f7;
+    --sui-color-blue-10: #4b47ff;
+    --sui-color-blue-11: #0400cc;
+    --sui-color-blue-12: #0b0796;
+}

@@ -4,11 +4,9 @@ Standalone preview of the organization **Notifications** experience (bell popove
 
 ## What you need
 
-1. [Node.js](https://nodejs.org/) 18+ and [pnpm](https://pnpm.io/installation)
-2. A clone of the **Fusion design system** next to this folder **or** inside `vendor/`:
-   - **Recommended:** `git clone <fusion-repo-url> ../fusion-design-system` so this repo and Fusion are siblings.
-   - **Alternative:** `git submodule add <fusion-repo-url> vendor/fusion-design-system` then `git submodule update --init`
-3. In the Fusion folder, run `pnpm install` once (so Radix packages exist under `fusion-design-system/node_modules`).
+1. [Node.js](https://nodejs.org/) 18+ and [pnpm](https://pnpm.io/installation) 9+
+2. **`FONTAWESOME_TOKEN`** for Sharp icons (see below)
+3. Fusion is included under `vendor/fusion-design-system/src` — no separate clone required for preview or Vercel.
 
 ## Run the preview
 
@@ -54,9 +52,19 @@ pnpm preview
 
 ## Font Awesome (first-time install)
 
-Sharp icons require the Font Awesome npm registry. This repo includes an `.npmrc` that reads **`FONTAWESOME_TOKEN`** from your environment (same as the Helios monorepo). Set it before `pnpm install`:
+Sharp icons require the Font Awesome npm registry. Set **`FONTAWESOME_TOKEN`** before `pnpm install` (local and Vercel):
 
 ```bash
 export FONTAWESOME_TOKEN="your-token-from-fontawesome.com"
 pnpm install
 ```
+
+## Deploy on Vercel
+
+1. Import the GitHub repo `jtiradova/notification`.
+2. In **Project → Settings → Environment Variables**, add:
+   - **`FONTAWESOME_TOKEN`** — your [Font Awesome npm token](https://fontawesome.com/account) (required; without it `pnpm install` fails with 401).
+3. Leave **Install Command** as `pnpm install` and **Build Command** as `pnpm build` (or use the defaults from `vercel.json`).
+4. Fusion source is **vendored** under `vendor/fusion-design-system/src` — you do not need a sibling Fusion clone on Vercel.
+
+If install still fails, check the build log for `ERR_PNPM_FETCH_401` (missing token) or lockfile/pnpm version errors (this repo uses **pnpm 9** via `packageManager` in `package.json`).

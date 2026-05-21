@@ -1,0 +1,149 @@
+.sui-c-stepper {
+    display: flex;
+
+    &[data-orientation="vertical"] {
+        flex-direction: column;
+    }
+
+    &[data-orientation="horizontal"] {
+        flex-direction: row;
+    }
+}
+
+.sui-c-stepper__step[data-clickable] {
+    &[data-status="complete"],
+    &[data-status="incomplete"] {
+        cursor: pointer;
+    }
+}
+
+.sui-c-stepper__step--variant-numbered {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sui-space-1x);
+
+    &[data-status="complete"] {
+        --sui-component-stepper-step-status-complete-color: var(
+            --sui-color-text-low-contrast
+        );
+        --sui-component-stepper-step-status-complete-icon-color: var(
+            --sui-color-text-inverse
+        );
+
+        &[data-clickable]:hover {
+            --sui-component-stepper-step-status-complete-color: var(
+                --sui-color-text-high-contrast
+            );
+        }
+    }
+
+    &[data-status="incomplete"] {
+        --sui-component-stepper-step-status-incomplete-color: var(
+            --sui-color-text-low-contrast
+        );
+
+        &[data-clickable]:hover {
+            --sui-component-stepper-step-status-incomplete-color: var(
+                --sui-color-text-high-contrast
+            );
+        }
+    }
+}
+
+.sui-c-stepper__step--variant-subdued {
+    display: inline-flex;
+    width: var(--sui-size-3x);
+    height: var(--sui-size-3x);
+    align-items: center;
+    justify-content: center;
+}
+
+.sui-c-stepper__indicator--variant-subdued {
+    display: inline-flex;
+    width: var(--sui-size-1x);
+    height: var(--sui-size-1x);
+    border-radius: var(--sui-radius-round);
+
+    &[data-status="current"] {
+        background-color: var(--sui-color-base-neutral-800);
+    }
+
+    &[data-status="complete"] {
+        background-color: var(--sui-color-base-neutral-800);
+
+        .sui-c-stepper__step[data-clickable]:hover & {
+            background-color: var(--sui-color-base-neutral-700);
+        }
+    }
+
+    &[data-status="incomplete"] {
+        background-color: var(--sui-color-base-neutral-500);
+
+        .sui-c-stepper__step[data-clickable]:hover & {
+            background-color: var(--sui-color-base-neutral-700);
+        }
+    }
+}
+
+.sui-c-stepper__indicator--variant-numbered {
+    display: inline-flex;
+    width: var(--sui-size-3x);
+    height: var(--sui-size-3x);
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--sui-radius-round);
+    font-size: var(--sui-font-size-body-2);
+    font-weight: var(--sui-font-weight-medium);
+    line-height: 1;
+
+    &[data-status="current"] {
+        background-color: var(--sui-color-background-purple-inverse-2);
+        color: var(--sui-color-text-inverse);
+    }
+
+    &[data-status="complete"] {
+        background-color: var(
+            --sui-component-stepper-step-status-complete-color
+        );
+        color: var(--sui-component-stepper-step-status-complete-icon-color);
+    }
+
+    &[data-status="incomplete"] {
+        border: 1px solid
+            var(--sui-component-stepper-step-status-incomplete-color);
+        color: var(--sui-component-stepper-step-status-incomplete-color);
+    }
+}
+
+.sui-c-stepper__title {
+    &[data-status="current"] {
+        color: var(--sui-color-text-purple-1);
+    }
+
+    &[data-status="incomplete"] {
+        color: var(--sui-component-stepper-step-status-incomplete-color);
+    }
+
+    &[data-status="complete"] {
+        color: var(--sui-component-stepper-step-status-complete-color);
+    }
+}
+
+.sui-c-stepper__separator {
+    background-color: var(--sui-color-border-neutral-1);
+
+    &[data-orientation="horizontal"] {
+        width: var(--sui-size-3x);
+        height: 1px;
+        margin-right: var(--sui-space-1x);
+        margin-left: var(--sui-space-1x);
+    }
+
+    &[data-orientation="vertical"] {
+        width: 1px;
+        height: var(--sui-size-3x);
+        margin-top: var(--sui-space-1x);
+        margin-bottom: var(--sui-space-1x);
+        margin-left: calc((var(--sui-size-3x) / 2) - 0.5px);
+    }
+}

@@ -1,0 +1,203 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*              width              */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-width {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-width-xs {
+        width: var(--sui-size-xs, 0.25rem);
+    }
+
+    .sui-r-width-sm {
+        width: var(--sui-size-sm, 0.5rem);
+    }
+
+    .sui-r-width-md {
+        width: var(--sui-size-md, 1rem);
+    }
+
+    .sui-r-width-lg {
+        width: var(--sui-size-lg, 1.5rem);
+    }
+
+    .sui-r-width-xl {
+        width: var(--sui-size-xl, 2rem);
+    }
+}
+
+.sui-r-width {
+    width: var(--sui-width);
+}
+
+@media (--xs) {
+    .xs\:sui-r-width {
+        width: var(--sui-width-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-width {
+        width: var(--sui-width-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-width {
+        width: var(--sui-width-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-width {
+        width: var(--sui-width-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-width {
+        width: var(--sui-width-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*            min-width            */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-min-width {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-min-width-xs {
+        min-width: var(--sui-size-xs, 0.25rem);
+    }
+
+    .sui-r-min-width-sm {
+        min-width: var(--sui-size-sm, 0.5rem);
+    }
+
+    .sui-r-min-width-md {
+        min-width: var(--sui-size-md, 1rem);
+    }
+
+    .sui-r-min-width-lg {
+        min-width: var(--sui-size-lg, 1.5rem);
+    }
+
+    .sui-r-min-width-xl {
+        min-width: var(--sui-size-xl, 2rem);
+    }
+}
+
+.sui-r-min-width {
+    min-width: var(--sui-min-width);
+}
+
+@media (--xs) {
+    .xs\:sui-r-min-width {
+        min-width: var(--sui-min-width-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-min-width {
+        min-width: var(--sui-min-width-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-min-width {
+        min-width: var(--sui-min-width-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-min-width {
+        min-width: var(--sui-min-width-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-min-width {
+        min-width: var(--sui-min-width-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*           max-height            */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-max-height {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-max-height-xs {
+        max-height: var(--sui-size-xs, 0.25rem);
+    }
+
+    .sui-r-max-height-sm {
+        max-height: var(--sui-size-sm, 0.5rem);
+    }
+
+    .sui-r-max-height-md {
+        max-height: var(--sui-size-md, 1rem);
+    }
+
+    .sui-r-max-height-lg {
+        max-height: var(--sui-size-lg, 1.5rem);
+    }
+
+    .sui-r-max-height-xl {
+        max-height: var(--sui-size-xl, 2rem);
+    }
+}
+
+.sui-r-max-height {
+    max-height: var(--sui-max-height);
+}
+
+@media (--xs) {
+    .xs\:sui-r-max-height {
+        max-height: var(--sui-max-height-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-max-height {
+        max-height: var(--sui-max-height-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-max-height {
+        max-height: var(--sui-max-height-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-max-height {
+        max-height: var(--sui-max-height-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-max-height {
+        max-height: var(--sui-max-height-xl);
+    }
+}

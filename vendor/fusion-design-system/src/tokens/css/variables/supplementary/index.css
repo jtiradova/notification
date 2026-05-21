@@ -1,0 +1,165 @@
+@import "deprecated";
+
+.light-mode {
+    --sui-color-box-shadow-neutral-1-rgb: 11, 10, 13;
+    --sui-shadow-1: 0 1px 4px rgb(11 10 13 / 25%);
+    --sui-component-input-background-color-hover: rgb(194 193 195 / 20%);
+    --sui-component-modal-overlay-background-color: rgb(27 26 33 / 90%);
+    --sui-component-admin-sidebar-background-color: var(
+        --sui-color-background-neutral-inverse-3
+    );
+    --sui-component-cluster-name-max-width: var(--sui-size-45x);
+    --sui-component-admin-sidebar-text-color: var(--sui-color-text-inverse);
+    --sui-component-visual-explain-icon-color: var(--sui-color-text-indigo-1);
+    --sui-component-visual-explain-node-shadow-color: var(
+        --sui-color-border-indigo-1
+    );
+    --sui-component-notification-bar-variant-info-text-color: var(
+        --sui-color-text-inverse
+    );
+    --sui-component-notification-bar-variant-info-background-color: var(
+        --sui-color-background-neutral-inverse-3
+    );
+    --sui-component-tip-panel-text-color: var(--sui-color-text-inverse);
+    --sui-component-tip-panel-background-color: var(
+        --sui-color-background-neutral-inverse-2
+    );
+    --sui-component-stepper-step-selected-color: var(--sui-color-text-purple-1);
+    --sui-component-stepper-step-done-color: var(--sui-color-text-mid-contrast);
+    --sui-component-stepper-step-unselected-color: var(
+        --sui-color-text-low-contrast
+    );
+    --sui-component-stepper-step-disabled-color: var(
+        --sui-color-base-neutral-6
+    );
+    --sui-component-logo-text-color: var(--sui-color-text-high-contrast);
+    --sui-component-alert-variant-positive-background-color: var(
+        --sui-color-background-green-1
+    );
+    --sui-component-alert-variant-positive-text-color: var(
+        --sui-color-text-green-1
+    );
+    --sui-component-alert-variant-warning-background-color: var(
+        --sui-color-background-yellow-1
+    );
+    --sui-component-alert-variant-warning-text-color: var(
+        --sui-color-text-yellow-1
+    );
+    --sui-component-alert-variant-critical-background-color: var(
+        --sui-color-background-red-1
+    );
+    --sui-component-alert-variant-critical-text-color: var(
+        --sui-color-text-red-1
+    );
+    --sui-component-alert-variant-info-background-color: var(
+        --sui-color-background-indigo-1
+    );
+    --sui-component-alert-variant-info-text-color: var(
+        --sui-color-text-indigo-1
+    );
+    --sui-component-tab-variant-active-background-color: var(
+        --sui-color-background-surface
+    );
+    --sui-component-sql-editor-selected-query-background-color: rgb(
+        192 183 235 / 20%
+    );
+    --sui-component-code-block-theme-dark-background-color: var(
+        --sui-color-background-neutral-inverse-3
+    );
+    --sui-component-code-block-theme-dark-text-color: var(
+        --sui-color-text-inverse
+    );
+    --sui-component-help-menu-header-background-color: var(
+        --sui-color-background-neutral-inverse-2
+    );
+    --sui-component-help-menu-header-text-color: var(--sui-color-text-inverse);
+    --sui-component-help-menu-body-background-color: var(
+        --sui-color-background-surface
+    );
+    --sui-color-text-light-0: #fff;
+    --sui-color-text-light-1: #777582;
+    --sui-component-keyboard-shortcut-ghost-on-dark-color: var(
+        --sui-color-text-inverse
+    );
+}
+
+.dark-mode {
+    --sui-component-logo-text-color: var(--sui-color-text-high-contrast);
+    --sui-component-visual-explain-icon-color: var(--sui-color-text-indigo-1);
+    --sui-component-tip-panel-text-color: var(--sui-color-text-high-contrast);
+    --sui-component-tip-panel-background-color: var(--sui-color-base-neutral-4);
+    --sui-component-stepper-step-selected-color: var(--sui-color-text-purple-1);
+    --sui-component-stepper-step-done-color: var(--sui-color-text-mid-contrast);
+    --sui-component-stepper-step-unselected-color: var(
+        --sui-color-text-low-contrast
+    );
+    --sui-component-stepper-step-disabled-color: var(
+        --sui-color-base-neutral-6
+    );
+    --sui-component-alert-variant-positive-background-color: var(
+        --sui-color-background-green-1
+    );
+    --sui-component-alert-variant-positive-text-color: var(
+        --sui-color-text-green-1
+    );
+    --sui-component-alert-variant-warning-background-color: var(
+        --sui-color-background-yellow-1
+    );
+    --sui-component-alert-variant-warning-text-color: var(
+        --sui-color-text-yellow-1
+    );
+    --sui-component-alert-variant-critical-background-color: var(
+        --sui-color-background-red-1
+    );
+    --sui-component-alert-variant-critical-text-color: var(
+        --sui-color-text-red-1
+    );
+    --sui-component-alert-variant-info-background-color: var(
+        --sui-color-background-indigo-1
+    );
+    --sui-component-alert-variant-info-text-color: var(
+        --sui-color-text-indigo-1
+    );
+    --sui-component-sql-editor-selected-query-background-color: rgb(
+        149 127 245 / 20%
+    );
+    --sui-component-notification-bar-variant-info-text-color: var(
+        --sui-color-text-high-contrast
+    );
+    --sui-component-notification-bar-variant-info-background-color: var(
+        --sui-color-base-neutral-4
+    );
+    --sui-component-code-block-theme-dark-background-color: var(
+        --sui-color-background-code
+    );
+    --sui-component-code-block-theme-dark-text-color: var(
+        --sui-color-text-high-contrast
+    );
+    --sui-component-help-menu-header-background-color: var(
+        --sui-color-background-surface-raised-1
+    );
+    --sui-component-help-menu-header-text-color: var(
+        --sui-color-text-high-contrast
+    );
+    --sui-component-help-menu-body-background-color: var(
+        --sui-color-background-surface
+    );
+    --sui-component-admin-sidebar-background-color: var(
+        --sui-color-background-surface
+    );
+    --sui-component-admin-sidebar-text-color: var(
+        --sui-color-text-high-contrast
+    );
+    --sui-color-box-shadow-neutral-1-rgb: 95, 94, 96;
+    --sui-component-modal-overlay-background-color: rgb(27 26 33 / 90%);
+    --sui-component-input-background-color-hover: rgb(194 193 195 / 20%);
+    --sui-component-keyboard-shortcut-ghost-on-dark-color: var(
+        --sui-color-text-mid-contrast
+    );
+
+    background-color: var(--sui-color-background-surface);
+}
+
+.dark-mode input {
+    color-scheme: dark;
+}

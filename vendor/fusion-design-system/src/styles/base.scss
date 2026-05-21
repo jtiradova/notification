@@ -1,0 +1,18 @@
+html,
+body {
+    color: var(--sui-color-text-mid-contrast);
+    font-family: var(--sui-font-family-sans);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+}
+
+a {
+    color: var(--sui-color-text-link);
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}

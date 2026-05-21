@@ -1,0 +1,21 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.light,
+.light-theme {
+    --sui-color-text-primary: var(--sui-color-neutral-12);
+    --sui-color-text-secondary: var(--sui-color-neutral-10);
+    --sui-color-text-label: var(--sui-color-neutral-11);
+    --sui-color-text-disabled: var(--sui-color-neutral-9);
+    --sui-color-text-info: var(--sui-color-info-10);
+    --sui-color-text-positive: var(--sui-color-positive-10);
+    --sui-color-text-warning: var(--sui-color-warning-10);
+    --sui-color-text-critical: var(--sui-color-critical-10);
+    --sui-color-text-inverse: var(--sui-color-neutral-1);
+    --sui-color-text-link: var(--sui-color-brand-10);
+    --sui-color-text-link-hover: var(--sui-color-brand-11);
+    --sui-color-text-link-visited: var(--sui-color-brand-11);
+}

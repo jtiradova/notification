@@ -1,0 +1,489 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*                p                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-p {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-p-xs {
+        padding: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-p-sm {
+        padding: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-p-md {
+        padding: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-p-lg {
+        padding: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-p-xl {
+        padding: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-p {
+    padding: var(--sui-p);
+}
+
+@media (--xs) {
+    .xs\:sui-r-p {
+        padding: var(--sui-p-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-p {
+        padding: var(--sui-p-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-p {
+        padding: var(--sui-p-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-p {
+        padding: var(--sui-p-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-p {
+        padding: var(--sui-p-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               px                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-px {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-px-xs {
+        padding-left: var(--sui-space-xs, 0.25rem);
+        padding-right: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-px-sm {
+        padding-left: var(--sui-space-sm, 0.5rem);
+        padding-right: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-px-md {
+        padding-left: var(--sui-space-md, 1rem);
+        padding-right: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-px-lg {
+        padding-left: var(--sui-space-lg, 1.5rem);
+        padding-right: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-px-xl {
+        padding-left: var(--sui-space-xl, 2rem);
+        padding-right: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-px {
+    padding-left: var(--sui-pl);
+    padding-right: var(--sui-pr);
+}
+
+@media (--xs) {
+    .xs\:sui-r-px {
+        padding-left: var(--sui-pl-xs);
+        padding-right: var(--sui-pr-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-px {
+        padding-left: var(--sui-pl-sm);
+        padding-right: var(--sui-pr-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-px {
+        padding-left: var(--sui-pl-md);
+        padding-right: var(--sui-pr-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-px {
+        padding-left: var(--sui-pl-lg);
+        padding-right: var(--sui-pr-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-px {
+        padding-left: var(--sui-pl-xl);
+        padding-right: var(--sui-pr-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               py                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-py {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-py-xs {
+        padding-top: var(--sui-space-xs, 0.25rem);
+        padding-bottom: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-py-sm {
+        padding-top: var(--sui-space-sm, 0.5rem);
+        padding-bottom: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-py-md {
+        padding-top: var(--sui-space-md, 1rem);
+        padding-bottom: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-py-lg {
+        padding-top: var(--sui-space-lg, 1.5rem);
+        padding-bottom: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-py-xl {
+        padding-top: var(--sui-space-xl, 2rem);
+        padding-bottom: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-py {
+    padding-top: var(--sui-pt);
+    padding-bottom: var(--sui-pb);
+}
+
+@media (--xs) {
+    .xs\:sui-r-py {
+        padding-top: var(--sui-pt-xs);
+        padding-bottom: var(--sui-pb-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-py {
+        padding-top: var(--sui-pt-sm);
+        padding-bottom: var(--sui-pb-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-py {
+        padding-top: var(--sui-pt-md);
+        padding-bottom: var(--sui-pb-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-py {
+        padding-top: var(--sui-pt-lg);
+        padding-bottom: var(--sui-pb-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-py {
+        padding-top: var(--sui-pt-xl);
+        padding-bottom: var(--sui-pb-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               pt                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-pt {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-pt-xs {
+        padding-top: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-pt-sm {
+        padding-top: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-pt-md {
+        padding-top: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-pt-lg {
+        padding-top: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-pt-xl {
+        padding-top: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-pt {
+    padding-top: var(--sui-pt);
+}
+
+@media (--xs) {
+    .xs\:sui-r-pt {
+        padding-top: var(--sui-pt-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-pt {
+        padding-top: var(--sui-pt-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-pt {
+        padding-top: var(--sui-pt-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-pt {
+        padding-top: var(--sui-pt-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-pt {
+        padding-top: var(--sui-pt-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               pr                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-pr {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-pr-xs {
+        padding-right: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-pr-sm {
+        padding-right: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-pr-md {
+        padding-right: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-pr-lg {
+        padding-right: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-pr-xl {
+        padding-right: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-pr {
+    padding-right: var(--sui-pr);
+}
+
+@media (--xs) {
+    .xs\:sui-r-pr {
+        padding-right: var(--sui-pr-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-pr {
+        padding-right: var(--sui-pr-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-pr {
+        padding-right: var(--sui-pr-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-pr {
+        padding-right: var(--sui-pr-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-pr {
+        padding-right: var(--sui-pr-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               pb                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-pb {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-pb-xs {
+        padding-bottom: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-pb-sm {
+        padding-bottom: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-pb-md {
+        padding-bottom: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-pb-lg {
+        padding-bottom: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-pb-xl {
+        padding-bottom: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-pb {
+    padding-bottom: var(--sui-pb);
+}
+
+@media (--xs) {
+    .xs\:sui-r-pb {
+        padding-bottom: var(--sui-pb-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-pb {
+        padding-bottom: var(--sui-pb-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-pb {
+        padding-bottom: var(--sui-pb-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-pb {
+        padding-bottom: var(--sui-pb-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-pb {
+        padding-bottom: var(--sui-pb-xl);
+    }
+}
+
+/* * * * * * * * * * * * * * * * * */
+/*                                 */
+/*               pl                */
+/*                                 */
+/* * * * * * * * * * * * * * * * * */
+
+@breakpoints {
+    .sui-r-pl {
+        /* Keep this selector here to maintain the source order */
+    }
+
+    .sui-r-pl-xs {
+        padding-left: var(--sui-space-xs, 0.25rem);
+    }
+
+    .sui-r-pl-sm {
+        padding-left: var(--sui-space-sm, 0.5rem);
+    }
+
+    .sui-r-pl-md {
+        padding-left: var(--sui-space-md, 1rem);
+    }
+
+    .sui-r-pl-lg {
+        padding-left: var(--sui-space-lg, 1.5rem);
+    }
+
+    .sui-r-pl-xl {
+        padding-left: var(--sui-space-xl, 2rem);
+    }
+}
+
+.sui-r-pl {
+    padding-left: var(--sui-pl);
+}
+
+@media (--xs) {
+    .xs\:sui-r-pl {
+        padding-left: var(--sui-pl-xs);
+    }
+}
+
+@media (--sm) {
+    .sm\:sui-r-pl {
+        padding-left: var(--sui-pl-sm);
+    }
+}
+
+@media (--md) {
+    .md\:sui-r-pl {
+        padding-left: var(--sui-pl-md);
+    }
+}
+
+@media (--lg) {
+    .lg\:sui-r-pl {
+        padding-left: var(--sui-pl-lg);
+    }
+}
+
+@media (--xl) {
+    .xl\:sui-r-pl {
+        padding-left: var(--sui-pl-xl);
+    }
+}

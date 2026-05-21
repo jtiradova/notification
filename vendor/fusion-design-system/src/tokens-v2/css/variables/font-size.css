@@ -1,0 +1,21 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+:root {
+    --sui-font-size-2-5x: 1.25rem;
+    --sui-font-size-2-25x: 1.125rem;
+    --sui-font-size-2x: 1rem;
+    --sui-font-size-1-75x: 0.875rem;
+    --sui-font-size-1-5x: 0.75rem;
+    --sui-font-size-productive-heading-xl: var(--sui-font-size-2-5x);
+    --sui-font-size-productive-heading-lg: var(--sui-font-size-2-25x);
+    --sui-font-size-productive-heading-md: var(--sui-font-size-2x);
+    --sui-font-size-productive-heading-sm: var(--sui-font-size-1-75x);
+    --sui-font-size-productive-body-xl: var(--sui-font-size-2-25x);
+    --sui-font-size-productive-body-lg: var(--sui-font-size-2x);
+    --sui-font-size-productive-body-md: var(--sui-font-size-1-75x);
+    --sui-font-size-productive-body-sm: var(--sui-font-size-1-5x);
+}

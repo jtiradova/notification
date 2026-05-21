@@ -1,0 +1,21 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.dark,
+.dark-theme {
+    --sui-color-positive-1: var(--sui-color-green-1);
+    --sui-color-positive-2: var(--sui-color-green-2);
+    --sui-color-positive-3: var(--sui-color-green-3);
+    --sui-color-positive-4: var(--sui-color-green-4);
+    --sui-color-positive-5: var(--sui-color-green-5);
+    --sui-color-positive-6: var(--sui-color-green-6);
+    --sui-color-positive-7: var(--sui-color-green-7);
+    --sui-color-positive-8: var(--sui-color-green-8);
+    --sui-color-positive-9: var(--sui-color-green-9);
+    --sui-color-positive-10: var(--sui-color-green-10);
+    --sui-color-positive-11: var(--sui-color-green-11);
+    --sui-color-positive-12: var(--sui-color-green-12);
+}

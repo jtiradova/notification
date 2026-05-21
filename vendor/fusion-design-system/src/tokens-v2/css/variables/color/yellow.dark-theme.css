@@ -1,0 +1,36 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+:root {
+    --sui-color-yellow-1-dark-theme: #1f1700;
+    --sui-color-yellow-2-dark-theme: #2b2202;
+    --sui-color-yellow-3-dark-theme: #372902;
+    --sui-color-yellow-4-dark-theme: #453402;
+    --sui-color-yellow-5-dark-theme: #5a4401;
+    --sui-color-yellow-6-dark-theme: #6b5000;
+    --sui-color-yellow-7-dark-theme: #7a5c00;
+    --sui-color-yellow-8-dark-theme: #997300;
+    --sui-color-yellow-9-dark-theme: #c79500;
+    --sui-color-yellow-10-dark-theme: #d19d00;
+    --sui-color-yellow-11-dark-theme: #fabb00;
+    --sui-color-yellow-12-dark-theme: #fff9e5;
+}
+
+.dark,
+.dark-theme {
+    --sui-color-yellow-1: #1f1700;
+    --sui-color-yellow-2: #2b2202;
+    --sui-color-yellow-3: #372902;
+    --sui-color-yellow-4: #453402;
+    --sui-color-yellow-5: #5a4401;
+    --sui-color-yellow-6: #6b5000;
+    --sui-color-yellow-7: #7a5c00;
+    --sui-color-yellow-8: #997300;
+    --sui-color-yellow-9: #c79500;
+    --sui-color-yellow-10: #d19d00;
+    --sui-color-yellow-11: #fabb00;
+    --sui-color-yellow-12: #fff9e5;
+}

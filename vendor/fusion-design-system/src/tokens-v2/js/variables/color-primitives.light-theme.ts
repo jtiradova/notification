@@ -1,0 +1,59 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+export const ColorBgSurface1LightTheme = "#ffffff";
+export const ColorBgSurface2LightTheme = "#fafafa";
+export const ColorBgSurface3LightTheme = "#f5f5f5";
+export const ColorBgSurfaceHoverLightTheme = "#ededed";
+export const ColorBgSurfaceFocusLightTheme = "#edf7fc";
+export const ColorBgSurfaceSelectedLightTheme = "#f7edff";
+export const ColorBgSurfaceSelectedHoverLightTheme = "#f3e5ff";
+export const ColorBgSurfaceDisabledLightTheme = "#ededed";
+export const ColorBgSurfaceInfoLightTheme = "#edf7fc";
+export const ColorBgSurfacePositiveLightTheme = "#f3ffe3";
+export const ColorBgSurfaceWarningLightTheme = "#fff3d0";
+export const ColorBgSurfaceCriticalLightTheme = "#ffeceb";
+export const ColorBgSurfaceBrandLightTheme = "#f7edff";
+export const ColorBgSurfaceInverseLightTheme = "#191919";
+export const ColorBgFillNeutralLightTheme = "#ffffff";
+export const ColorBgFillUnselectedEnabledLightTheme = "#858585";
+export const ColorBgFillUnselectedDisabledLightTheme = "#bdbdbd";
+export const ColorBgFillSelectedEnabledLightTheme = "#820ddf";
+export const ColorBgFillSelectedDisabledLightTheme = "#d199ff";
+export const ColorBgOverlayLightTheme = "#191919";
+export const ColorBorderPrimaryLightTheme = "#bdbdbd";
+export const ColorBorderPrimaryHoverLightTheme = "#858585";
+export const ColorBorderSecondaryLightTheme = "#e6e6e6";
+export const ColorBorderDisabledLightTheme = "#e6e6e6";
+export const ColorBorderSelectedLightTheme = "#820ddf";
+export const ColorBorderSelectedDisabledLightTheme = "#d199ff";
+export const ColorBorderFocusLightTheme = "#4b47ff";
+export const ColorBorderBrandLightTheme = "#a33ef4";
+export const ColorBorderInfoLightTheme = "#5f85f7";
+export const ColorBorderPositiveLightTheme = "#3cc406";
+export const ColorBorderWarningLightTheme = "#e0a206";
+export const ColorBorderCriticalLightTheme = "#f6645f";
+export const ColorIconPrimaryLightTheme = "#191919";
+export const ColorIconSecondaryLightTheme = "#666666";
+export const ColorIconLabelLightTheme = "#4c4c4c";
+export const ColorIconDisabledLightTheme = "#858585";
+export const ColorIconInfoLightTheme = "#4b47ff";
+export const ColorIconPositiveLightTheme = "#168104";
+export const ColorIconWarningLightTheme = "#ac7d06";
+export const ColorIconCriticalLightTheme = "#b72023";
+export const ColorIconInverseLightTheme = "#ffffff";
+export const ColorTextPrimaryLightTheme = "#191919";
+export const ColorTextSecondaryLightTheme = "#666666";
+export const ColorTextLabelLightTheme = "#4c4c4c";
+export const ColorTextDisabledLightTheme = "#858585";
+export const ColorTextInfoLightTheme = "#4b47ff";
+export const ColorTextPositiveLightTheme = "#168104";
+export const ColorTextWarningLightTheme = "#ac7d06";
+export const ColorTextCriticalLightTheme = "#b72023";
+export const ColorTextInverseLightTheme = "#ffffff";
+export const ColorTextLinkLightTheme = "#820ddf";
+export const ColorTextLinkHoverLightTheme = "#6707b6";
+export const ColorTextLinkVisitedLightTheme = "#6707b6";

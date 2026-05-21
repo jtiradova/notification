@@ -1,0 +1,37 @@
+@import "@singlestore/fusion/components/typography/text";
+
+.sui-c-keyboard-shortcut {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    color: var(--sui-color-text-mid-contrast);
+}
+
+.sui-c-keyboard-shortcut--variant-ghost,
+.sui-c-keyboard-shortcut--variant-ghost-on-dark {
+    @include sui-text-body-1;
+
+    height: var(--sui-size-3x);
+    padding: 0 var(--sui-size-1x);
+    font-weight: var(--sui-font-weight-bold);
+    text-transform: uppercase;
+}
+
+.sui-c-keyboard-shortcut--variant-ghost-on-dark {
+    color: var(--sui-component-keyboard-shortcut-ghost-on-dark-color);
+}
+
+.sui-c-keyboard-shortcut--variant-solid {
+    @include sui-text-code-1;
+
+    padding: var(--sui-size-0-25x) var(--sui-size-1x);
+    border: 1px solid var(--sui-color-border-neutral-2);
+    border-radius: var(--sui-radius-md);
+    background-color: var(--sui-color-background-surface-raised-2);
+    font-size: var(--sui-font-size-annotation-2);
+    font-weight: var(--sui-font-weight-bold);
+}
+
+.sui-c-keyboard-shortcut--inline {
+    display: inline-flex;
+}

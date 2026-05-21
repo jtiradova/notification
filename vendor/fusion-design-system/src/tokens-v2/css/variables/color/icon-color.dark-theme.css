@@ -1,0 +1,18 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.dark,
+.dark-theme {
+    --sui-color-icon-primary: var(--sui-color-text-primary);
+    --sui-color-icon-secondary: var(--sui-color-text-secondary);
+    --sui-color-icon-label: var(--sui-color-text-label);
+    --sui-color-icon-disabled: var(--sui-color-text-disabled);
+    --sui-color-icon-info: var(--sui-color-text-info);
+    --sui-color-icon-positive: var(--sui-color-text-positive);
+    --sui-color-icon-warning: var(--sui-color-text-warning);
+    --sui-color-icon-critical: var(--sui-color-text-critical);
+    --sui-color-icon-inverse: var(--sui-color-text-inverse);
+}

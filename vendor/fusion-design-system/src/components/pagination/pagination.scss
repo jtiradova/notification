@@ -1,0 +1,10 @@
+.sui-c-pagination {
+    display: flex;
+    gap: var(--sui-space-1x);
+}
+
+.sui-c-pagination__items {
+    display: flex;
+    align-items: center;
+    gap: var(--sui-space-1x);
+}

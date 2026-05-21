@@ -1,0 +1,49 @@
+@breakpoints {
+    .sui-r-overflow-visible {
+        overflow: visible;
+    }
+    .sui-r-overflow-hidden {
+        overflow: hidden;
+    }
+    .sui-r-overflow-clip {
+        overflow: clip;
+    }
+    .sui-r-overflow-scroll {
+        overflow: scroll;
+    }
+    .sui-r-overflow-auto {
+        overflow: auto;
+    }
+
+    .sui-r-ox-visible {
+        overflow-x: visible;
+    }
+    .sui-r-ox-hidden {
+        overflow-x: hidden;
+    }
+    .sui-r-ox-clip {
+        overflow-x: clip;
+    }
+    .sui-r-ox-scroll {
+        overflow-x: scroll;
+    }
+    .sui-r-ox-auto {
+        overflow-x: auto;
+    }
+
+    .sui-r-oy-visible {
+        overflow-y: visible;
+    }
+    .sui-r-oy-hidden {
+        overflow-y: hidden;
+    }
+    .sui-r-oy-clip {
+        overflow-y: clip;
+    }
+    .sui-r-oy-scroll {
+        overflow-y: scroll;
+    }
+    .sui-r-oy-auto {
+        overflow-y: auto;
+    }
+}

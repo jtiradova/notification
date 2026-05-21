@@ -1,0 +1,29 @@
+.sui-c-heading {
+    position: relative;
+    margin: 0;
+}
+
+.sui-c-heading__anchor {
+    --sui-component-heading-anchor-padding-right: 0.2em;
+    --sui-component-heading-anchor-size: calc(
+        (1em + var(--sui-component-heading-anchor-padding-right))
+    );
+
+    position: absolute;
+    left: calc((-1 * var(--sui-component-heading-anchor-size)));
+    padding-right: var(--sui-component-heading-anchor-padding-right);
+    color: var(--sui-color-base-neutral-700);
+    line-height: 1;
+    opacity: 0;
+}
+
+.sui-c-heading:hover .sui-c-heading__anchor,
+.sui-c-heading__anchor:hover,
+.sui-c-heading__anchor:focus {
+    opacity: 1;
+}
+
+.sui-c-heading__anchor:focus {
+    padding-right: 0;
+    margin-right: var(--sui-component-heading-anchor-padding-right);
+}

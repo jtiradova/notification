@@ -1,0 +1,29 @@
+/**
+ * This file was generated
+ * ⛔ Do not edit directly
+ * See 'fusion-design-system/style-dictionary/build.ts' for more info
+ */
+
+.dark,
+.dark-theme {
+    --sui-color-bg-surface-1: var(--sui-color-neutral-1);
+    --sui-color-bg-surface-2: var(--sui-color-neutral-2);
+    --sui-color-bg-surface-3: var(--sui-color-neutral-3);
+    --sui-color-bg-surface-hover: var(--sui-color-neutral-4);
+    --sui-color-bg-surface-focus: var(--sui-color-info-3);
+    --sui-color-bg-surface-selected: var(--sui-color-brand-3);
+    --sui-color-bg-surface-selected-hover: var(--sui-color-brand-4);
+    --sui-color-bg-surface-disabled: var(--sui-color-neutral-4);
+    --sui-color-bg-surface-info: var(--sui-color-info-3);
+    --sui-color-bg-surface-positive: var(--sui-color-positive-3);
+    --sui-color-bg-surface-warning: var(--sui-color-warning-3);
+    --sui-color-bg-surface-critical: var(--sui-color-critical-3);
+    --sui-color-bg-surface-brand: var(--sui-color-brand-3);
+    --sui-color-bg-surface-inverse: var(--sui-color-neutral-12);
+    --sui-color-bg-fill-neutral: var(--sui-color-neutral-1);
+    --sui-color-bg-fill-unselected-enabled: var(--sui-color-neutral-9);
+    --sui-color-bg-fill-unselected-disabled: var(--sui-color-neutral-7);
+    --sui-color-bg-fill-selected-enabled: var(--sui-color-brand-10);
+    --sui-color-bg-fill-selected-disabled: var(--sui-color-brand-7);
+    --sui-color-bg-overlay: rgba(76, 76, 76, 0.85);
+}

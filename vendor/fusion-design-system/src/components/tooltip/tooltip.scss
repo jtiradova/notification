@@ -1,0 +1,26 @@
+.sui-c-tooltip__trigger-wrapper {
+    display: inline-flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sui-c-tooltip__content {
+    z-index: var(--sui-z-index-tooltip);
+    max-width: var(--sui-size-40x);
+    padding: var(--sui-space-1x) var(--sui-space-1-5x);
+    border-radius: var(--sui-radius-md);
+    background-color: var(--sui-component-tip-panel-background-color);
+    box-shadow: var(--sui-shadow-1);
+    color: var(--sui-component-tip-panel-text-color);
+    font-family: var(--sui-font-family-sans);
+    font-size: var(--sui-font-size-base-5);
+    line-height: var(--sui-line-height-3);
+    overflow-wrap: anywhere;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+}
+
+.sui-c-tooltip__arrow {
+    fill: var(--sui-component-tip-panel-background-color);
+}

@@ -8,8 +8,8 @@ const rootDir = path.dirname(fileURLToPath(import.meta.url));
 
 function resolveFusionRoot(): string {
     const candidates = [
-        path.resolve(rootDir, "../fusion-design-system"),
         path.resolve(rootDir, "vendor/fusion-design-system"),
+        path.resolve(rootDir, "../fusion-design-system"),
     ];
     for (const candidate of candidates) {
         if (fs.existsSync(path.join(candidate, "src"))) {
@@ -23,7 +23,7 @@ function resolveFusionRoot(): string {
 
 const fusionRoot = resolveFusionRoot();
 const fusionSrc = path.join(fusionRoot, "src");
-const fusionNodeModules = path.join(fusionRoot, "node_modules");
+const appNodeModules = path.join(rootDir, "node_modules");
 
 export default defineConfig({
     plugins: [react()],
@@ -41,11 +41,11 @@ export default defineConfig({
             "@singlestore/fusion/styles": path.join(fusionSrc, "styles"),
             "@singlestore/fusion": fusionSrc,
             "@radix-ui/react-popover": path.resolve(
-                fusionNodeModules,
+                appNodeModules,
                 "@radix-ui/react-popover"
             ),
             "@radix-ui/react-tooltip": path.resolve(
-                fusionNodeModules,
+                appNodeModules,
                 "@radix-ui/react-tooltip"
             ),
         },
