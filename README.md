@@ -67,4 +67,7 @@ pnpm install
 3. Leave **Install Command** as `pnpm install` and **Build Command** as `pnpm build` (or use the defaults from `vercel.json`).
 4. Fusion source is **vendored** under `vendor/fusion-design-system/src` — you do not need a sibling Fusion clone on Vercel.
 
-If install still fails, check the build log for `ERR_PNPM_FETCH_401` (missing token) or lockfile/pnpm version errors (this repo uses **pnpm 9** via `packageManager` in `package.json`).
+If install still fails, check the build log for:
+- `ERR_PNPM_LOCKFILE_CONFIG_MISMATCH` — fixed by `auto-install-peers=true` in `.npmrc` (must match the lockfile).
+- `Failed to replace env in config: ${FONTAWESOME_TOKEN}` — add `FONTAWESOME_TOKEN` in Vercel (install will fail on Font Awesome packages without it).
+- `ERR_PNPM_FETCH_401` — invalid or missing Font Awesome token.
