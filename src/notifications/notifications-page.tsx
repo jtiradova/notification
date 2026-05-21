@@ -14,7 +14,7 @@ import {
     type NotificationItem,
     type NotificationResourceFilter,
     type NotificationTab,
-    type NotificationTypeFilter,
+    type NotificationTypeOption,
 } from "@/notifications/types";
 import * as React from "react";
 
@@ -29,18 +29,24 @@ const TABS: Array<{ id: NotificationTab; label: string }> = [
 function filterNotifications({
     items,
     search,
-    typeFilter,
+    typeFilterAll,
+    typeFilterTypes,
     resourceFilter,
 }: {
     items: Array<NotificationItem>;
     search: string;
-    typeFilter: NotificationTypeFilter;
+    typeFilterAll: boolean;
+    typeFilterTypes: Array<NotificationTypeOption>;
     resourceFilter: NotificationResourceFilter;
 }) {
     const normalizedSearch = search.trim().toLowerCase();
 
     return items.filter((item) => {
-        if (typeFilter !== "all" && item.type !== typeFilter) {
+        if (
+            !typeFilterAll &&
+            typeFilterTypes.length > 0 &&
+            !typeFilterTypes.includes(item.type)
+        ) {
             return false;
         }
 
@@ -110,8 +116,10 @@ function filterActivityRows({
 export function NotificationsPageView() {
     const [activeTab, setActiveTab] = React.useState<NotificationTab>("alert");
     const [search, setSearch] = React.useState("");
-    const [typeFilter, setTypeFilter] =
-        React.useState<NotificationTypeFilter>("all");
+    const [typeFilterAll, setTypeFilterAll] = React.useState(true);
+    const [typeFilterTypes, setTypeFilterTypes] = React.useState<
+        Array<NotificationTypeOption>
+    >([]);
     const [resourceFilter, setResourceFilter] =
         React.useState<NotificationResourceFilter>("all");
     const [dateRange, setDateRange] = React.useState<DateRangeFilter>("30");
@@ -122,10 +130,17 @@ export function NotificationsPageView() {
             filterNotifications({
                 items: alertNotifications,
                 search,
-                typeFilter,
+                typeFilterAll,
+                typeFilterTypes,
                 resourceFilter,
             }),
-        [alertNotifications, search, typeFilter, resourceFilter]
+        [
+            alertNotifications,
+            search,
+            typeFilterAll,
+            typeFilterTypes,
+            resourceFilter,
+        ]
     );
 
     const filteredActivityRows = React.useMemo(
@@ -191,8 +206,10 @@ export function NotificationsPageView() {
                 <NotificationFilters
                     search={search}
                     onSearchChange={setSearch}
-                    typeFilter={typeFilter}
-                    onTypeFilterChange={setTypeFilter}
+                    typeFilterAll={typeFilterAll}
+                    onTypeFilterAllChange={setTypeFilterAll}
+                    typeFilterTypes={typeFilterTypes}
+                    onTypeFilterTypesChange={setTypeFilterTypes}
                     resourceFilter={resourceFilter}
                     onResourceFilterChange={setResourceFilter}
                     showTypeFilter={activeTab === "alert"}

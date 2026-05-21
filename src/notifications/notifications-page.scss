@@ -172,6 +172,10 @@
         flex-shrink: 0;
     }
 
+    &__item-content {
+        gap: 0;
+    }
+
     &__title {
         color: var(--sui-color-text-high-contrast);
         font-weight: var(--sui-font-weight-regular);
@@ -187,6 +191,8 @@
     }
 
     &__resource {
+        margin-top: var(--sui-space-1x);
+
         &[data-variant="link"] {
             color: var(--sui-color-text-link);
         }
@@ -197,6 +203,7 @@
     }
 
     &__description {
+        margin-top: var(--sui-space-1x);
         color: var(--sui-color-text-mid-contrast);
     }
 

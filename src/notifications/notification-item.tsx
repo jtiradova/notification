@@ -34,7 +34,6 @@ export function NotificationListItem({
                 <NotificationSeverityIcon severity={item.severity} />
                 <Flex
                     flexDirection="column"
-                    gap="1x"
                     flex="1"
                     minWidth="0"
                     className="notifications-page__item-content"

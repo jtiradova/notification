@@ -6,6 +6,7 @@ import {
 import { Button, IconButton } from "@singlestore/fusion/components/button";
 import {
     DropdownMenu,
+    DropdownMenuCheckboxItem,
     DropdownMenuContent,
     DropdownMenuRadioGroup,
     DropdownMenuRadioItem,
@@ -19,11 +20,14 @@ import type {
     DateRangeFilter,
     NotificationResourceFilter,
     NotificationTypeFilter,
+    NotificationTypeOption,
 } from "@/notifications/types";
 import * as React from "react";
 
-const TYPE_OPTIONS: Array<{ value: NotificationTypeFilter; label: string }> = [
-    { value: "all", label: "All" },
+const TYPE_CHECKBOX_OPTIONS: Array<{
+    value: NotificationTypeOption;
+    label: string;
+}> = [
     { value: "critical", label: "Critical" },
     { value: "warning", label: "Warning" },
     { value: "update", label: "Update" },
@@ -42,8 +46,10 @@ const RESOURCE_OPTIONS: Array<{
 type NotificationFiltersProps = {
     search: string;
     onSearchChange: (value: string) => void;
-    typeFilter: NotificationTypeFilter;
-    onTypeFilterChange: (value: NotificationTypeFilter) => void;
+    typeFilterAll: boolean;
+    onTypeFilterAllChange: (value: boolean) => void;
+    typeFilterTypes: Array<NotificationTypeOption>;
+    onTypeFilterTypesChange: (value: Array<NotificationTypeOption>) => void;
     resourceFilter: NotificationResourceFilter;
     onResourceFilterChange: (value: NotificationResourceFilter) => void;
     onlyUnread?: boolean;
@@ -56,8 +62,10 @@ type NotificationFiltersProps = {
 export function NotificationFilters({
     search,
     onSearchChange,
-    typeFilter,
-    onTypeFilterChange,
+    typeFilterAll,
+    onTypeFilterAllChange,
+    typeFilterTypes,
+    onTypeFilterTypesChange,
     resourceFilter,
     onResourceFilterChange,
     onlyUnread = false,
@@ -66,9 +74,17 @@ export function NotificationFilters({
     showUnreadToggle = false,
     showTypeFilter = true,
 }: NotificationFiltersProps) {
-    const typeLabel =
-        TYPE_OPTIONS.find((option) => option.value === typeFilter)?.label ??
-        "All";
+    const typeLabel = React.useMemo(() => {
+        if (typeFilterAll || typeFilterTypes.length === 0) {
+            return "All";
+        }
+
+        return TYPE_CHECKBOX_OPTIONS.filter((option) =>
+            typeFilterTypes.includes(option.value)
+        )
+            .map((option) => option.label)
+            .join(", ");
+    }, [typeFilterAll, typeFilterTypes]);
     const resourceLabel =
         RESOURCE_OPTIONS.find((option) => option.value === resourceFilter)
             ?.label ?? "All";
@@ -100,12 +116,12 @@ export function NotificationFilters({
                     />
                 </Box>
                 {showTypeFilter ? (
-                    <FilterDropdown
-                        label="Type"
+                    <TypeFilterDropdown
                         displayValue={typeLabel}
-                        value={typeFilter}
-                        options={TYPE_OPTIONS}
-                        onValueChange={onTypeFilterChange}
+                        typeFilterAll={typeFilterAll}
+                        onTypeFilterAllChange={onTypeFilterAllChange}
+                        typeFilterTypes={typeFilterTypes}
+                        onTypeFilterTypesChange={onTypeFilterTypesChange}
                     />
                 ) : null}
                 <FilterDropdown
@@ -135,6 +151,93 @@ export function NotificationFilters({
                 </Flex>
             ) : null}
         </Flex>
+    );
+}
+
+type TypeFilterDropdownProps = {
+    displayValue: string;
+    typeFilterAll: boolean;
+    onTypeFilterAllChange: (value: boolean) => void;
+    typeFilterTypes: Array<NotificationTypeOption>;
+    onTypeFilterTypesChange: (value: Array<NotificationTypeOption>) => void;
+};
+
+function TypeFilterDropdown({
+    displayValue,
+    typeFilterAll,
+    onTypeFilterAllChange,
+    typeFilterTypes,
+    onTypeFilterTypesChange,
+}: TypeFilterDropdownProps) {
+    const handleTypeToggle = React.useCallback(
+        (type: NotificationTypeOption, checked: boolean) => {
+            onTypeFilterAllChange(false);
+            const next = new Set(typeFilterTypes);
+
+            if (checked) {
+                next.add(type);
+            } else {
+                next.delete(type);
+            }
+
+            onTypeFilterTypesChange(Array.from(next));
+        },
+        [onTypeFilterAllChange, onTypeFilterTypesChange, typeFilterTypes]
+    );
+
+    return (
+        <DropdownMenu>
+            <DropdownMenuTrigger>
+                <Button
+                    variant="outline-neutral"
+                    size="medium"
+                    rightIcon={faChevronDown}
+                    className="notifications-page__filter-trigger"
+                >
+                    <Span
+                        variant="body-2"
+                        className="notifications-page__filter-prefix"
+                    >
+                        Type:
+                    </Span>
+                    <Span
+                        variant="body-2"
+                        className="notifications-page__filter-value"
+                    >
+                        {displayValue}
+                    </Span>
+                </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start">
+                <DropdownMenuRadioGroup
+                    value={typeFilterAll ? "all" : "custom"}
+                    onValueChange={(nextValue) => {
+                        if (nextValue === "all") {
+                            onTypeFilterAllChange(true);
+                            onTypeFilterTypesChange([]);
+                        }
+                    }}
+                >
+                    <DropdownMenuRadioItem value="all">All</DropdownMenuRadioItem>
+                </DropdownMenuRadioGroup>
+                {TYPE_CHECKBOX_OPTIONS.map((option) => (
+                    <DropdownMenuCheckboxItem
+                        key={option.value}
+                        checked={
+                            !typeFilterAll &&
+                            typeFilterTypes.includes(option.value)
+                        }
+                        onSelect={(event) => event.preventDefault()}
+                        onCheckedChange={(checked) =>
+                            handleTypeToggle(option.value, checked === true)
+                        }
+                        indicatorVariant="check"
+                    >
+                        {option.label}
+                    </DropdownMenuCheckboxItem>
+                ))}
+            </DropdownMenuContent>
+        </DropdownMenu>
     );
 }
 

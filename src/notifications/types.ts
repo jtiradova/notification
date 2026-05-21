@@ -13,6 +13,8 @@ export type NotificationTypeFilter =
     | "update"
     | "progress";
 
+export type NotificationTypeOption = Exclude<NotificationTypeFilter, "all">;
+
 export type NotificationResourceFilter =
     | "all"
     | "workspace"
