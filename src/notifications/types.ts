@@ -113,7 +113,7 @@ export const MOCK_ALERT_NOTIFICATIONS: Array<NotificationItem> = [
         resourceType: "workspace",
         action: {
             kind: "link",
-            label: "Resizing to S-8",
+            label: "Resize workspace to S-8",
             icon: "resize",
         },
     },

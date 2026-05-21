@@ -33,10 +33,10 @@ function NotificationPopoverEmptyState() {
                 variant="heading-2"
                 className="notification-popover__empty-title"
             >
-                You&apos;re all caught up
+                You&apos;re all caught up!
             </Span>
             <Span variant="body-2" className="notification-popover__empty-message">
-                You have no unread notifications.
+                New alert will appear here
             </Span>
         </Box>
     );

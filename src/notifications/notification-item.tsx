@@ -140,7 +140,7 @@ function NotificationAction({
     if (action.kind === "link") {
         return (
             <Button
-                variant="ghost-brand"
+                variant="outline-neutral"
                 size="small"
                 leftIcon={
                     action.icon === "resize" ? faArrowsUpDown : undefined
