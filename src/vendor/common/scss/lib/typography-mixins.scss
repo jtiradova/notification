@@ -1,0 +1,79 @@
+@mixin text-base {
+    line-height: 130%;
+}
+
+@mixin text-headline {
+    @include text-base;
+    font-weight: var(--sui-font-weight-medium);
+    font-size: 55px;
+}
+
+@mixin text-title {
+    @include text-base;
+    font-weight: var(--sui-font-weight-medium);
+    font-size: var(--sui-font-size-base-12);
+}
+
+@mixin text-title-2 {
+    @include text-base;
+    font-weight: var(--sui-font-weight-medium);
+    font-size: var(--sui-font-size-base-10);
+}
+
+@mixin text-subheader {
+    @include text-base;
+    font-weight: var(--sui-font-weight-medium);
+    font-size: var(--sui-font-size-base-11);
+}
+
+@mixin text-subheader-small {
+    @include text-base;
+    font-weight: var(--sui-font-weight-medium);
+    font-size: var(--sui-font-size-base-8);
+}
+
+@mixin text-body-2 {
+    @include text-base;
+    font-weight: var(--sui-font-weight-regular);
+    font-size: var(--sui-font-size-base-6);
+}
+
+@mixin text-body {
+    @include text-base;
+    font-weight: var(--sui-font-weight-regular);
+    font-size: var(--sui-font-size-base-8);
+}
+
+@mixin text-tooltip {
+    @include text-base;
+    font-weight: var(--sui-font-weight-regular);
+    font-size: var(--sui-font-size-base-5);
+}
+
+@mixin text-table-header {
+    @include text-base;
+    font-weight: var(--sui-font-weight-medium);
+    font-size: var(--sui-font-size-base-5);
+}
+
+@mixin text-button {
+    @include text-base;
+    font-weight: var(--sui-font-weight-medium);
+    font-size: var(--sui-font-size-base-6);
+}
+
+@mixin text-label {
+    @include text-base;
+    font-weight: var(--sui-font-weight-medium);
+    font-size: var(--sui-font-size-base-5);
+}
+
+@mixin text-caption {
+    @include text-base;
+    font-weight: var(--sui-font-weight-regular);
+    font-size: var(--sui-font-size-base-4);
+}
+
+@mixin text-monospaced {
+    font-family: var(--sui-font-family-mono);
+}

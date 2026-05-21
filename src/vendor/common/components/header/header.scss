@@ -1,0 +1,43 @@
+@import "~@single-js/common/scss/lib/index.scss";
+
+.single-common-components-header {
+    width: 100%;
+    background-color: var(--sui-color-background-surface);
+    border-bottom: 1px solid var(--sui-color-border-neutral-1);
+    min-height: var(--sui-size-6x);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--sui-font-family-sans);
+
+    &.sticky {
+        position: sticky;
+        top: 0;
+        z-index: $zindex-header;
+    }
+
+    > .left {
+        display: flex;
+        align-items: center;
+        margin-left: var(--sui-space-2x);
+
+        font-weight: var(--sui-font-weight-medium);
+        color: var(--sui-color-text-high-contrast);
+        font-size: var(--sui-font-size-base-8);
+        white-space: nowrap;
+    }
+
+    > .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: var(--sui-space-2x);
+        font-size: var(--sui-font-size-base-6);
+    }
+
+    > .right {
+        display: flex;
+        align-items: center;
+        padding-right: var(--sui-space-2x);
+        font-size: var(--sui-font-size-base-6);
+    }
+}

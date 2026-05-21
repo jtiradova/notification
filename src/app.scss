@@ -1,0 +1,20 @@
+.notifications-preview-app {
+    min-height: 100vh;
+    background-color: var(--sui-color-background-app);
+
+    &__canvas {
+        min-height: calc(100vh - var(--sui-size-7x));
+    }
+
+    &--with-page {
+        display: flex;
+        height: 100vh;
+        min-height: 100vh;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    &--with-page .notifications-preview-top-nav {
+        flex-shrink: 0;
+    }
+}

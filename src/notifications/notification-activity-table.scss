@@ -1,0 +1,108 @@
+.notification-activity-table {
+    width: 100%;
+    border: 1px solid var(--sui-color-border-subtle);
+    border-radius: var(--sui-radius-md);
+    background-color: var(--sui-color-background-surface);
+    overflow: hidden;
+
+    &__scroll {
+        overflow-x: auto;
+    }
+
+    &__table {
+        width: 100%;
+        min-width: 720px;
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+
+    &__thead {
+        border-bottom: 1px solid var(--sui-color-border-neutral);
+    }
+
+    &__header-cell {
+        height: var(--sui-size-6x);
+        padding: 0 var(--sui-space-1-5x);
+        border-bottom: none;
+        background-color: var(--sui-color-background-surface);
+        color: var(--sui-color-text-mid-contrast);
+        font-weight: var(--sui-font-weight-medium);
+        text-align: left;
+        vertical-align: middle;
+
+        &[data-align="right"] {
+            text-align: right;
+        }
+    }
+
+    &__row {
+        height: var(--sui-size-5x);
+    }
+
+    &__cell {
+        padding: 0 var(--sui-space-1-5x);
+        border-bottom: 1px solid var(--sui-color-border-subtle);
+        vertical-align: middle;
+
+        &[data-align="right"] {
+            text-align: right;
+        }
+    }
+
+    &__operation-badge {
+        display: inline-flex;
+        width: var(--sui-size-2-5x);
+        min-width: var(--sui-size-2-5x);
+        height: var(--sui-size-2-5x);
+        min-height: var(--sui-size-2-5x);
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    &__operation-label {
+        color: var(--sui-color-text-mid-contrast);
+    }
+
+    &__resource {
+        color: var(--sui-color-text-link);
+    }
+
+    &__description,
+    &__created-by,
+    &__timestamp {
+        color: var(--sui-color-text-mid-contrast);
+    }
+
+    &__created-by[data-automated] {
+        color: var(--sui-color-text-low-contrast);
+        font-style: italic;
+    }
+
+    &__footer {
+        padding: var(--sui-space-1x) var(--sui-space-2x);
+        border-top: 1px solid var(--sui-color-border-subtle);
+    }
+
+    &__footer-label {
+        color: var(--sui-color-text-mid-contrast);
+        white-space: nowrap;
+    }
+
+    &[data-compact] {
+        border: none;
+        border-radius: 0;
+
+        .notification-activity-table__table {
+            min-width: 600px;
+        }
+
+        .notification-activity-table__header-cell {
+            height: var(--sui-size-5x);
+        }
+
+        .notification-activity-table__row {
+            height: var(--sui-size-4x);
+        }
+    }
+}

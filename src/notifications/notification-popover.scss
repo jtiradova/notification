@@ -1,0 +1,115 @@
+.notification-popover {
+    display: flex;
+    height: 500px;
+    max-height: 500px;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+
+    &[data-empty] {
+        height: 350px;
+        max-height: 350px;
+    }
+
+    &__content.sui-c-popover__content {
+        width: min(640px, calc(100vw - var(--sui-space-4x)));
+        height: 500px;
+        max-height: 500px;
+        padding: var(--sui-space-2x);
+        overflow: hidden;
+    }
+
+    &__content--empty.sui-c-popover__content {
+        height: 350px;
+        max-height: 350px;
+    }
+
+    &__title {
+        color: var(--sui-color-text-high-contrast);
+        white-space: nowrap;
+    }
+
+    &__header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        flex-shrink: 0;
+        flex-direction: column;
+        padding-bottom: 0;
+        background-color: var(--sui-color-background-surface);
+        gap: var(--sui-space-2x);
+    }
+
+    &__header-row {
+        flex-wrap: wrap;
+    }
+
+    &__subtitle {
+        margin: 0;
+    }
+
+    &__subtitle-label {
+        color: var(--sui-color-text-mid-contrast);
+        font-weight: var(--sui-font-weight-medium);
+    }
+
+    &__count-pill {
+        min-width: var(--sui-size-2-5x);
+        justify-content: center;
+    }
+
+    &__scroll {
+        display: flex;
+        overflow: hidden auto;
+        min-height: 0;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__list .notifications-page__list-item {
+        padding: var(--sui-space-1x) 0;
+        border-radius: 0;
+    }
+
+    &__empty-state {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: var(--sui-space-4x) var(--sui-space-3x);
+        gap: var(--sui-space-1-5x);
+        text-align: center;
+    }
+
+    &__empty-icon {
+        display: flex;
+        width: var(--sui-size-8x);
+        height: var(--sui-size-8x);
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: var(--sui-color-background-neutral);
+        color: var(--sui-color-text-mid-contrast);
+    }
+
+    &__empty-title {
+        color: var(--sui-color-text-high-contrast);
+        font-weight: var(--sui-font-weight-bold);
+    }
+
+    &__empty-message {
+        max-width: 300px;
+        color: var(--sui-color-text-mid-contrast);
+    }
+
+    &__activity-table {
+        overflow: auto;
+    }
+}

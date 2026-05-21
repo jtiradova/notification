@@ -1,0 +1,75 @@
+$header-height: 64px;
+$toolbar-height: $header-height;
+$fullscreen-actions-height: 60px;
+
+$help-menu-layout-horizontal-padding: 20px;
+$tutorial-container-width: 328px;
+$tutorial-bottom-spacing: 40px;
+
+$breakpoints: (
+    zero: 0,
+    xsmall: 650px,
+    small: 900px,
+    medium: 1200px,
+    medium-large: 1400px,
+    large: 1600px,
+    xlarge: 2000px,
+);
+
+/* this has to be in sync with util/z-index.js */
+$zindex-base: 0;
+$zindex-menu: 500;
+$zindex-banner: 800;
+$zindex-toolbar: 900;
+$zindex-bottom-panel: 900;
+$zindex-header: 1000;
+$zindex-drag-handle: 2000;
+$zindex-scrollbar: 2100;
+$zindex-fullscreen: 2850;
+$zindex-help: 2900;
+$zindex-dropdown: 3000;
+$zindex-modal: 3000;
+$zindex-flyout: 3000;
+$zindex-overlay: 3500;
+$zindex-tooltip: 4000;
+$zindex-toast: 6000;
+$zindex-pop-out: 10000;
+
+$zindex-fullscreen-actions: 20;
+
+/* this has to be in sync with WIDTH_WIDE in sidebar.tsx */
+$sidebar-active-bg: rgba(249, 237, 255, 0.15);
+$sidebar-hover-bg: rgba(249, 237, 255, 0.05);
+$sidebar-width: 205px;
+
+// Returns 8px * multiplier, where multiplier is between 0.5x and 12.5x, and
+// increases in steps of 0.5. Example: spacing("0-5x") -> 4px, spacing("1x") ->
+// 8px, spacing("1-5x") -> 12px, ..., spacing("12-5x") -> 100px
+@function spacing($multiplier) {
+    $spacing: (
+        "0-5x": 4px,
+    );
+
+    @for $i from 1 through 12 {
+        $base-unit: 8px;
+        $half-unit: 4px;
+
+        $spacing: map-merge(
+            $spacing,
+            (
+                "#{$i}x": #{$base-unit * $i},
+            )
+        );
+        $spacing: map-merge(
+            $spacing,
+            (
+                "#{$i}-5x": #{$base-unit * $i + $half-unit},
+            )
+        );
+    }
+
+    @return map-get($spacing, $multiplier);
+}
+
+$help-button-size: 48px;
+$help-button-bottom: spacing("4x");

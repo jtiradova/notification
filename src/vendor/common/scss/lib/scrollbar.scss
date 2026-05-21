@@ -1,0 +1,25 @@
+@import "~@single-js/common/scss/lib/index.scss";
+
+* {
+    /* Firefox */
+    scrollbar-color: var(--sui-color-base-neutral-9) transparent;
+    scrollbar-width: thin;
+}
+
+/* Chrome, Edge, Safari, Opera */
+*::-webkit-scrollbar {
+    width: var(--sui-size-1x);
+    height: var(--sui-size-1x);
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: var(--sui-radius-xl);
+    background-color: transparent;
+    border: solid var(--sui-space-0-5x) transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--sui-color-base-neutral-9);
+    border-radius: var(--sui-radius-md);
+    border: solid var(--sui-space-0-5x) transparent;
+}

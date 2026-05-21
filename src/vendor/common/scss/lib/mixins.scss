@@ -1,0 +1,106 @@
+$mobile-width: 600px;
+$tablet-width: 860px;
+
+@mixin mobile {
+    @media (max-width: #{$mobile-width}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+@mixin below($width) {
+    @media (max-width: #{$width}) {
+        @content;
+    }
+}
+
+@mixin breakpoint($left, $right: null) {
+    @if $right != null {
+        @media screen and (min-width: map-get($breakpoints, $left)) and (max-width: map-get($breakpoints, $right) - 1) {
+            @content;
+        }
+    } @else {
+        @media screen and (min-width: map-get($breakpoints, $left)) {
+            @content;
+        }
+    }
+}
+
+@mixin placeholder {
+    &::placeholder {
+        @content;
+    }
+}
+
+/* The full-page mixin is used across various pages that have a header on top and the main content below the header. */
+@mixin full-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--sui-color-background-neutral-1);
+}
+
+@mixin margin-classes {
+    $base-unit: 8px;
+
+    $sides: "top", "right", "bottom", "left";
+    $sizes: (
+        "0-5x": 0.5,
+    );
+    @for $i from 1 through 10 {
+        $sizes: map-merge($sizes, (#{$i}x: $i));
+    }
+
+    // Generates margin class names in the format:
+    // .margin-top-1x {
+    //     margin-top: 8px;
+    // }
+    @each $side in $sides {
+        @each $size, $multiplier in $sizes {
+            &.margin-#{$side}-#{$size} {
+                margin-#{$side}: #{$base-unit * $multiplier};
+            }
+        }
+    }
+}
+
+@mixin focus-outline {
+    &:focus {
+        outline: none;
+    }
+
+    &:focus-visible {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            bottom: 0;
+            box-shadow: inset 0 0 0 2px $color-focus;
+            border-radius: spacing("0-5x");
+        }
+        outline: none;
+    }
+}
+
+@mixin pulse($duration: 2s) {
+    animation: pulse #{$duration} ease-in-out alternate infinite;
+
+    @keyframes pulse {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0.2;
+        }
+    }
+}
